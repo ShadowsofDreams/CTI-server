@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:modifier_salvage",
+  "modifier": "tinkerslevellingaddon:improvable",
+  "slots": {
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  }
+}

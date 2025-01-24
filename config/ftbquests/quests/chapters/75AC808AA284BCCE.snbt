@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "75AC808AA284BCCE"
+	group: "41CA0371CBDA61CC"
+	icon: "lightmanscurrency:vending_machine_pink"
+	id: "75AC808AA284BCCE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"&e欢迎来到愉快的老虎机，这里有很多的东西供你进行娱乐，希望能为大家带来笑容！&e"
+			"&m&0&o也许你能在其他任务里找到线索~&0&o&m"
+		]
+		id: "50318EE869E01629"
+		subtitle: "&4这里似乎空无一物&4"
+		tasks: [{
+			id: "160473DFC90140F3"
+			type: "checkmark"
+		}]
+		title: "愉快的抽奖时间到了！"
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["消费需谨慎"]
+	title: "老虎机"
+}

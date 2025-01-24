@@ -1,0 +1,317 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "21B9A8A36D386C63"
+	group: "5B9406893C138689"
+	icon: {
+		Count: 1b
+		id: "projecte:philosophers_stone"
+		tag: { }
+	}
+	id: "21B9A8A36D386C63"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"有些物品过于超模，或者有恶性bug，都会被etsh与牢萤的大手送上ban位。"
+				"毕竟这是科技包，&a&n别惦记着你那b贤者之石与转化桌了！&r "
+				"当然，你要是自己偷偷开创拿，那我又能说什么呢：）"
+			]
+			icon: "minecraft:barrier"
+			id: "74BD5B790FA2FB1A"
+			size: 3.0d
+			subtitle: "沉痛悼念，永垂不朽"
+			tasks: [{
+				id: "1A447743B24AEA33"
+				title: "禁限表"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "3A92172EE43BCDB4"
+			subtitle: "上榜理由：使部分珍稀物品获取过于简易/速杀某些boss"
+			tasks: [{
+				id: "41777D5CCFCF81C6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["绝大部分的整合包都会ban这个好吧？"]
+			id: "1C89D41394FC6F9C"
+			subtitle: "上榜理由：纯纯的滥强，大批量刷取物品"
+			tasks: [
+				{
+					id: "51CD1DEBC9E882A1"
+					item: "projecte:transmutation_table"
+					type: "item"
+				}
+				{
+					id: "0A5DC48468BDFB31"
+					item: "projecte:transmutation_tablet"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			description: ["别看了，就算你拿到拆解台也没法用"]
+			id: "5FB7F98B4C5C0C26"
+			subtitle: "上榜理由：跳阶段获取珍稀物品"
+			tasks: [{
+				id: "0F5BAFB539910737"
+				item: "twilightforest:uncrafting_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "79EC4E467B8E68E1"
+			subtitle: "上榜理由：对箭矢的增伤过强"
+			tasks: [{
+				id: "55D405483706D906"
+				item: {
+					Count: 1b
+					id: "cyclic:quiver_damage"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "28A7CDA563BFFF41"
+			subtitle: "上榜理由：无冷却乱a"
+			tasks: [{
+				id: "6DFF4242918EBFA8"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_attack_speed"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			id: "48CAFBF9565EAF69"
+			subtitle: "上榜理由：配合部分材料稳定伤害翻倍过于抽象"
+			tasks: [{
+				id: "0A4AB2E5F6AA1713"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_crit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			description: ["耐死王"]
+			id: "5DCAD6659D6A165F"
+			subtitle: "上榜理由：配合部分耐久回复道具可做到无限复活免死"
+			tasks: [{
+				id: "2EDD9E760C8F3D27"
+				item: {
+					Count: 1b
+					id: "cyclic:soulstone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			description: ["所以就算你通过开箱获得了凤凰戒指，最好也在第一时间丢掉"]
+			id: "44BD2440146DA00A"
+			subtitle: "上榜理由：佩戴后着火与死亡会触发恶性bug假死"
+			tasks: [{
+				id: "42AA43BC4B9CA99C"
+				item: "gobber2:gobber2_ring_phoenix"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			description: ["不过我听说通过某些任务可以获得钻石苹果……"]
+			id: "4947C9D40DE98BA7"
+			subtitle: "上榜理由：过于便宜的抗性提升5，还能量产"
+			tasks: [
+				{
+					id: "113FCE9FD6F3E8E1"
+					item: "cyclic:apple_sprout_diamond"
+					type: "item"
+				}
+				{
+					id: "74326C1853418552"
+					item: "cyclic:apple_diamond"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			description: ["而且贤者之石被ban你也无法合成啊……"]
+			id: "67D5EEDB7E414AC5"
+			subtitle: "上榜理由：可以推开植物魔法的脉冲，导致卡服卡端"
+			tasks: [{
+				id: "03D23220C779E7FA"
+				item: "projecte:interdiction_torch"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "4E114763C2F094EA"
+			subtitle: "上榜理由：bug带来的巨量免伤"
+			tasks: [{
+				id: "280F3CD38288B6AC"
+				item: "l2hostility:curse_of_pride"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			id: "6C6BF00052CA9750"
+			subtitle: "上榜理由：复制物品"
+			tasks: [
+				{
+					id: "6A1F06F34CDB2FAF"
+					item: "projecte:condenser_mk1"
+					type: "item"
+				}
+				{
+					id: "02E953F01A50FEED"
+					item: "projecte:condenser_mk2"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "1F7CF9275EC7A18D"
+			subtitle: "上榜理由：低代价巨额增伤"
+			tasks: [{
+				id: "1E70776F59EB54B3"
+				item: "l2hostility:curse_of_wrath"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: ["而且包里的自动合成这么多，为啥一定要用循环的呢？"]
+			id: "6972ADC188C6B325"
+			subtitle: "上榜理由：恶性bug可刷取物品"
+			tasks: [{
+				id: "2DB4D9726F439E50"
+				item: "cyclic:crafter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			id: "014DA3694ECAA7A9"
+			subtitle: "上榜理由：同拆解台，刷取物品"
+			tasks: [{
+				id: "1FE1BDA5ABB2B8D6"
+				item: "cyclic:uncrafter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			description: ["老老实实去吃食物涨血量罢！"]
+			id: "27484D43CBBD43BF"
+			subtitle: "上榜理由：单纯是为了游戏性：）"
+			tasks: [{
+				id: "0550728356767D05"
+				item: "cyclic:heart"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			id: "3F4200A5AE120319"
+			subtitle: "上榜理由：实用性强并且被指路石替代"
+			tasks: [{
+				id: "7C8D3FD2F1C362F0"
+				item: "cyclic:teleport"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			id: "496D7910E226450C"
+			subtitle: "上榜理由：便宜，且效果可以互相叠加"
+			tasks: [
+				{
+					id: "27599C888772339B"
+					item: "cyclic:sprinkler"
+					type: "item"
+				}
+				{
+					id: "440F94B2ECDE9B4C"
+					item: "cyclic:terra_glass"
+					type: "item"
+				}
+			]
+			title: "大地玻璃与洒水器"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			description: ["去用工业先锋的大师球吧"]
+			id: "5DBE84B9DF6A52F7"
+			subtitle: "上榜理由：抓捕某些生物直接坏档，且与大师球定位重复"
+			tasks: [{
+				id: "552D7E00C56EB05E"
+				item: "cyclic:magic_net"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+	]
+	subtitle: [
+		"超模物品千千万，等价循环占一半"
+		"-by 天雨冰痕"
+	]
+	title: "物品禁限表"
+}

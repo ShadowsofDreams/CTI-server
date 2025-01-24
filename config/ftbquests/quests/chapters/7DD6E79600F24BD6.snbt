@@ -1,0 +1,8905 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7DD6E79600F24BD6"
+	group: "273277F565C25044"
+	icon: "minecraft:golden_carrot"
+	id: "7DD6E79600F24BD6"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3F5125603A41DFDB"
+			size: 3.0d
+			tasks: [{
+				id: "148E530C66709530"
+				title: "点亮的食谱"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			id: "2B9A43D85878C7CF"
+			size: 2.0d
+			tasks: [{
+				id: "7F5F615AEC1EBB96"
+				title: "原版"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			id: "3FF54AC8DE0E3E57"
+			tasks: [
+				{
+					id: "228859007DD71C22"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					id: "2C084F40AA95BEDE"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			id: "24455866FC30A3D4"
+			tasks: [
+				{
+					id: "60379FB8702A2AE0"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					id: "3D1A73366A3CE786"
+					item: "minecraft:baked_potato"
+					type: "item"
+				}
+				{
+					id: "5C6035123677C355"
+					item: "minecraft:poisonous_potato"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			id: "62BCF3B7FCC156F7"
+			tasks: [
+				{
+					id: "0CC81CD1E290BCC1"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+				{
+					id: "071FCC067A741B07"
+					item: "minecraft:beetroot_soup"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -10.5d
+		}
+		{
+			id: "439B7E2A2631DFC5"
+			tasks: [{
+				id: "1B882C112CDD8C40"
+				item: "minecraft:dried_kelp"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -11.5d
+		}
+		{
+			id: "21FAA7BA71DC31FD"
+			tasks: [{
+				id: "532375F502C33C8F"
+				item: "minecraft:mushroom_stew"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -12.5d
+		}
+		{
+			id: "76706743C8FF2629"
+			subtitle: "医生远离我"
+			tasks: [
+				{
+					id: "68B7287521981FBE"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					id: "5DA321DB9851B9AC"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "000763AD6A2F2F26"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -12.5d
+		}
+		{
+			id: "036395EB30B82E00"
+			tasks: [{
+				id: "09314D1636187F0E"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.5d
+		}
+		{
+			id: "1BA77E459D49948D"
+			subtitle: "你是内内个内内内个内个内内"
+			tasks: [{
+				id: "649054F0959B0D26"
+				item: "minecraft:melon_slice"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -13.5d
+		}
+		{
+			id: "4A305B4B74E7B22C"
+			tasks: [{
+				id: "190993169CC83D2F"
+				item: "minecraft:glow_berries"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -11.5d
+		}
+		{
+			id: "4FC3363DCFC8B9C0"
+			tasks: [
+				{
+					id: "265263AFA4F6627E"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+				{
+					id: "11742CF4519C0F91"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+				{
+					id: "2F80FF758D97C6D1"
+					item: "minecraft:beef"
+					type: "item"
+				}
+				{
+					id: "3C41F4DC01609771"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "05F6534FDF04660C"
+					item: "minecraft:mutton"
+					type: "item"
+				}
+				{
+					id: "2EE0164ABDE9282F"
+					item: "minecraft:cooked_mutton"
+					type: "item"
+				}
+				{
+					id: "7B3B713068789FEB"
+					item: "minecraft:rabbit"
+					type: "item"
+				}
+				{
+					id: "15FBC3BB279C8796"
+					item: "minecraft:cooked_rabbit"
+					type: "item"
+				}
+				{
+					id: "3607336D01D0E02F"
+					item: "minecraft:rabbit_stew"
+					type: "item"
+				}
+			]
+			title: "畜肉"
+			x: -5.5d
+			y: -12.5d
+		}
+		{
+			id: "01BD1C9B0DA6E85C"
+			subtitle: "最熟悉的无奈之选"
+			tasks: [{
+				id: "76DEC492C8329AC9"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.5d
+		}
+		{
+			id: "1C6097BCA223239F"
+			tasks: [{
+				id: "79EE338168FA9AE0"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.5d
+		}
+		{
+			id: "7C5538956F8E3160"
+			tasks: [
+				{
+					id: "32A29399C02660C5"
+					item: "minecraft:cod"
+					type: "item"
+				}
+				{
+					id: "28CAB689D65C7466"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+				{
+					id: "2A7FA3D87DB054A2"
+					item: "minecraft:tropical_fish"
+					type: "item"
+				}
+				{
+					id: "205DB935C33237C1"
+					item: "minecraft:cooked_cod"
+					type: "item"
+				}
+				{
+					id: "7472DBC89F90EF25"
+					item: "minecraft:cooked_salmon"
+					type: "item"
+				}
+				{
+					id: "49D59D794B8B63A4"
+					item: "minecraft:pufferfish"
+					type: "item"
+				}
+			]
+			title: "渔获"
+			x: -5.5d
+			y: -11.5d
+		}
+		{
+			id: "2F5C54A7355F2A20"
+			tasks: [{
+				id: "3C1D7C9A9DD6CE41"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -15.5d
+		}
+		{
+			id: "53815F00E14AB11E"
+			subtitle: "致敬传奇哈基米东海帝王"
+			tasks: [{
+				id: "5764AF86F85CB3A8"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -14.5d
+		}
+		{
+			id: "2F7B9FF15BAAC4A3"
+			tasks: [{
+				id: "071D90B960BA03D8"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -14.5d
+		}
+		{
+			id: "502C86AE697D9B5F"
+			tasks: [
+				{
+					id: "1B5B17F6947F81AB"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "3B8FCDF941BA988F"
+					item: "farmersdelight:cake_slice"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -13.5d
+		}
+		{
+			id: "1729D016B318252A"
+			tasks: [{
+				id: "13173AD536265230"
+				item: "minecraft:pumpkin_pie"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -13.5d
+		}
+		{
+			id: "49906B604F940616"
+			size: 2.0d
+			tasks: [{
+				id: "257B4B9F5D4D05E7"
+				type: "checkmark"
+			}]
+			title: "热力"
+			x: 16.0d
+			y: -0.5d
+		}
+		{
+			id: "57095C7F5DD9BB60"
+			tasks: [
+				{
+					id: "42DDE54E07609864"
+					item: "thermal:corn"
+					type: "item"
+				}
+				{
+					id: "6BD6FF44A8BA8D81"
+					item: "thermal:cooked_corn"
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: -1.0d
+		}
+		{
+			id: "3D1EEBC7F9C0FAB8"
+			tasks: [{
+				id: "612302C1CC4A9284"
+				item: "thermal:onion"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -1.0d
+		}
+		{
+			id: "487C157509A3A50C"
+			tasks: [{
+				id: "10A3470ED4BCDE71"
+				item: "thermal:radish"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -1.0d
+		}
+		{
+			id: "15B92EDFC25EAD8C"
+			tasks: [{
+				id: "61C4A24BE55BA124"
+				item: "thermal:spinach"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -2.0d
+		}
+		{
+			id: "5CA41AFA3C9B704E"
+			tasks: [{
+				id: "63633806E3CC3030"
+				item: "thermal:bell_pepper"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 1.0d
+		}
+		{
+			id: "65B8CA2653D44AE5"
+			tasks: [
+				{
+					id: "78A013A8403BFD1C"
+					item: "thermal:eggplant"
+					type: "item"
+				}
+				{
+					id: "1F595C46FB556338"
+					item: "thermal:cooked_eggplant"
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			id: "0B17A6EA95EF6C72"
+			tasks: [{
+				id: "6B91E35672214710"
+				item: "thermal:green_bean"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			id: "6117F0B7E2E044D3"
+			tasks: [{
+				id: "28ADF7AFF96EFD43"
+				item: "thermal:tomato"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 0.0d
+		}
+		{
+			id: "4FFFC0687DEF187A"
+			tasks: [{
+				id: "418994008BF6BF6D"
+				item: "thermal:coffee"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -2.0d
+		}
+		{
+			id: "1A043539A9569559"
+			tasks: [{
+				id: "2172DAE1D25EDDF4"
+				item: "thermal:cooked_mushroom"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -2.0d
+		}
+		{
+			id: "7B8DB8AE7ACDA927"
+			tasks: [{
+				id: "6874856A12E48CCD"
+				item: "thermal:hearty_stew"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -2.0d
+		}
+		{
+			id: "2702C8D1CF2EE7F9"
+			subtitle: "小心过敏"
+			tasks: [{
+				id: "773F641AD4C0D317"
+				item: "thermal:peanut"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -1.0d
+		}
+		{
+			id: "118F0D518558384C"
+			tasks: [{
+				id: "4CEA432096943FE1"
+				item: "thermal:spring_salad"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -1.0d
+		}
+		{
+			id: "1F169C2E24ED4B4B"
+			tasks: [{
+				id: "5CBF72E1DABDBE5C"
+				item: "thermal:xp_stew"
+				type: "item"
+			}]
+			x: 26.5d
+			y: -1.5d
+		}
+		{
+			id: "3114B251A40B2DC7"
+			tasks: [{
+				id: "218E427DBF531721"
+				item: "thermal:green_bean_pie"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 0.0d
+		}
+		{
+			id: "14650F5584A71630"
+			tasks: [{
+				id: "415C89473A642791"
+				item: "thermal:pbj_sandwich"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 0.0d
+		}
+		{
+			id: "10B0B3EA2C3F55E7"
+			tasks: [{
+				id: "0A5BFA2AD9902245"
+				item: "thermal:stuffed_pepper"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -2.0d
+		}
+		{
+			id: "6AB6F082242270D3"
+			tasks: [{
+				id: "62781BA04E3997DF"
+				item: "thermal:sushi_maki"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 0.5d
+		}
+		{
+			id: "0477644E71A2005E"
+			tasks: [
+				{
+					id: "3DA5F3FEF32A2B7E"
+					item: "thermal:cheese_wheel"
+					type: "item"
+				}
+				{
+					id: "13B6B764D34C775A"
+					item: "thermal:cheese_wedge"
+					type: "item"
+				}
+			]
+			x: 24.5d
+			y: 1.0d
+		}
+		{
+			id: "062EB180DE0BCD25"
+			tasks: [{
+				id: "1E568C0130DF8982"
+				item: "thermal:stuffed_pumpkin"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 1.0d
+		}
+		{
+			id: "6F36DF0266C7D347"
+			tasks: [{
+				id: "2CCD9CFCF54D7F1F"
+				item: "thermal:carrot_cake"
+				type: "item"
+			}]
+			x: 26.5d
+			y: -0.5d
+		}
+		{
+			id: "1F764BE70C2A6ED5"
+			tasks: [{
+				id: "3B2499213171815C"
+				item: "thermal:chocolate_cake"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 1.0d
+		}
+		{
+			id: "31F4FE265DB72451"
+			tasks: [{
+				id: "3F139618BD3B6377"
+				item: "thermal:potion_cake"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -1.0d
+		}
+		{
+			id: "4946AC2692CDA1FB"
+			tasks: [{
+				id: "63AE7FD8C9FE2EC6"
+				item: "thermal:spice_cake"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			id: "7F316D44FDD0F45A"
+			tasks: [{
+				id: "444F0E21895E5697"
+				item: "thermal:syrup_bottle"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -2.0d
+		}
+		{
+			id: "2CA5E6C511566086"
+			tasks: [{
+				id: "5417BFAA30F3ACD2"
+				item: "thermal:frost_melon_slice"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.0d
+		}
+		{
+			description: ["我老想吃草莓了，可惜草莓太贵了（"]
+			id: "35C641D0E6D29D93"
+			subtitle: "墨茶的遗愿（"
+			tasks: [{
+				id: "7CF48B62877B24CD"
+				item: "thermal:strawberry"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 1.0d
+		}
+		{
+			id: "40BDC8201C016E94"
+			size: 2.0d
+			subtitle: "宫廷玉液酒，一百八一杯"
+			tasks: [{
+				id: "6B3E7301D27C277E"
+				type: "checkmark"
+			}]
+			title: "饮酒作乐与喝啤酒啦"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			id: "620D9D3A2FF87A63"
+			tasks: [
+				{
+					id: "0B7904C688D58874"
+					item: "brewinandchewin:beer"
+					type: "item"
+				}
+				{
+					id: "3E6F93A6F5CA1080"
+					item: "brewinandchewin:vodka"
+					type: "item"
+				}
+				{
+					id: "091ECE44706D0E7D"
+					item: "brewinandchewin:dread_nog"
+					type: "item"
+				}
+				{
+					id: "6F9D73B8558A9568"
+					item: "brewinandchewin:withering_dross"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -10.5d
+		}
+		{
+			id: "428C768D4D99D616"
+			tasks: [
+				{
+					id: "06A25A123E6B7B19"
+					item: "brewinandchewin:rice_wine"
+					type: "item"
+				}
+				{
+					id: "7E3936F61352C86C"
+					item: "brewinandchewin:pale_jane"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -9.5d
+		}
+		{
+			id: "04952E127ECC7E2B"
+			tasks: [
+				{
+					id: "5AD4A1D86C6F1A1F"
+					item: "brewinandchewin:mead"
+					type: "item"
+				}
+				{
+					id: "3A668E71D2747F0B"
+					item: "brewinandchewin:saccharine_rum"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -10.5d
+		}
+		{
+			id: "15265DEBD244C95E"
+			tasks: [{
+				id: "59FBA8F966B11686"
+				item: "brewinandchewin:egg_grog"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.5d
+		}
+		{
+			id: "514DC5638B895B4B"
+			tasks: [
+				{
+					id: "75B82DA6D8679DC1"
+					item: "brewinandchewin:strongroot_ale"
+					type: "item"
+				}
+				{
+					id: "0B91D2749DDC34EC"
+					item: "brewinandchewin:steel_toe_stout"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -12.5d
+		}
+		{
+			id: "323E3C16606E6D1C"
+			tasks: [{
+				id: "38F042A190BA5188"
+				item: "brewinandchewin:salty_folly"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -11.5d
+		}
+		{
+			id: "01AFDCBFB0C419C4"
+			tasks: [{
+				id: "7A9C4B89DA20452F"
+				item: "brewinandchewin:glittering_grenadine"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -12.5d
+		}
+		{
+			id: "11AC7C11537EFF6F"
+			tasks: [
+				{
+					id: "00305183C03277EB"
+					item: "brewinandchewin:bloody_mary"
+					type: "item"
+				}
+				{
+					id: "4B3F20E86BB6A53D"
+					item: "brewinandchewin:red_rum"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -11.5d
+		}
+		{
+			id: "7A773D88AB7907AD"
+			tasks: [{
+				id: "4DFA03801C995FFB"
+				item: "brewinandchewin:kombucha"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -13.5d
+		}
+		{
+			id: "73803122637B4F68"
+			tasks: [
+				{
+					id: "6787726B20E85CD7"
+					item: "brewinandchewin:fiery_fondue_pot"
+					type: "item"
+				}
+				{
+					id: "304D6FBC2CCE3CE1"
+					item: "brewinandchewin:fiery_fondue"
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: -9.5d
+		}
+		{
+			id: "4D7C85064B046EEB"
+			tasks: [
+				{
+					id: "7271DAB672B34778"
+					item: "brewinandchewin:flaxen_cheese_wheel"
+					type: "item"
+				}
+				{
+					id: "1A2855A99FA8C467"
+					item: "brewinandchewin:flaxen_cheese_wedge"
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: -10.5d
+		}
+		{
+			id: "03C8EE6B73551B00"
+			tasks: [
+				{
+					id: "7891D5C302AF8B7F"
+					item: "brewinandchewin:scarlet_cheese_wheel"
+					type: "item"
+				}
+				{
+					id: "542C5A0B3058A2AA"
+					item: "brewinandchewin:scarlet_cheese_wedge"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: -11.5d
+		}
+		{
+			id: "010F6BE91AF88D46"
+			tasks: [
+				{
+					id: "130FBC47A959D5D7"
+					item: "brewinandchewin:pizza"
+					type: "item"
+				}
+				{
+					id: "596DC09D31637F92"
+					item: "brewinandchewin:pizza_slice"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -10.5d
+		}
+		{
+			id: "0B3D2FFC3941AD34"
+			tasks: [
+				{
+					id: "04EC89218235D05A"
+					item: "brewinandchewin:quiche"
+					type: "item"
+				}
+				{
+					id: "1B9D7A43840F80BE"
+					item: "brewinandchewin:quiche_slice"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -9.5d
+		}
+		{
+			id: "1DCBCC3018E58383"
+			tasks: [{
+				id: "14FE37FD06CE94A9"
+				item: "brewinandchewin:kimchi"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -14.5d
+		}
+		{
+			id: "3720F0BC2DCABC9D"
+			tasks: [{
+				id: "2521E5F1245842EE"
+				item: "brewinandchewin:jerky"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -13.5d
+		}
+		{
+			id: "70F2AFB4A5CF3E39"
+			tasks: [{
+				id: "34F71BAFA296FBE0"
+				item: "brewinandchewin:pickled_pickles"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -13.5d
+		}
+		{
+			id: "1D2FDFD78EE63154"
+			tasks: [{
+				id: "62DC2A9BA0B30FD7"
+				item: "brewinandchewin:kippers"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -11.5d
+		}
+		{
+			id: "32E28715009A1F0D"
+			tasks: [{
+				id: "4D85B7B3AAF0615E"
+				item: "brewinandchewin:cocoa_fudge"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			id: "32E0FC0EEFF93113"
+			tasks: [{
+				id: "58BCD7100F402BC8"
+				item: "brewinandchewin:ham_and_cheese_sandwich"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			id: "64193C4EAD8DF7BC"
+			tasks: [{
+				id: "2AEDCF4F26052256"
+				item: "brewinandchewin:vegetable_omelet"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -12.5d
+		}
+		{
+			id: "0B5EA3232F0A3366"
+			tasks: [{
+				id: "72F41125F05CC757"
+				item: "brewinandchewin:cheesy_pasta"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -12.5d
+		}
+		{
+			id: "548FF073F4069BBB"
+			tasks: [{
+				id: "58DBD578ED637500"
+				item: "brewinandchewin:creamy_onion_soup"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -11.5d
+		}
+		{
+			id: "134A314D1A2414FB"
+			tasks: [{
+				id: "6C545FDA42ECC89F"
+				item: "brewinandchewin:scarlet_pierogies"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			id: "738AA800DB5265BD"
+			tasks: [{
+				id: "5F59948B0DF3A3A1"
+				item: "brewinandchewin:horror_lasagna"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.5d
+		}
+		{
+			id: "072CFFE07613665D"
+			size: 2.0d
+			subtitle: "泡茶真是一件美事……"
+			tasks: [{
+				id: "0738CD0D38986306"
+				type: "checkmark"
+			}]
+			title: "农夫暇事"
+			x: 8.0d
+			y: 17.0d
+		}
+		{
+			id: "20DFFA0532E6A741"
+			size: 2.0d
+			subtitle: "钓鱼佬的空军之旅"
+			tasks: [{
+				id: "5D98DB67BFC40FA5"
+				type: "checkmark"
+			}]
+			title: "水产品"
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			id: "2BD4CAA661533743"
+			tasks: [{
+				id: "17C1F953803F548D"
+				item: "farmersrespite:green_tea"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 20.5d
+		}
+		{
+			id: "39821A8CB9C44DF2"
+			tasks: [{
+				id: "05DFC29B865B3FB4"
+				item: "farmersrespite:yellow_tea"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 20.5d
+		}
+		{
+			id: "32AD070C6F82E95D"
+			tasks: [{
+				id: "6E5D4EBCC329330D"
+				item: "farmersrespite:black_tea"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 21.5d
+		}
+		{
+			id: "024CA2CD96C3CCAF"
+			tasks: [{
+				id: "50FA9B6680FA879F"
+				item: "farmersrespite:rose_hip_tea"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 19.5d
+		}
+		{
+			id: "34BA44C6DE5B7F90"
+			tasks: [{
+				id: "0D3B62FDB271A437"
+				item: "farmersrespite:dandelion_tea"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 19.5d
+		}
+		{
+			id: "5A394B8FFD0D2FC4"
+			tasks: [{
+				id: "4EFD063D39827147"
+				item: "farmersrespite:gamblers_tea"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 21.5d
+		}
+		{
+			id: "7B1460CF9CF762B0"
+			tasks: [{
+				id: "0304D8A7CCAF6F66"
+				item: "farmersrespite:coffee"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 22.5d
+		}
+		{
+			id: "2D5B8511EF71E2A8"
+			tasks: [{
+				id: "066E1014F2BD7883"
+				item: "farmersrespite:coffee_berries"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 20.5d
+		}
+		{
+			id: "1110CDDA2355F8BD"
+			tasks: [{
+				id: "09A49EAA391E8725"
+				item: "farmersrespite:green_tea_cookie"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 19.5d
+		}
+		{
+			id: "2DB4BF67FAB67E4E"
+			tasks: [{
+				id: "53F8EAFB6160995C"
+				item: "farmersrespite:nether_wart_sourdough"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 19.5d
+		}
+		{
+			id: "1BF64647436A3003"
+			tasks: [
+				{
+					id: "494A9FCD0371C2A6"
+					item: "farmersrespite:coffee_cake"
+					type: "item"
+				}
+				{
+					id: "1C01A8B2E82D45BA"
+					item: "farmersrespite:coffee_cake_slice"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 20.5d
+		}
+		{
+			id: "033DCB04CEF4B27A"
+			tasks: [
+				{
+					id: "0559EC7D5D34FE71"
+					item: "farmersrespite:rose_hip_pie"
+					type: "item"
+				}
+				{
+					id: "6C742603124B8B3F"
+					item: "farmersrespite:rose_hip_pie_slice"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 19.5d
+		}
+		{
+			id: "36B3ADBA8752005E"
+			tasks: [{
+				id: "0444E2376392474A"
+				item: "farmersrespite:black_cod"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 20.5d
+		}
+		{
+			id: "7FFB5860658D991C"
+			tasks: [{
+				id: "4D3214ED6AB58A3E"
+				item: "farmersrespite:tea_curry"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 19.5d
+		}
+		{
+			id: "28AC2776CDE12107"
+			tasks: [{
+				id: "59F2E91560AD5DE2"
+				item: "farmersrespite:blazing_chili"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 21.5d
+		}
+		{
+			id: "115882C07EDB2829"
+			tasks: [{
+				id: "5DA899458EDB915A"
+				item: "aquaculture:algae"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 14.5d
+		}
+		{
+			id: "13BCA9FF7F5D161C"
+			tasks: [
+				{
+					id: "44E6DF6819F0F733"
+					item: "aquaculture:fish_fillet_raw"
+					type: "item"
+				}
+				{
+					id: "510CB0EF9F1BB078"
+					item: "aquaculture:fish_fillet_cooked"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 13.5d
+		}
+		{
+			id: "1138DE80DF587DE2"
+			tasks: [{
+				id: "0DB45405BDF6E69F"
+				item: "aquaculture:atlantic_herring"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			id: "76BE7E2395F69750"
+			tasks: [{
+				id: "10344351C784E8DA"
+				item: "aquaculture:boulti"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			id: "165A5532DA29A4C7"
+			tasks: [{
+				id: "09468F6FA084F835"
+				item: "aquaculture:synodontis"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 13.5d
+		}
+		{
+			id: "075473DC4B213620"
+			tasks: [{
+				id: "3F928EEC69C3175A"
+				item: "aquaculture:bluegill"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			id: "4F504B32465E0F3B"
+			subtitle: "是鲈鱼不是鱼露！"
+			tasks: [{
+				id: "264FB0D93F682963"
+				item: "aquaculture:perch"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 15.5d
+		}
+		{
+			id: "2BE5E74736F46F40"
+			subtitle: "海虎武神"
+			tasks: [{
+				id: "1296C8C221BD6EE4"
+				item: "aquaculture:piranha"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 13.5d
+		}
+		{
+			id: "1A4842DF90E97C3B"
+			tasks: [{
+				id: "2C95C6658894A8FA"
+				item: "aquaculture:brown_shrooma"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			id: "57EF81153BAFEFE2"
+			tasks: [{
+				id: "628252CD93BC1EE6"
+				item: "aquaculture:red_shrooma"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.5d
+		}
+		{
+			id: "45349A2DCF3A0FA6"
+			tasks: [{
+				id: "1877078278926197"
+				item: "aquaculture:blackfish"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			id: "02F7372F0FE16435"
+			tasks: [{
+				id: "5BF0D1982AC12AF0"
+				item: "aquaculture:pink_salmon"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			id: "6FE27DEA30DD2346"
+			tasks: [{
+				id: "679E67A78F4E0E21"
+				item: "aquaculture:pollock"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			id: "62047D96583007EB"
+			tasks: [{
+				id: "662DB8370F2B8DDE"
+				item: "aquaculture:rainbow_trout"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			id: "408344B67E60030C"
+			tasks: [{
+				id: "2E05E54BF1B2A207"
+				item: "aquaculture:bayad"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.5d
+		}
+		{
+			id: "6E24B84117469A12"
+			tasks: [{
+				id: "6E76CE664E8EED46"
+				item: "aquaculture:smallmouth_bass"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			id: "6632C5CE9A846503"
+			tasks: [{
+				id: "7628EE7EBA21894E"
+				item: "aquaculture:brown_trout"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 15.5d
+		}
+		{
+			id: "4FFA3D6B3F301D68"
+			tasks: [{
+				id: "4B02BBA7FBE56373"
+				item: "aquaculture:carp"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 15.5d
+		}
+		{
+			id: "37066CB71C8851A6"
+			tasks: [{
+				id: "7124834CB467E380"
+				item: "aquaculture:gar"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 12.5d
+		}
+		{
+			id: "4137451282CFF5E7"
+			tasks: [{
+				id: "31D0C3B0886CFF43"
+				item: "aquaculture:red_grouper"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			id: "459B85AD543EAAA2"
+			tasks: [{
+				id: "661C922F96C1698D"
+				item: "aquaculture:tambaqui"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 14.5d
+		}
+		{
+			id: "6869F24641A4F0C6"
+			subtitle: "狗鱼岂能称至尊？"
+			tasks: [{
+				id: "141C40457C10EF36"
+				item: "aquaculture:muskellunge"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 15.5d
+		}
+		{
+			id: "0AABF0A8E307EBBD"
+			tasks: [{
+				id: "44E78E5C4BFCE78B"
+				item: "aquaculture:atlantic_cod"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			id: "63BE89619EF6844E"
+			tasks: [{
+				id: "07A5CB01A42B9BCD"
+				item: "aquaculture:pacific_halibut"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.5d
+		}
+		{
+			id: "27D39C7051493F9C"
+			tasks: [{
+				id: "24A7E7032EF86137"
+				item: "aquaculture:atlantic_halibut"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			id: "6005506F0B3B753D"
+			tasks: [{
+				id: "519B00B87DAF65B8"
+				item: "aquaculture:capitaine"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			id: "1F12F9D74D667AA3"
+			tasks: [{
+				id: "13AB68EE8114178C"
+				item: "aquaculture:catfish"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 14.5d
+		}
+		{
+			id: "7694578E4322DF73"
+			tasks: [{
+				id: "60FB415236270EE9"
+				item: "aquaculture:arapaima"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 14.5d
+		}
+		{
+			id: "5FE5C466DB5FF9A8"
+			tasks: [{
+				id: "2231397072E3FDB9"
+				item: "aquaculture:tuna"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.5d
+		}
+		{
+			id: "06B6BA41615DA3DA"
+			tasks: [{
+				id: "700CE2987E20186E"
+				item: "aquaculture:turtle_soup"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 13.5d
+		}
+		{
+			id: "0C8371EBAEC43049"
+			tasks: [{
+				id: "649D7E3CCF51B6BA"
+				item: "aquaculture:sushi"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			id: "46E6CCDDAB82D6F3"
+			size: 2.0d
+			tasks: [{
+				id: "7BBBB3D8F4AAAFDB"
+				type: "checkmark"
+			}]
+			title: "农夫乐事"
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			id: "357D3429AA29F9C8"
+			size: 2.0d
+			tasks: [{
+				id: "266F7B539F95ECF2"
+				type: "checkmark"
+			}]
+			title: "匠心独运与匠3"
+			x: -9.0d
+			y: 17.0d
+		}
+		{
+			id: "1C02BB2C6EEE61BA"
+			tasks: [{
+				id: "09BDB5754580138D"
+				item: "tinkers_thinking:beef_jerky"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 21.5d
+		}
+		{
+			id: "121F211F29651B19"
+			tasks: [{
+				id: "770A0977E927BA35"
+				item: "tinkers_thinking:pork_jerky"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 20.5d
+		}
+		{
+			id: "2DB90C74C0B82AA3"
+			tasks: [{
+				id: "436370112ACA3128"
+				item: "tinkers_thinking:mutton_jerky"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 20.5d
+		}
+		{
+			id: "2AB7CDE445420544"
+			tasks: [{
+				id: "3BDFEAB12487A24B"
+				item: "tinkers_thinking:rabbit_jerky"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 19.5d
+		}
+		{
+			id: "2724631E7187EAC7"
+			tasks: [{
+				id: "0465EB071ED4BC5E"
+				item: "tinkers_thinking:chicken_jerky"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 19.5d
+		}
+		{
+			id: "4EE48000F052F69F"
+			tasks: [
+				{
+					id: "38D9D136AC80A28F"
+					item: "tinkers_thinking:cod_jerky"
+					type: "item"
+				}
+				{
+					id: "20AE3087AAD9FCC5"
+					item: "tinkers_thinking:salmon_jerky"
+					type: "item"
+				}
+				{
+					id: "6C41E7F3181919EC"
+					item: "tinkers_thinking:tropical_fish_jerky"
+					type: "item"
+				}
+				{
+					id: "28B99C501A5799A1"
+					item: "tinkers_thinking:pufferfish_jerky"
+					type: "item"
+				}
+			]
+			title: "鱼干"
+			x: -8.5d
+			y: 21.5d
+		}
+		{
+			id: "5E778891340E4E6F"
+			subtitle: "风干消毒"
+			tasks: [{
+				id: "0B4C6E98710BA322"
+				item: "tinkers_thinking:rotten_flesh_jerky"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 22.5d
+		}
+		{
+			id: "00A5EEA3AFCCB713"
+			tasks: [{
+				id: "261A1CB786D94729"
+				item: "tinkers_thinking:earth_slime_drop"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 21.5d
+		}
+		{
+			id: "6BA7F56D48616F32"
+			tasks: [{
+				id: "37A47738B0CB22EC"
+				item: "tinkers_thinking:sky_slime_drop"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 20.5d
+		}
+		{
+			id: "26CE40B1958A5CCC"
+			tasks: [{
+				id: "787EC65E384C6D56"
+				item: "tinkers_thinking:magma_slime_drop"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 19.5d
+		}
+		{
+			id: "0B054D715B124723"
+			tasks: [{
+				id: "2AF3CA722EB65AC1"
+				item: "tinkers_thinking:ichor_slime_drop"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 20.5d
+		}
+		{
+			id: "1DB5819F0846558D"
+			tasks: [{
+				id: "0C3C86A8702A26DA"
+				item: "tinkers_thinking:ender_slime_drop"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 19.5d
+		}
+		{
+			id: "0D0E020C34DBD837"
+			tasks: [{
+				id: "1EF851B68CB0361E"
+				item: "tinkers_thinking:fried_egg"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 20.5d
+		}
+		{
+			id: "3B0E229211F56C27"
+			tasks: [{
+				id: "6DBB93699FE0EDFA"
+				item: "tinkers_thinking:black_chocolate"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 19.5d
+		}
+		{
+			id: "09561C880C49F906"
+			tasks: [{
+				id: "2AC2936B7FCB1B03"
+				item: "tinkers_thinking:white_chocolate"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 19.5d
+		}
+		{
+			id: "73E7F72A14506531"
+			tasks: [
+				{
+					id: "6C88DCD0109A994A"
+					item: "farmersdelight:cabbage"
+					type: "item"
+				}
+				{
+					id: "1831C9263180A8F0"
+					item: "farmersdelight:cabbage_leaf"
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -0.5d
+		}
+		{
+			id: "7FC7778FE52198B5"
+			tasks: [
+				{
+					id: "1DF29C9C85C187EE"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+				{
+					id: "262810BD6D3AE8A2"
+					item: "farmersdelight:tomato_sauce"
+					type: "item"
+				}
+				{
+					id: "4D402EDB0D214B2D"
+					item: "culturaldelights:smoked_tomato"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -0.5d
+		}
+		{
+			id: "44D2705215CA3070"
+			tasks: [{
+				id: "617B2A0347AAB14B"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -0.5d
+		}
+		{
+			id: "298ECEE67184C475"
+			tasks: [{
+				id: "4E1F4B34FC3F27B0"
+				item: "farmersdelight:wheat_dough"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.5d
+		}
+		{
+			id: "6E4F9BB9339F066C"
+			tasks: [{
+				id: "4D3AE856F8B33961"
+				item: "farmersdelight:pumpkin_slice"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -1.5d
+		}
+		{
+			id: "7F63BB426169AAFA"
+			tasks: [{
+				id: "656AD9FE3C03322B"
+				item: "farmersdelight:milk_bottle"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 2.0d
+		}
+		{
+			id: "60CC4EA7BCFB1F98"
+			tasks: [{
+				id: "0359B4F359F5D36F"
+				item: "farmersdelight:hot_cocoa"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 2.0d
+		}
+		{
+			id: "37CD1D1806444138"
+			tasks: [{
+				id: "2E538DBDA2F46704"
+				item: "farmersdelight:apple_cider"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 3.0d
+		}
+		{
+			id: "3D7AA522B663126A"
+			tasks: [{
+				id: "46D9404D6AE21470"
+				item: "farmersdelight:melon_juice"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 3.0d
+		}
+		{
+			id: "1AB57D9A6433D835"
+			tasks: [
+				{
+					id: "37B5EF4B39C8F01F"
+					item: "farmersdelight:chocolate_pie"
+					type: "item"
+				}
+				{
+					id: "080D6753D1C70934"
+					item: "farmersdelight:chocolate_pie_slice"
+					type: "item"
+				}
+			]
+			x: -18.5d
+			y: -1.5d
+		}
+		{
+			id: "3E5B5B83211D020A"
+			tasks: [
+				{
+					id: "1830A7B4F9E9FDE8"
+					item: "farmersdelight:apple_pie"
+					type: "item"
+				}
+				{
+					id: "30B16953605D0DB8"
+					item: "farmersdelight:apple_pie_slice"
+					type: "item"
+				}
+			]
+			x: -19.5d
+			y: -1.5d
+		}
+		{
+			id: "05D74D8E3999738B"
+			tasks: [
+				{
+					id: "0D04AE1ABEED68BA"
+					item: "farmersdelight:sweet_berry_cheesecake"
+					type: "item"
+				}
+				{
+					id: "27426F770A87AC39"
+					item: "farmersdelight:sweet_berry_cheesecake_slice"
+					type: "item"
+				}
+			]
+			x: -20.5d
+			y: -1.5d
+		}
+		{
+			id: "2691908B240662D3"
+			tasks: [{
+				id: "7FF73D45E12ED50C"
+				item: "farmersdelight:pie_crust"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 0.5d
+		}
+		{
+			id: "5718C20C554E05D1"
+			tasks: [{
+				id: "72A075A3335D2AB8"
+				item: "farmersdelight:sweet_berry_cookie"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -0.5d
+		}
+		{
+			id: "39EA6326C3DC2294"
+			tasks: [{
+				id: "4B9D6304E4D0C217"
+				item: "farmersdelight:raw_pasta"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 2.0d
+		}
+		{
+			id: "4903C33AAC278B2B"
+			tasks: [{
+				id: "00AFDCBBB57D267E"
+				item: "farmersdelight:fried_egg"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 2.5d
+		}
+		{
+			id: "3568D2F0D16E83EB"
+			tasks: [
+				{
+					id: "06F3ED6913779040"
+					item: "farmersdelight:minced_beef"
+					type: "item"
+				}
+				{
+					id: "6372C6F33B3F96FF"
+					item: "farmersdelight:beef_patty"
+					type: "item"
+				}
+			]
+			x: -20.5d
+			y: 3.0d
+		}
+		{
+			id: "2F14C293658046A9"
+			tasks: [
+				{
+					id: "60B320400B6A0990"
+					item: "farmersdelight:chicken_cuts"
+					type: "item"
+				}
+				{
+					id: "0C55F3D9FDD7FE01"
+					item: "farmersdelight:cooked_chicken_cuts"
+					type: "item"
+				}
+			]
+			x: -18.5d
+			y: 3.0d
+		}
+		{
+			id: "307A45F82BDE57DF"
+			tasks: [
+				{
+					id: "663529E97FE77547"
+					item: "farmersdelight:bacon"
+					type: "item"
+				}
+				{
+					id: "4F74C03A022C29C9"
+					item: "farmersdelight:cooked_bacon"
+					type: "item"
+				}
+			]
+			x: -19.5d
+			y: 3.0d
+		}
+		{
+			id: "2161203534CAFCDC"
+			tasks: [
+				{
+					id: "79B38A63C9367337"
+					item: "farmersdelight:cod_slice"
+					type: "item"
+				}
+				{
+					id: "72B5BED8B528B6C6"
+					item: "farmersdelight:cooked_cod_slice"
+					type: "item"
+				}
+			]
+			x: -20.5d
+			y: 2.0d
+		}
+		{
+			id: "413D1C976A60420A"
+			tasks: [
+				{
+					id: "32F59776291A276D"
+					item: "farmersdelight:salmon_slice"
+					type: "item"
+				}
+				{
+					id: "13CA0EFFB82946F7"
+					item: "farmersdelight:cooked_salmon_slice"
+					type: "item"
+				}
+			]
+			x: -21.5d
+			y: 2.0d
+		}
+		{
+			id: "684914F79C7C677F"
+			tasks: [
+				{
+					id: "29A20284CC6FBB1C"
+					item: "farmersdelight:mutton_chops"
+					type: "item"
+				}
+				{
+					id: "0D898BD3EF977F16"
+					item: "farmersdelight:cooked_mutton_chops"
+					type: "item"
+				}
+			]
+			x: -22.5d
+			y: 2.0d
+		}
+		{
+			id: "164CC29EF58EA0EF"
+			tasks: [
+				{
+					id: "1AB5D2D3116389C8"
+					item: "farmersdelight:ham"
+					type: "item"
+				}
+				{
+					id: "26C1D00ED8F531F1"
+					item: "farmersdelight:smoked_ham"
+					type: "item"
+				}
+			]
+			x: -21.5d
+			y: 3.0d
+		}
+		{
+			id: "59AF43F40BA71AE7"
+			tasks: [{
+				id: "77741DEBD6ADF39E"
+				item: "farmersdelight:baked_cod_stew"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -4.0d
+		}
+		{
+			id: "5321874444506035"
+			tasks: [{
+				id: "56368449F8AC766C"
+				item: "farmersdelight:noodle_soup"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -3.0d
+		}
+		{
+			id: "6580A3570193EC4A"
+			tasks: [{
+				id: "4808883570310C71"
+				item: "farmersdelight:bacon_and_eggs"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -3.0d
+		}
+		{
+			id: "32879631761EB806"
+			tasks: [{
+				id: "4D351D31A4A8061B"
+				item: "farmersdelight:pasta_with_meatballs"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -3.0d
+		}
+		{
+			id: "49191768B71E1D45"
+			tasks: [{
+				id: "783B43BFFE2814CF"
+				item: "farmersdelight:pasta_with_mutton_chop"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -4.0d
+		}
+		{
+			id: "7C2CB242B8216236"
+			tasks: [{
+				id: "750AE9B4CE37217E"
+				item: "farmersdelight:mushroom_rice"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -4.0d
+		}
+		{
+			id: "08B7F5653D08A919"
+			tasks: [{
+				id: "7577432936FA2DC7"
+				item: "farmersdelight:roasted_mutton_chops"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -4.0d
+		}
+		{
+			id: "453EBFACFD695D2C"
+			tasks: [{
+				id: "7BE53AC61746C5CA"
+				item: "farmersdelight:vegetable_noodles"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -4.0d
+		}
+		{
+			id: "4689FF1523F1D8A9"
+			tasks: [{
+				id: "330D9623F193AF31"
+				item: "farmersdelight:steak_and_potatoes"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -4.0d
+		}
+		{
+			id: "043179A73C472C85"
+			tasks: [{
+				id: "5F409E0222DC7190"
+				item: "farmersdelight:honey_cookie"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -1.5d
+		}
+		{
+			id: "1D28174BB702F81E"
+			tasks: [{
+				id: "517987CFE3B774A5"
+				item: "farmersdelight:glow_berry_custard"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 2.0d
+		}
+		{
+			id: "03457761FB39662B"
+			tasks: [{
+				id: "797674AAE76B6204"
+				item: "farmersdelight:fruit_salad"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -3.0d
+		}
+		{
+			id: "4BA2B93E9B9BD85A"
+			tasks: [{
+				id: "60CAC8B0CF0154A6"
+				item: "farmersdelight:mixed_salad"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -3.0d
+		}
+		{
+			id: "66312F8DCD082FD3"
+			tasks: [{
+				id: "1049CBAEE77A98B7"
+				item: "farmersdelight:nether_salad"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -3.0d
+		}
+		{
+			id: "55C2D27E8611E848"
+			tasks: [{
+				id: "0408DC8FA3E053F8"
+				item: "farmersdelight:barbecue_stick"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 3.0d
+		}
+		{
+			id: "20691429F93D1382"
+			tasks: [{
+				id: "7B40791D47C44108"
+				item: "farmersdelight:egg_sandwich"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 3.0d
+		}
+		{
+			id: "0693418B75994BEF"
+			tasks: [{
+				id: "0A498918D711FF8B"
+				item: "farmersdelight:chicken_sandwich"
+				type: "item"
+			}]
+			x: -26.5d
+			y: 2.0d
+		}
+		{
+			id: "08F5AC6057B619FA"
+			tasks: [{
+				id: "26043AFAD17C73C4"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 2.0d
+		}
+		{
+			id: "6BF0E50FCC4D8641"
+			tasks: [{
+				id: "1F146843C6CF6734"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 2.0d
+		}
+		{
+			id: "487D04B167D0A19F"
+			tasks: [{
+				id: "2EF912FCEB692ABD"
+				item: "farmersdelight:mutton_wrap"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 0.5d
+		}
+		{
+			id: "7545B58423D2B8FF"
+			subtitle: "好吃不过饺子"
+			tasks: [{
+				id: "2F9B534D06BDFB7C"
+				item: "farmersdelight:dumplings"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 0.5d
+		}
+		{
+			id: "481BB042A8A5C597"
+			tasks: [{
+				id: "3223BE1B09A645B5"
+				item: "farmersdelight:stuffed_potato"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 0.5d
+		}
+		{
+			id: "3551866EA378B2FC"
+			tasks: [{
+				id: "2B8B81DC08DB6C1D"
+				item: "farmersdelight:cabbage_rolls"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 0.5d
+		}
+		{
+			id: "2635CCF8793F26EB"
+			tasks: [{
+				id: "7F6920ED41D10645"
+				item: "farmersdelight:ratatouille"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -4.0d
+		}
+		{
+			id: "69E9E697552F8C4F"
+			tasks: [{
+				id: "48AAADF8A4D71B89"
+				item: "farmersdelight:squid_ink_pasta"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -3.0d
+		}
+		{
+			id: "0FC52947885BF159"
+			subtitle: "香精煎鱼"
+			tasks: [{
+				id: "4DA4A957B9CDEE08"
+				item: "farmersdelight:grilled_salmon"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -3.0d
+		}
+		{
+			id: "3ACBA3DB9F2AB2AE"
+			subtitle: "只因你太美"
+			tasks: [
+				{
+					id: "138B9CE3912B6ADC"
+					item: "farmersdelight:roast_chicken_block"
+					type: "item"
+				}
+				{
+					id: "538F32FF15C8CED9"
+					item: "farmersdelight:roast_chicken"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -4.0d
+		}
+		{
+			id: "52216548FDDDD4C2"
+			tasks: [
+				{
+					id: "3CB6BE26B94C5B08"
+					item: "farmersdelight:stuffed_pumpkin_block"
+					type: "item"
+				}
+				{
+					id: "18D6782404364A45"
+					item: "farmersdelight:stuffed_pumpkin"
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -4.0d
+		}
+		{
+			id: "4303EC719833313C"
+			tasks: [
+				{
+					id: "236C8849E3932758"
+					item: "farmersdelight:honey_glazed_ham_block"
+					type: "item"
+				}
+				{
+					id: "067F581F3E591D85"
+					item: "farmersdelight:honey_glazed_ham"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: -4.0d
+		}
+		{
+			id: "56229DEF5E570EA4"
+			tasks: [
+				{
+					id: "49393343F7650FA6"
+					item: "farmersdelight:shepherds_pie_block"
+					type: "item"
+				}
+				{
+					id: "4586925EEE93FA3E"
+					item: "farmersdelight:shepherds_pie"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: -3.0d
+		}
+		{
+			id: "74311909C89F1AF5"
+			tasks: [{
+				id: "415F922520CB0A2F"
+				item: "farmersdelight:rice_roll_medley_block"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -3.0d
+		}
+		{
+			id: "49293FB116A812A1"
+			tasks: [{
+				id: "15169DAA530B4EC9"
+				item: "culturaldelights:mutton_sandwich"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 3.0d
+		}
+		{
+			id: "097034D79A3AC83C"
+			tasks: [{
+				id: "4C651318DE60251C"
+				item: "culturaldelights:eggplant_burger"
+				type: "item"
+			}]
+			x: -26.5d
+			y: 3.0d
+		}
+		{
+			id: "6B126001924B0363"
+			tasks: [{
+				id: "7C88EFC5F813EA6D"
+				item: "farmersdelight:dog_food"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -4.0d
+		}
+		{
+			id: "68A9D8CF5C1CF57C"
+			tasks: [
+				{
+					id: "790A7EB11FC9C643"
+					item: "culturaldelights:avocado"
+					type: "item"
+				}
+				{
+					id: "02083A1FABC6AC38"
+					item: "culturaldelights:cut_avocado"
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -1.5d
+		}
+		{
+			id: "3976737F2C91D7C5"
+			tasks: [{
+				id: "6DD00BACBD8FC8F2"
+				item: "culturaldelights:elote"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -0.5d
+		}
+		{
+			id: "668C1645B8312C0E"
+			tasks: [{
+				id: "2F9298D4906B7C46"
+				item: "culturaldelights:empanada"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -0.5d
+		}
+		{
+			id: "7FD12E5B2F07DA5D"
+			tasks: [{
+				id: "645BF862D23A70A8"
+				item: "culturaldelights:hearty_salad"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -3.0d
+		}
+		{
+			id: "4431AD55139F2D7B"
+			tasks: [{
+				id: "6536445223F75EC6"
+				item: "culturaldelights:beef_burrito"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -1.5d
+		}
+		{
+			id: "4EB551FB4429D44D"
+			tasks: [
+				{
+					id: "69083C532C1A7E91"
+					item: "culturaldelights:cucumber"
+					type: "item"
+				}
+				{
+					id: "479ED6F4AD235EF4"
+					item: "culturaldelights:pickle"
+					type: "item"
+				}
+				{
+					id: "489884CB8648F3E8"
+					item: "culturaldelights:cut_pickle"
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: 0.5d
+		}
+		{
+			id: "11772953F630BEA4"
+			tasks: [
+				{
+					id: "67D752242241D296"
+					item: "culturaldelights:eggplant"
+					type: "item"
+				}
+				{
+					id: "09D8BD5993EDD3CF"
+					item: "culturaldelights:cut_eggplant"
+					type: "item"
+				}
+				{
+					id: "69FEFBC35FFD1282"
+					item: "culturaldelights:smoked_eggplant"
+					type: "item"
+				}
+				{
+					id: "25C4DF6549AEEFC9"
+					item: "culturaldelights:smoked_cut_eggplant"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: 0.5d
+		}
+		{
+			id: "21AF89BF1FF11AEC"
+			tasks: [
+				{
+					id: "34A096ABF5B07031"
+					item: "culturaldelights:white_eggplant"
+					type: "item"
+				}
+				{
+					id: "612006A1FF61290F"
+					item: "culturaldelights:smoked_white_eggplant"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: 0.5d
+		}
+		{
+			id: "3DC49B5A9633E15C"
+			subtitle: "苏穗宗的笑.jpg"
+			tasks: [
+				{
+					id: "3BA7862FCD38575E"
+					item: "culturaldelights:corn_cob"
+					type: "item"
+				}
+				{
+					id: "31786D909B53124F"
+					item: "culturaldelights:popcorn"
+					type: "item"
+				}
+				{
+					id: "589E8F83C3753A17"
+					item: "culturaldelights:corn_dough"
+					type: "item"
+				}
+				{
+					id: "4471B4233C13C2F0"
+					item: "culturaldelights:tortilla"
+					type: "item"
+				}
+				{
+					id: "0179BD0D710F4446"
+					item: "culturaldelights:tortilla_chips"
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			id: "47A1D98535790DAB"
+			tasks: [
+				{
+					id: "4F561620A949EA46"
+					item: "culturaldelights:squid"
+					type: "item"
+				}
+				{
+					id: "408D6EE28A969032"
+					item: "culturaldelights:cooked_squid"
+					type: "item"
+				}
+				{
+					id: "07894B53DE031763"
+					item: "culturaldelights:glow_squid"
+					type: "item"
+				}
+				{
+					id: "0948DEB34C9CEA41"
+					item: "culturaldelights:raw_calamari"
+					type: "item"
+				}
+				{
+					id: "7FA4FE46A6F604FA"
+					item: "culturaldelights:cooked_calamari"
+					type: "item"
+				}
+			]
+			x: -18.5d
+			y: 2.0d
+		}
+		{
+			id: "18D007E0486B6ADF"
+			tasks: [{
+				id: "5800AB5E4310FACE"
+				item: "culturaldelights:fried_eggplant_pasta"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -4.0d
+		}
+		{
+			id: "40B977F7320BC0C2"
+			tasks: [{
+				id: "2467D3EC4849850E"
+				item: "culturaldelights:avocado_toast"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -0.5d
+		}
+		{
+			id: "014B2970811225FC"
+			tasks: [{
+				id: "4FD682F7FBA51AEE"
+				item: "culturaldelights:creamed_corn"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -0.5d
+		}
+		{
+			id: "7D37D1707F4197CC"
+			tasks: [{
+				id: "484654DEFAB50EE6"
+				item: "culturaldelights:exotic_roll_medley"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -3.0d
+		}
+		{
+			id: "094720DED063F8AF"
+			size: 2.0d
+			tasks: [{
+				id: "7255A6ADF1834F80"
+				type: "checkmark"
+			}]
+			title: "末地乐事"
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			id: "521E2E4DF26A0610"
+			tasks: [{
+				id: "7EC2409FF23C3AAE"
+				item: "ends_delight:chorus_fruit_wine"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -10.5d
+		}
+		{
+			id: "74EEE85E325CFC4F"
+			tasks: [{
+				id: "09E082A84C8A0534"
+				item: "ends_delight:chorus_fruit_milk_tea"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -9.5d
+		}
+		{
+			id: "0B9AE0A5C44C11BA"
+			subtitle: "QQ乃乃好喝到咩噗茶"
+			tasks: [{
+				id: "52B6B5E2582FA210"
+				item: "ends_delight:bubble_tea"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -11.5d
+		}
+		{
+			id: "7F20212FE8FC1105"
+			tasks: [{
+				id: "7FB79CA6F8760350"
+				item: "ends_delight:dragon_breath_soda"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -10.5d
+		}
+		{
+			id: "6D45D7D3E076F5FB"
+			tasks: [{
+				id: "2157BCCDDE1849F8"
+				item: "ends_delight:chorus_flower_tea"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -9.5d
+		}
+		{
+			id: "0F386D8A8001DB1E"
+			tasks: [
+				{
+					id: "1B95A85A9640B48A"
+					item: "ends_delight:liquid_dragon_egg"
+					type: "item"
+				}
+				{
+					id: "638209F9F17362CD"
+					item: "ends_delight:fried_dragon_egg"
+					type: "item"
+				}
+			]
+			title: "龙蛋与煎龙蛋"
+			x: -15.5d
+			y: -13.5d
+		}
+		{
+			id: "51C032A993880D6C"
+			tasks: [
+				{
+					id: "7C29BB7BED767465"
+					item: "ends_delight:shulker_meat"
+					type: "item"
+				}
+				{
+					id: "7011A894DECC1603"
+					item: "ends_delight:shulker_meat_slice"
+					type: "item"
+				}
+				{
+					id: "485CE44175F34420"
+					item: "ends_delight:roasted_shulker_meat"
+					type: "item"
+				}
+				{
+					id: "40ECC3D2B4B0CC3E"
+					item: "ends_delight:roasted_shulker_meat_slice"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -12.5d
+		}
+		{
+			id: "078F403E4D862D3E"
+			tasks: [
+				{
+					id: "5E8713AABF4BBDA7"
+					item: "ends_delight:dragon_leg"
+					type: "item"
+				}
+				{
+					id: "6FCFF2E781C5C96E"
+					item: "ends_delight:smoked_dragon_leg"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: -13.5d
+		}
+		{
+			id: "71A5DD5A2EA67A10"
+			subtitle: "地上驴肉，天上龙肉"
+			tasks: [
+				{
+					id: "05D85E24B4F392BF"
+					item: "ends_delight:raw_dragon_meat"
+					type: "item"
+				}
+				{
+					id: "1C054B35AF51C793"
+					item: "ends_delight:roasted_dragon_meat"
+					type: "item"
+				}
+				{
+					id: "0877E2D1BB6A80B1"
+					item: "ends_delight:raw_dragon_meat_cuts"
+					type: "item"
+				}
+				{
+					id: "1AC3D6CAC7435DCB"
+					item: "ends_delight:roasted_dragon_meat_cuts"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -11.5d
+		}
+		{
+			id: "67FF4E6F86A669D5"
+			tasks: [
+				{
+					id: "035E9C5D7FBA007F"
+					item: "ends_delight:raw_ender_mite_meat"
+					type: "item"
+				}
+				{
+					id: "0F7FFFD539A8F6F8"
+					item: "ends_delight:dried_endermite_meat"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: -11.5d
+		}
+		{
+			id: "60253DC85FABD4A4"
+			tasks: [{
+				id: "566207CADF5CA0D9"
+				item: "ends_delight:enderman_gristle"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -9.5d
+		}
+		{
+			id: "2CBB90EB1B7F4ABF"
+			tasks: [{
+				id: "0689B1AAF08335F8"
+				item: "ends_delight:stuffed_rice_cake"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -10.5d
+		}
+		{
+			id: "1B19BAC844914E3D"
+			tasks: [{
+				id: "6ABA724448A669B4"
+				item: "ends_delight:chorus_flower_pie"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -9.5d
+		}
+		{
+			id: "4FA5E2DC2C8DB33C"
+			tasks: [{
+				id: "04FF60FF9299C094"
+				item: "ends_delight:chorus_cookie"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -10.5d
+		}
+		{
+			id: "1B8EA9C6855A88C5"
+			tasks: [{
+				id: "014060B6A1C1921C"
+				item: "ends_delight:chorus_fruit_popsicle"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -9.5d
+		}
+		{
+			id: "474F1E4E3EC45A42"
+			tasks: [
+				{
+					id: "6DA75228232EF683"
+					item: "ends_delight:raw_ender_sausage"
+					type: "item"
+				}
+				{
+					id: "5C98599D533E37C5"
+					item: "ends_delight:ender_sausage"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -9.5d
+		}
+		{
+			id: "7FF4122EA801ACFB"
+			tasks: [
+				{
+					id: "2E6E4BD08FBA5AC1"
+					item: "ends_delight:chorus_fruit_pie"
+					type: "item"
+				}
+				{
+					id: "023DF599292E5AD2"
+					item: "ends_delight:chorus_fruit_pie_slice"
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: -11.5d
+		}
+		{
+			id: "7614073FF3C85BD7"
+			tasks: [{
+				id: "56C498AF4E94AB1F"
+				item: "ends_delight:chorus_sauce"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -11.5d
+		}
+		{
+			id: "4A7DEC1854EB5D6E"
+			tasks: [
+				{
+					id: "64D9C86C78662A5F"
+					item: "ends_delight:dragon_leg_with_sauce_block"
+					type: "item"
+				}
+				{
+					id: "7383F5D4A20FD088"
+					item: "ends_delight:dragon_leg_with_sauce"
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: -13.0d
+		}
+		{
+			id: "5B864C9CCAF01077"
+			subtitle: "紫菜蛋花汤"
+			tasks: [
+				{
+					id: "5FBB9D4A3C5F7AD3"
+					item: "ends_delight:steamed_dragon_egg_block"
+					type: "item"
+				}
+				{
+					id: "3F453B1FD912BDA1"
+					item: "ends_delight:steamed_dragon_egg"
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -13.0d
+		}
+		{
+			id: "22FFAE5CA22B0BC4"
+			tasks: [
+				{
+					id: "49BD8E4D334DD306"
+					item: "ends_delight:dragon_meat_stew_block"
+					type: "item"
+				}
+				{
+					id: "34F52555AE079114"
+					item: "ends_delight:dragon_meat_stew"
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -14.0d
+		}
+		{
+			id: "266762D749EF56D8"
+			subtitle: "吃完让你飞上天！"
+			tasks: [
+				{
+					id: "6C7EDCA7B02586C2"
+					item: "ends_delight:grilled_shulker_block"
+					type: "item"
+				}
+				{
+					id: "5DB8895145B39E79"
+					item: "ends_delight:grilled_shulker"
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: -14.0d
+		}
+		{
+			id: "77EA71C887A035ED"
+			tasks: [{
+				id: "0139285782597928"
+				item: "ends_delight:roasted_dragon_steak"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -10.5d
+		}
+		{
+			id: "23377579221C3435"
+			subtitle: "好吃到上天"
+			tasks: [{
+				id: "7C0650B5888FF957"
+				item: "ends_delight:stir_fried_shulker_meat"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -10.5d
+		}
+		{
+			id: "5DBB3D1A802C44CA"
+			tasks: [{
+				id: "114535F4C8DF1184"
+				item: "ends_delight:ender_noodle"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -12.5d
+		}
+		{
+			id: "6614A2F289F04033"
+			tasks: [{
+				id: "160585A9BE68A829"
+				item: "ends_delight:enderman_gristle_stew"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -12.5d
+		}
+		{
+			id: "5D2BED0211491DA2"
+			tasks: [{
+				id: "2A79DBBF981E565A"
+				item: "ends_delight:shulker_soup"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -9.5d
+		}
+		{
+			id: "7FF6E69A380F984D"
+			tasks: [{
+				id: "4243F6BAF1D19B0D"
+				item: "ends_delight:dragon_breath_and_chorus_soup"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -9.5d
+		}
+		{
+			id: "3F674A7D39AB0198"
+			tasks: [{
+				id: "4CD1EF17D648DEE8"
+				item: "ends_delight:ender_congee"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -13.5d
+		}
+		{
+			id: "5A4CFCEF993EC27B"
+			tasks: [{
+				id: "5B09685E7CA74C36"
+				item: "ends_delight:end_barbecue_stick"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -12.5d
+		}
+		{
+			id: "701EF838284975B2"
+			tasks: [{
+				id: "48580D19A6CF5662"
+				item: "ends_delight:ender_bamboo_rice"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -10.5d
+		}
+		{
+			id: "6DD343641A8B2A31"
+			tasks: [{
+				id: "1B42ED6B5FC66E68"
+				item: "ends_delight:assorted_salad"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -11.5d
+		}
+		{
+			id: "1B27DDE82ABE7AC0"
+			tasks: [{
+				id: "61B9C4907BBDABB8"
+				item: "ends_delight:end_mixed_salad"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -11.5d
+		}
+		{
+			id: "1F00A2281526F393"
+			subtitle: "末地蚵仔煎"
+			tasks: [
+				{
+					id: "30AF3060A0651483"
+					item: "ends_delight:shulker_omelette_mixture"
+					type: "item"
+				}
+				{
+					id: "5F01A07A41EB653D"
+					item: "ends_delight:shulker_omelette"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: -10.5d
+		}
+		{
+			id: "4C4A6CA6FA3BEAED"
+			size: 2.0d
+			subtitle: "幸运方块的常客"
+			tasks: [{
+				id: "1F17DD294D1A753B"
+				type: "checkmark"
+			}]
+			title: "戈伯及乐事"
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			id: "6286F7E834DFCD1E"
+			tasks: [
+				{
+					id: "158C1FEEF7D9B272"
+					item: "gobber2:gobber2_goo"
+					type: "item"
+				}
+				{
+					id: "5578039D54725757"
+					item: "gobber2:gobber2_goo_nether"
+					type: "item"
+				}
+				{
+					id: "2746D98C32CE1664"
+					item: "gobberdelight:green_goo"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 19.5d
+		}
+		{
+			id: "1FFFB822D3D327E6"
+			tasks: [
+				{
+					id: "3FA42743E2725CB8"
+					item: "gobber2:gobber2_gooey_apple"
+					type: "item"
+				}
+				{
+					id: "4FB7C3182CA8B518"
+					item: "gobber2:gobber2_gooey_apple_nether"
+					type: "item"
+				}
+				{
+					id: "18C5C8623F9AEDFC"
+					item: "gobberdelight:green_apple"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 19.5d
+		}
+		{
+			id: "092B90546123813A"
+			tasks: [
+				{
+					id: "6B9495FDB520A086"
+					item: "gobber2:gobber2_gooey_bread"
+					type: "item"
+				}
+				{
+					id: "19357BCE308A34DD"
+					item: "gobber2:gobber2_gooey_bread_nether"
+					type: "item"
+				}
+				{
+					id: "7053A436369CDA95"
+					item: "gobberdelight:green_bread"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 21.5d
+		}
+		{
+			id: "6137E3F3C57DB149"
+			tasks: [
+				{
+					id: "22ED9D61A64BBD7F"
+					item: "gobber2:gobber2_gooey_beef"
+					type: "item"
+				}
+				{
+					id: "3D5850135F857EFD"
+					item: "gobber2:gobber2_gooey_beef_nether"
+					type: "item"
+				}
+				{
+					id: "0FC6AA10C0EF6494"
+					item: "gobberdelight:green_meat"
+					type: "item"
+				}
+				{
+					id: "569F787434CC12C9"
+					item: "gobberdelight:blue_meat_slice"
+					type: "item"
+				}
+				{
+					id: "5D3A694F15F014F5"
+					item: "gobberdelight:red_meat_slice"
+					type: "item"
+				}
+				{
+					id: "0756D72C9F932847"
+					item: "gobberdelight:green_meat_slice"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 21.5d
+		}
+		{
+			id: "18AA5BA96DEC87F2"
+			tasks: [
+				{
+					id: "440262B57F331725"
+					item: "gobberdelight:blue_pie"
+					type: "item"
+				}
+				{
+					id: "0B1F8B35DC6AFCDD"
+					item: "gobberdelight:red_pie"
+					type: "item"
+				}
+				{
+					id: "3A733F7F514F49ED"
+					item: "gobberdelight:green_pie"
+					type: "item"
+				}
+				{
+					id: "5B774105E69FC34A"
+					item: "gobberdelight:blue_pie_slice"
+					type: "item"
+				}
+				{
+					id: "5C433F2BB4559947"
+					item: "gobberdelight:red_pie_slice"
+					type: "item"
+				}
+				{
+					id: "670E106A5FBBDB2A"
+					item: "gobberdelight:green_pie_slice"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 20.5d
+		}
+		{
+			id: "5AA4961AE544AD2D"
+			tasks: [
+				{
+					id: "2177274C47162A22"
+					item: "gobber2:gobber2_gooey_beefstew"
+					type: "item"
+				}
+				{
+					id: "7D4C8A6114E7AC25"
+					item: "gobber2:gobber2_gooey_beefstew_nether"
+					type: "item"
+				}
+				{
+					id: "2A5BE4D7260D4273"
+					item: "gobberdelight:green_beefstew"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 22.5d
+		}
+		{
+			id: "5A0AF40384F2B44B"
+			tasks: [
+				{
+					id: "5E19D7C66BD46993"
+					item: "gobberdelight:blue_burger"
+					type: "item"
+				}
+				{
+					id: "2099D52BC656BA39"
+					item: "gobberdelight:red_burger"
+					type: "item"
+				}
+				{
+					id: "33653FB4404B6164"
+					item: "gobberdelight:green_burger"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 20.5d
+		}
+		{
+			id: "57CAFADE2B7D6A39"
+			tasks: [
+				{
+					id: "053D8085AC9208B2"
+					item: "gobberdelight:blue_drink"
+					type: "item"
+				}
+				{
+					id: "0B180C9149BC62E4"
+					item: "gobberdelight:red_drink"
+					type: "item"
+				}
+				{
+					id: "0F5D3FC372CC2DED"
+					item: "gobberdelight:green_drink"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 22.5d
+		}
+		{
+			id: "654E4477AD2BB1CF"
+			size: 2.0d
+			tasks: [{
+				id: "3215C4302FA88A09"
+				type: "checkmark"
+			}]
+			title: "暮色及乐事"
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			id: "16ABA2FD52C7271B"
+			subtitle: "饱食度最高的食物"
+			tasks: [
+				{
+					id: "235D90BAA4F38E3A"
+					item: "twilightdelight:fiery_snakes_block"
+					type: "item"
+				}
+				{
+					id: "0DF1229242A50B9B"
+					item: "twilightdelight:plate_of_fiery_snakes"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 9.5d
+		}
+		{
+			id: "5FF8A7BB71A4DDDB"
+			subtitle: "叫花鸡"
+			tasks: [
+				{
+					id: "26A6E84960AF2F9D"
+					item: "twilightdelight:lily_chicken_block"
+					type: "item"
+				}
+				{
+					id: "0B765D5C5847FF5A"
+					item: "twilightdelight:plate_of_lily_chicken"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 8.5d
+		}
+		{
+			id: "413AF6090E9616DB"
+			tasks: [
+				{
+					id: "52D1C63FF70011D7"
+					item: "twilightdelight:meef_wellington_block"
+					type: "item"
+				}
+				{
+					id: "4F9B6922225BC5A6"
+					item: "twilightdelight:plate_of_meef_wellington"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 8.5d
+		}
+		{
+			id: "0C582FC2A33921E7"
+			subtitle: "大自然的搬运工"
+			tasks: [{
+				id: "53A3452977825B18"
+				item: "twilightdelight:twilight_spring"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.5d
+		}
+		{
+			id: "516A14564CC5BF53"
+			subtitle: "我艹，冰！"
+			tasks: [{
+				id: "0CC8089AAF43C99B"
+				item: "twilightdelight:glacier_ice_tea"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.5d
+		}
+		{
+			id: "0C8342B6B4378173"
+			subtitle: "梅素汁"
+			tasks: [{
+				id: "4262E4E76FC413C6"
+				item: "twilightdelight:phytochemical_juice"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.5d
+		}
+		{
+			id: "7EC96C0AD6828722"
+			tasks: [{
+				id: "379A200901B2D2E4"
+				item: "twilightdelight:torchberry_juice"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.5d
+		}
+		{
+			id: "368CFDEB9AA49B73"
+			tasks: [{
+				id: "0ACB0AE5059A12D0"
+				item: "twilightdelight:thorn_rose_tea"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.5d
+		}
+		{
+			id: "281BA0B37455E2E8"
+			tasks: [{
+				id: "7DAC9B8DE3CAB66B"
+				item: "twilightdelight:tear_drink"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.5d
+		}
+		{
+			id: "6D8291A5B345F3BA"
+			tasks: [
+				{
+					id: "35E634529D34FD0C"
+					item: "twilightforest:hydra_chop"
+					type: "item"
+				}
+				{
+					id: "60D453B8FA8FC6A1"
+					item: "twilightdelight:hydra_piece"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			id: "6EF8FE19437AE0F3"
+			tasks: [
+				{
+					id: "1E8BFF93E99034CC"
+					item: "twilightforest:raw_venison"
+					type: "item"
+				}
+				{
+					id: "68206A1CA4F3BBD6"
+					item: "twilightforest:cooked_venison"
+					type: "item"
+				}
+				{
+					id: "17139F4E54C65B5A"
+					item: "twilightdelight:raw_venison_rib"
+					type: "item"
+				}
+				{
+					id: "7C0383CFC26C2C85"
+					item: "twilightdelight:cooked_venison_rib"
+					type: "item"
+				}
+			]
+			title: "鹿肉"
+			x: 7.0d
+			y: 10.5d
+		}
+		{
+			id: "7CB28FC3EB4601B3"
+			subtitle: "战斧牛排"
+			tasks: [
+				{
+					id: "1C176820364E381C"
+					item: "twilightdelight:raw_tomahawk_smeak"
+					type: "item"
+				}
+				{
+					id: "48EA3A1AD5ACDEC6"
+					item: "twilightdelight:cooked_tomahawk_smeak"
+					type: "item"
+				}
+				{
+					id: "517F26A86EF05E34"
+					item: "twilightdelight:raw_meef_slice"
+					type: "item"
+				}
+				{
+					id: "6A31361141308A4B"
+					item: "twilightdelight:cooked_meef_slice"
+					type: "item"
+				}
+			]
+			title: "战斧牛头人肋排"
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			id: "1376EAF1A6909AB5"
+			subtitle: "鸡肉味，嘎嘣脆"
+			tasks: [
+				{
+					id: "360C88321DB9E362"
+					item: "twilightdelight:raw_insect"
+					type: "item"
+				}
+				{
+					id: "1534B2C946DFFCE7"
+					item: "twilightdelight:cooked_insect"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			id: "120845CE25EF17F2"
+			subtitle: "杀尽天下ntr！"
+			tasks: [
+				{
+					id: "137C3A7394A88049"
+					item: "twilightforest:raw_meef"
+					type: "item"
+				}
+				{
+					id: "0F57EB7FA0EEDEA7"
+					item: "twilightforest:cooked_meef"
+					type: "item"
+				}
+			]
+			title: "牛头人肉"
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			id: "12B8B2957F38A40C"
+			subtitle: "恶魂肉蛋糕，一吃一个不吱声"
+			tasks: [
+				{
+					id: "22D3D208FAA855B4"
+					item: "twilightdelight:experiment_113"
+					type: "item"
+				}
+				{
+					id: "5F3E7D38F480D51F"
+					item: "twilightdelight:chocolate_113"
+					type: "item"
+				}
+				{
+					id: "24E0AB7CE1D8098E"
+					item: "twilightdelight:milky_113"
+					type: "item"
+				}
+				{
+					id: "59B0289F6427AE7F"
+					item: "twilightdelight:glow_113"
+					type: "item"
+				}
+				{
+					id: "776BFBA11F82D841"
+					item: "twilightdelight:experiment_110"
+					type: "item"
+				}
+				{
+					id: "228F0EA6F367DF9E"
+					item: "twilightforest:experiment_115"
+					type: "item"
+				}
+			]
+			title: "实验物品系列"
+			x: 7.0d
+			y: 9.5d
+		}
+		{
+			id: "668FEDC10561FD92"
+			tasks: [{
+				id: "0015F2E786E3970F"
+				item: "twilightforest:maze_wafer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.5d
+		}
+		{
+			id: "188983A22AC1E98E"
+			tasks: [{
+				id: "210F719FBE9632BC"
+				item: "twilightdelight:chocolate_wafer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.5d
+		}
+		{
+			id: "6D33D4B32C26E9C7"
+			tasks: [{
+				id: "35177876228ECA83"
+				item: "twilightdelight:torchberry_cookie"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 9.5d
+		}
+		{
+			id: "632BA757561744AA"
+			tasks: [{
+				id: "0A910B6C0B12A254"
+				item: "twilightdelight:berry_stick"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 8.5d
+		}
+		{
+			id: "27025CB908B123FE"
+			tasks: [{
+				id: "67DB64931996FDD2"
+				item: "twilightdelight:glow_venison_rib_with_pasta"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			id: "12F1A02B54764A90"
+			tasks: [{
+				id: "339B9E11A537B776"
+				item: "twilightdelight:mushgloom_meef_pasta"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 14.5d
+		}
+		{
+			id: "2518F3A4DCFA71DA"
+			tasks: [{
+				id: "3579BDC2B75A2166"
+				item: "twilightdelight:fried_insect"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.5d
+		}
+		{
+			id: "56526BD7E1FEF9EC"
+			tasks: [{
+				id: "08766A36EB469060"
+				item: "twilightdelight:grilled_ghast"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			id: "397B433F6EFE66F7"
+			tasks: [{
+				id: "2768D17E285A0AFD"
+				item: "twilightdelight:ghast_brain_salad"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			id: "7E35696DB6CD6D92"
+			tasks: [{
+				id: "511A2DBD56293375"
+				item: "twilightdelight:borer_tear_soup"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			id: "563F80373CDB6367"
+			tasks: [{
+				id: "2B1DC7B79B79A01D"
+				item: "twilightforest:meef_stroganoff"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			id: "6888A2E8AE2B2EE7"
+			tasks: [{
+				id: "592F58C5FD70A285"
+				item: "twilightdelight:mushgloom_sauce"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			id: "7BAEBC9349627A81"
+			tasks: [{
+				id: "7D16803AC8D1689A"
+				item: "twilightdelight:glowstew"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.5d
+		}
+		{
+			id: "6966F2068A148091"
+			tasks: [{
+				id: "5FB88EF1D5A92CDD"
+				item: "twilightdelight:thousand_plant_stew"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.5d
+		}
+		{
+			id: "066BB7D20C9FBB13"
+			tasks: [{
+				id: "0566B23F27496FF2"
+				item: "twilightdelight:hydra_burger"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			id: "7984A18F823C94BD"
+			tasks: [{
+				id: "615B4E977746E6E6"
+				item: "twilightdelight:ghast_burger"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			id: "2B138EEDDA68146E"
+			tasks: [{
+				id: "7257840F9D44B970"
+				item: "twilightdelight:meef_wrap"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			id: "1CD30E4889AF7B65"
+			size: 2.0d
+			subtitle: "豆腐工裔很多材料没有jei合成获取方式，需要跟着L键成就指引走，还有些根本就没有获取方式"
+			tasks: [{
+				id: "123800D8E5045433"
+				type: "checkmark"
+			}]
+			title: "豆腐工艺及乐事"
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			id: "29800811F25666CE"
+			tasks: [{
+				id: "5A2D1A75E29E9E76"
+				item: "tofucraft:tofucake"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 8.5d
+		}
+		{
+			id: "5D7F854412FCBBB3"
+			tasks: [{
+				id: "62D7DE7D1E6D9C86"
+				item: "tofucraft:zundatofucake"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 9.5d
+		}
+		{
+			id: "2576749D327C6CB9"
+			tasks: [{
+				id: "6543EE9739C25C6E"
+				item: "tofucraft:soycheese_tart"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 8.5d
+		}
+		{
+			id: "1BA41553CF93D93F"
+			tasks: [{
+				id: "64B93443DC6B9213"
+				item: "tofucraft:yudofu"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 10.5d
+		}
+		{
+			id: "19A111F229D57ABC"
+			subtitle: "俊达饭"
+			tasks: [{
+				id: "6C8846D556740485"
+				item: "tofucraft:edamame_rice"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 11.5d
+		}
+		{
+			id: "0F86CED961E8E492"
+			tasks: [{
+				id: "3E4BFF7A42A8661E"
+				item: "tofucraft:misosoup"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 13.5d
+		}
+		{
+			id: "2F6AD11C504F23BB"
+			tasks: [{
+				id: "3BC42C1772FD83E3"
+				item: "tofucraft:moyashiitame"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 13.5d
+		}
+		{
+			id: "0FBE1725E8825556"
+			tasks: [{
+				id: "124C6DFB706AA10B"
+				item: "tofucraft:tastybeefstew"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 11.5d
+		}
+		{
+			id: "5957E5F811EB5067"
+			tasks: [{
+				id: "11529DB8278D0DFD"
+				item: "tofucraft:sukiyaki"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 10.5d
+		}
+		{
+			id: "334C041A81399CDF"
+			tasks: [{
+				id: "1BAFA96F55BF15CC"
+				item: "tofucraft:koyadofustew"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 14.5d
+		}
+		{
+			id: "41E05FE954245A57"
+			tasks: [{
+				id: "733F631486364B9F"
+				item: "tofucraft:agedashi_tofu"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 14.5d
+		}
+		{
+			id: "0C62F2DAAA2B5A6B"
+			tasks: [{
+				id: "1AE7B5227039501F"
+				item: "tofucraft:moyashiohitashi"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 9.5d
+		}
+		{
+			id: "25AFE625951D21F0"
+			tasks: [{
+				id: "78D346EE0F6066A9"
+				item: "tofucraft:soborotofusaute"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 8.5d
+		}
+		{
+			id: "080469BEC1AC5291"
+			tasks: [{
+				id: "62A5C0A6C74600D5"
+				item: "tofucraft:crimson_soup"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 9.5d
+		}
+		{
+			id: "50963AAE001D1BD0"
+			tasks: [
+				{
+					id: "72DDD6C72E8D349D"
+					item: "tofucraft:red_soup"
+					type: "item"
+				}
+				{
+					id: "3670C96C7C8BE816"
+					item: "tofucraft:hell_red_soup"
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: 8.5d
+		}
+		{
+			id: "523450BD875A2651"
+			tasks: [{
+				id: "661DB9AD0F683663"
+				item: "tofucraft:nikujaga"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 15.5d
+		}
+		{
+			id: "190B74FA68E2FC52"
+			tasks: [{
+				id: "1DC4F7290963CCA5"
+				item: "tofucraft:tastystew"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 12.5d
+		}
+		{
+			id: "3A0E2FFB3099B6AF"
+			tasks: [{
+				id: "7C4E6EEE7A785CFF"
+				item: "tofucraft:nanbantofu"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 12.5d
+		}
+		{
+			id: "61C554F9C6ADA066"
+			tasks: [{
+				id: "16F152A6A667B0B0"
+				item: "tofucraft:nanban"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 15.5d
+		}
+		{
+			id: "71940480CC4EECA3"
+			tasks: [
+				{
+					id: "15050BDAA850C485"
+					item: "tofucraft:mabodofu"
+					type: "item"
+				}
+				{
+					id: "2383BF4A156DC912"
+					item: "tofucraft:hell_mabou"
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: 16.5d
+		}
+		{
+			id: "409573272B427315"
+			tasks: [
+				{
+					id: "751154DC288B9961"
+					item: "tofucraft:tofukinu"
+					type: "item"
+				}
+				{
+					id: "0164CC9D14D2FCCD"
+					item: "tofucraft:tofumomen"
+					type: "item"
+				}
+				{
+					id: "397092AC7E8DC78F"
+					item: "tofucraft:tofuishi"
+					type: "item"
+				}
+				{
+					id: "4CA2B2292C6DEBCD"
+					item: "tofucraft:tofugrilled"
+					type: "item"
+				}
+				{
+					id: "69A6068C758A10D4"
+					item: "tofucraft:tofudried"
+					type: "item"
+				}
+				{
+					id: "192761D59F81A3D5"
+					item: "tofucraft:smoketofu"
+					type: "item"
+				}
+				{
+					id: "7D2D78B5BE3A57B8"
+					item: "tofucraft:tofuminced"
+					type: "item"
+				}
+				{
+					id: "2C51E2A42872C019"
+					item: "tofucraft:tofufried"
+					type: "item"
+				}
+				{
+					id: "221C4A6194808612"
+					item: "tofucraft:fukumeni"
+					type: "item"
+				}
+				{
+					id: "54044982D589592D"
+					item: "tofucraft:oage"
+					type: "item"
+				}
+			]
+			title: "豆腐基础加工系列"
+			x: -16.0d
+			y: 14.5d
+		}
+		{
+			id: "25BC698778E53BA9"
+			subtitle: "有点硌牙"
+			tasks: [
+				{
+					id: "5DEA081640D25482"
+					item: "tofucraft:tofuishi"
+					type: "item"
+				}
+				{
+					id: "6091F01D0413A559"
+					item: "tofucraft:tofusteak"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: 8.5d
+		}
+		{
+			id: "57F6C708E0721B2A"
+			tasks: [{
+				id: "02509F4862CC3086"
+				item: "tofucraft:tofuhell"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 8.5d
+		}
+		{
+			id: "080777AD1E67BBAA"
+			tasks: [{
+				id: "26E5AE717A48F0F6"
+				item: "tofucraft:tofusoul"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 12.5d
+		}
+		{
+			id: "685F96E4C80885E5"
+			tasks: [{
+				id: "6E9B0F58CD273FF1"
+				item: "tofucraft:tofuzunda"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 12.5d
+		}
+		{
+			id: "0FD9434A8817E377"
+			tasks: [{
+				id: "3655725607DAAB67"
+				item: "tofucraft:tofumiso"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 10.5d
+		}
+		{
+			id: "47C01EC33D8628E2"
+			tasks: [{
+				id: "26399D5C2238E894"
+				item: "tofucraft:tofuegg"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 10.5d
+		}
+		{
+			id: "52B946463874382C"
+			tasks: [{
+				id: "52DAEE2ED9BDA4FF"
+				item: "tofucraft:tofustrawberry"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 9.5d
+		}
+		{
+			id: "14D47869A6AB27B2"
+			tasks: [{
+				id: "544EE89B098599D9"
+				item: "tofucraft:tofusesame"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 9.5d
+		}
+		{
+			id: "1D47090B58EE6217"
+			subtitle: "老八最爱"
+			tasks: [{
+				id: "7B7278FE22C46921"
+				item: "tofucraft:shudofu"
+				type: "item"
+			}]
+			title: "臭豆腐"
+			x: -15.5d
+			y: 13.5d
+		}
+		{
+			id: "6439E019B72E2459"
+			tasks: [{
+				id: "3604452926F68010"
+				item: "tofucraft:tofuannin"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 11.5d
+		}
+		{
+			id: "003F4377FDC6D3C4"
+			tasks: [{
+				id: "5C4D5E02EBABA72D"
+				item: "tofucraft:tofufried_pouch"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 13.5d
+		}
+		{
+			id: "26454AC7370744B3"
+			tasks: [{
+				id: "50FFB14B4E86CAFF"
+				item: "tofucraft:soy_cheese"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 11.5d
+		}
+		{
+			id: "6FC14A053C5F9391"
+			tasks: [{
+				id: "06400FF84A4C6EAE"
+				item: "tofucraft:pudding"
+				type: "item"
+			}]
+			x: -24.5d
+			y: 11.5d
+		}
+		{
+			id: "46560FB73B9A1087"
+			tasks: [{
+				id: "57FB4A18EEBCC50E"
+				item: "tofucraft:pudding_soymilk"
+				type: "item"
+			}]
+			x: -25.0d
+			y: 12.5d
+		}
+		{
+			id: "4897E254D77514E4"
+			tasks: [{
+				id: "3F4146E54DB5C854"
+				item: "tofucraft:tofusomenbowl_glass"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 11.5d
+		}
+		{
+			id: "462AA484534777E7"
+			tasks: [{
+				id: "2642C30BDBB7DC62"
+				item: "tofucraft:hiyayakko"
+				type: "item"
+			}]
+			x: -24.5d
+			y: 10.5d
+		}
+		{
+			id: "6B1869D6878CEF65"
+			tasks: [{
+				id: "337E18C754105F8C"
+				item: "tofucraft:nattohiyayakko"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 10.5d
+		}
+		{
+			id: "20282117D2E3F6B1"
+			tasks: [{
+				id: "567EB834E93297D8"
+				item: "tofucraft:zundamanju"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 9.5d
+		}
+		{
+			id: "5027204F1FABEC95"
+			tasks: [{
+				id: "696773F05EB98618"
+				item: "tofucraft:kinakomanju"
+				type: "item"
+			}]
+			x: -24.5d
+			y: 9.5d
+		}
+		{
+			id: "15455CB387BA0E22"
+			tasks: [{
+				id: "2426B77C7ECB9655"
+				item: "tofucraft:nethermanju"
+				type: "item"
+			}]
+			x: -24.5d
+			y: 8.5d
+		}
+		{
+			id: "78A14311DB574CCF"
+			tasks: [{
+				id: "1FCD94AA20E17E50"
+				item: "tofucraft:soulmanju"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 8.5d
+		}
+		{
+			id: "14FBED0318E7E80C"
+			tasks: [{
+				id: "174671B07206DB48"
+				item: "tofucraft:zunda_mochi"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 9.5d
+		}
+		{
+			id: "2E06358B5434E500"
+			tasks: [{
+				id: "3D253B33C6C94C08"
+				item: "tofucraft:kinako_mochi"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 10.5d
+		}
+		{
+			id: "6C6A8E12E3F5CE9B"
+			tasks: [{
+				id: "5876D8D66648580C"
+				item: "tofucraft:steamed_bread"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 11.5d
+		}
+		{
+			id: "1AD31650A1AD08B5"
+			tasks: [{
+				id: "32E80AF830C3ECE2"
+				item: "tofucraft:steamed_bread_cocoa"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 10.5d
+		}
+		{
+			id: "531532ED4B8DF0BC"
+			tasks: [{
+				id: "209AB2D8E396D228"
+				item: "tofucraft:tofucookie"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 11.5d
+		}
+		{
+			id: "620B06343A4704A7"
+			tasks: [
+				{
+					id: "4FE791310AD8F59A"
+					item: "tofucraft:soymilk"
+					type: "item"
+				}
+				{
+					id: "2CC93D174E72B309"
+					item: "tofucraft:soymilk_hell_bottle"
+					type: "item"
+				}
+				{
+					id: "25231CA15627D6C9"
+					item: "tofucraft:soymilk_soul_bottle"
+					type: "item"
+				}
+			]
+			title: "三种“豆”奶"
+			x: -21.5d
+			y: 8.5d
+		}
+		{
+			id: "32DFCF5784879A20"
+			tasks: [
+				{
+					id: "76A27669F5ABD990"
+					item: "tofucraft:soymilk_annin"
+					type: "item"
+				}
+				{
+					id: "023DDA19F3F32343"
+					item: "tofucraft:soymilk_apple"
+					type: "item"
+				}
+				{
+					id: "3EA525037D4A6900"
+					item: "tofucraft:soymilk_strawberry"
+					type: "item"
+				}
+				{
+					id: "36FADE1E787DA0D2"
+					item: "tofucraft:soymilk_fruits"
+					type: "item"
+				}
+			]
+			title: "水果豆奶"
+			x: -21.5d
+			y: 9.5d
+		}
+		{
+			id: "22158C96169C1AD6"
+			tasks: [
+				{
+					id: "10F7D3782332639E"
+					item: "tofucraft:soymilk_cocoa"
+					type: "item"
+				}
+				{
+					id: "5441E408278A42DB"
+					item: "tofucraft:soymilk_sakura"
+					type: "item"
+				}
+				{
+					id: "4804E7BA4F3590C4"
+					item: "tofucraft:soymilk_honey"
+					type: "item"
+				}
+				{
+					id: "6D0A67FAA80B11EF"
+					item: "tofucraft:soymilk_kinako"
+					type: "item"
+				}
+				{
+					id: "1565A9BBF3FAD26C"
+					item: "tofucraft:soymilk_pumpkin"
+					type: "item"
+				}
+			]
+			title: "一次加工豆奶"
+			x: -22.5d
+			y: 8.5d
+		}
+		{
+			id: "3A6F32DB7F778262"
+			tasks: [
+				{
+					id: "36659F01E4D8C65C"
+					item: "tofucraft:soymilk_pudding"
+					type: "item"
+				}
+				{
+					id: "121023F1CD771398"
+					item: "tofucraft:soymilk_ramune"
+					type: "item"
+				}
+				{
+					id: "75C4BE2602F911C1"
+					item: "tofucraft:soymilk_tea"
+					type: "item"
+				}
+			]
+			title: "二次加工豆奶"
+			x: -22.5d
+			y: 9.5d
+		}
+		{
+			id: "77A236046F0358FF"
+			tasks: [
+				{
+					id: "6B8D44E4C4D9C54A"
+					item: "tofucraft:ricesoborotofu"
+					type: "item"
+				}
+				{
+					id: "1D4642CB80C6A7DE"
+					item: "tofucraft:ricetofu"
+					type: "item"
+				}
+				{
+					id: "615E6602322B9513"
+					item: "tofucraft:ricenattoleek"
+					type: "item"
+				}
+				{
+					id: "71845C76A69E5E5A"
+					item: "tofucraft:ricenatto"
+					type: "item"
+				}
+			]
+			title: "豆饭系列"
+			x: -21.5d
+			y: 13.5d
+		}
+		{
+			id: "230EE724A24D2A41"
+			tasks: [
+				{
+					id: "6174708A2A835FCD"
+					item: "tofucraft:riceburger"
+					type: "item"
+				}
+				{
+					id: "7D7532AF1E8B5F74"
+					item: "tofucraft:tttburger"
+					type: "item"
+				}
+				{
+					id: "14D536BC241FDD89"
+					item: "tofucraft:tofu_buns_burger"
+					type: "item"
+				}
+			]
+			title: "“豆”汉堡系列"
+			x: -21.5d
+			y: 12.5d
+		}
+		{
+			id: "7B23855C0F78D7A7"
+			tasks: [
+				{
+					id: "4F9F75F1096A4B6A"
+					item: "tofucraft:soy_chocolate"
+					type: "item"
+				}
+				{
+					id: "2CFD91880509BAEB"
+					item: "tofucraft:tofunian_soy_chocolate"
+					type: "item"
+				}
+			]
+			x: -22.5d
+			y: 12.5d
+		}
+		{
+			id: "305AF4E9F1E2C13B"
+			tasks: [
+				{
+					id: "2894DC7CBBA58D01"
+					item: "tofucraft:onigiri"
+					type: "item"
+				}
+				{
+					id: "7EC137377A7184C3"
+					item: "tofucraft:onigiri_salt"
+					type: "item"
+				}
+				{
+					id: "1781BF4D58E23358"
+					item: "tofucraft:yakionigiri_miso"
+					type: "item"
+				}
+				{
+					id: "757ABC297046AE27"
+					item: "tofucraft:yakionigiri_shoyu"
+					type: "item"
+				}
+			]
+			x: -22.5d
+			y: 13.5d
+		}
+		{
+			id: "6FDA7A8AF5D5112A"
+			tasks: [
+				{
+					id: "598E7B5C3684662A"
+					item: "tofucraft:soystick"
+					type: "item"
+				}
+				{
+					id: "1D3C441CC305A062"
+					item: "tofucraft:okarastick"
+					type: "item"
+				}
+			]
+			x: -21.5d
+			y: 10.5d
+		}
+		{
+			id: "6BE1B61FB2FE7B74"
+			tasks: [
+				{
+					id: "235081D705156E1C"
+					item: "tofucraft:soymeat"
+					type: "item"
+				}
+				{
+					id: "105DBE87DBD732CA"
+					item: "tofucraft:negima"
+					type: "item"
+				}
+			]
+			title: "肉与串"
+			x: -21.5d
+			y: 11.5d
+		}
+		{
+			id: "48EF4E466376E333"
+			tasks: [
+				{
+					id: "714CB99F756EB5C8"
+					item: "tofucraft:chikuwa"
+					type: "item"
+				}
+				{
+					id: "3C88BCA2FC8FA75D"
+					item: "tofucraft:tofu_chikuwa"
+					type: "item"
+				}
+			]
+			x: -22.5d
+			y: 10.5d
+		}
+		{
+			id: "0922F0DAD1215701"
+			tasks: [{
+				id: "2A4AF8BA1CC10A13"
+				item: "tofucraft:apricotjerry_bread"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 14.5d
+		}
+		{
+			id: "2E4090BC40A9D3CE"
+			tasks: [
+				{
+					id: "04D20AE038D4610D"
+					item: "tofucraft:raw_tofufish"
+					type: "item"
+				}
+				{
+					id: "19A446FF59ACF9E1"
+					item: "tofucraft:cooked_tofufish"
+					type: "item"
+				}
+			]
+			x: -22.5d
+			y: 11.5d
+		}
+		{
+			id: "2FDDF1D32959E2E3"
+			subtitle: "标准获取方式是合成纳豆床后放置发酵来获取"
+			tasks: [{
+				id: "56BD0A74D1E54E76"
+				item: "tofucraft:natto"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 8.5d
+		}
+		{
+			id: "431BAD851583D155"
+			subtitle: "标准获取方式是豆芽罐（豆腐罐）在无光环境下填水种植大豆"
+			tasks: [{
+				id: "5CFB57306C408D92"
+				item: "tofucraft:sprouts"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 9.5d
+		}
+		{
+			id: "5FE0EED2649229E7"
+			subtitle: "辣妹子辣辣不怕辣"
+			tasks: [{
+				id: "0F66C5CED945302B"
+				item: "tofucraft:chili"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 8.5d
+		}
+		{
+			id: "14BDE7E101A9A762"
+			tasks: [{
+				id: "6A34DFA3518E9C7D"
+				item: "tofucraft:edamame_boild"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 9.5d
+		}
+		{
+			id: "1D2D8F299DB541EE"
+			tasks: [{
+				id: "602D166AC3323748"
+				item: "tofucraft:apricot"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 12.5d
+		}
+		{
+			id: "0AE322BD5D1A89EE"
+			tasks: [
+				{
+					id: "0FE6E31CAECD9E79"
+					item: "tofucraft:yuba"
+					type: "item"
+				}
+				{
+					id: "27DBC3D01DEE6735"
+					item: "tofucraft:meatwrapped_yuba"
+					type: "item"
+				}
+			]
+			x: -18.5d
+			y: 13.5d
+		}
+		{
+			id: "49F6EA1555BB63E3"
+			tasks: [{
+				id: "408A8C7C4C4B7FB4"
+				item: "tofucraft:tofuhamburg"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 12.5d
+		}
+		{
+			id: "0046BA8F07B53F9C"
+			tasks: [{
+				id: "7EC39889254CE8F9"
+				item: "tofucraft:inari"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 13.5d
+		}
+		{
+			id: "7C44BAA67A40C894"
+			tasks: [{
+				id: "1407202559610184"
+				item: "tofucraft:goheimochi"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 10.5d
+		}
+		{
+			id: "0CA77F43F97E4D91"
+			tasks: [{
+				id: "46CE5F786980D297"
+				item: "tofucraft:saltymelon"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 11.5d
+		}
+		{
+			id: "1AF760BBB0EE5799"
+			tasks: [{
+				id: "59FD303DE52DB947"
+				item: "tofucraft:misodengaku"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 10.5d
+		}
+		{
+			id: "0288DB1DFEB02C61"
+			tasks: [{
+				id: "7C138B643E5B1E15"
+				item: "tofucraft:soysause_ramen"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 11.5d
+		}
+		{
+			id: "4B7FB7F5BB3C2A7A"
+			tasks: [{
+				id: "12FB42CAB4897D6F"
+				item: "tofucraft:tomato_soybean_stew"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 14.5d
+		}
+		{
+			id: "53A08BA2D569EEFB"
+			subtitle: "我是毒液，我是毒液，我是最强毒液！"
+			tasks: [{
+				id: "31F61B2E5C4AAF26"
+				item: "tconstruct:venom_bottle"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 19.5d
+		}
+		{
+			id: "4F4D10AF7AEEC8D7"
+			tasks: [{
+				id: "0905B63798C3117C"
+				item: "tconstruct:earth_slime_bottle"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 19.5d
+		}
+		{
+			id: "009B9FC74AD14D61"
+			tasks: [{
+				id: "672DB0354A59B6BD"
+				item: "tconstruct:sky_slime_bottle"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 20.5d
+		}
+		{
+			id: "572E3B2F7C1D3D3B"
+			tasks: [{
+				id: "2363FA7DD1F9ADB5"
+				item: "tconstruct:ender_slime_bottle"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 20.5d
+		}
+		{
+			id: "0D72ECDE77469E21"
+			subtitle: "不知道为啥没有汉化"
+			tasks: [{
+				id: "467A56F68984358E"
+				item: "tconstruct:ichor_slime_bottle"
+				type: "item"
+			}]
+			title: "灵浆瓶"
+			x: -7.0d
+			y: 21.5d
+		}
+		{
+			id: "781796671AAED44B"
+			tasks: [{
+				id: "58CEFE77BED805DA"
+				item: "tconstruct:magma_bottle"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 21.5d
+		}
+		{
+			description: ["因为两者的原料都需要动物"]
+			id: "4C0C44E1DFACA0FB"
+			subtitle: "和工业先锋的肉汤不是一回事（大概）"
+			tasks: [{
+				id: "604120F9DDC982B3"
+				item: "tconstruct:meat_soup"
+				type: "item"
+			}]
+			title: "肉汤"
+			x: -6.5d
+			y: 22.5d
+		}
+		{
+			id: "061A41B08DEE2FD2"
+			subtitle: "知识就是力量，法国就是培根"
+			tasks: [{
+				id: "51D8F6B367AA7A8A"
+				item: "tconstruct:bacon"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 19.5d
+		}
+		{
+			id: "2C504EC043F1F31F"
+			tasks: [{
+				id: "0EF3E290BFDA9CC1"
+				item: "tconstruct:cheese_ingot"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 19.5d
+		}
+		{
+			id: "4ADD4CB7C4AEC2FA"
+			tasks: [{
+				id: "57A225E853E97A12"
+				item: "tconstruct:jeweled_apple"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 20.5d
+		}
+		{
+			id: "27343A235BC62145"
+			tasks: [{
+				id: "309550941503EA52"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -14.5d
+		}
+		{
+			id: "0F247515EC7B110E"
+			size: 2.0d
+			subtitle: "苹果开会"
+			tasks: [{
+				id: "1129E98D4C186744"
+				type: "checkmark"
+			}]
+			title: "循环"
+			x: 1.0d
+			y: -17.0d
+		}
+		{
+			id: "049D27F384CDE054"
+			tasks: [{
+				id: "6C5CEE2AA881AE53"
+				item: "cyclic:apple_honey"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -18.0d
+		}
+		{
+			id: "28AA50D1BFE6EB07"
+			tasks: [{
+				id: "0F1D3EC0D97A64B0"
+				item: "cyclic:apple_ender"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -19.0d
+		}
+		{
+			id: "6C76A0B58F94402E"
+			tasks: [{
+				id: "39DE27B3250B3244"
+				item: "cyclic:apple_lofty_stature"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -18.0d
+		}
+		{
+			id: "31FF24F93C3202CF"
+			tasks: [{
+				id: "626762990D13AB98"
+				item: "cyclic:apple_chocolate"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -18.0d
+		}
+		{
+			id: "6ACC2106B189DFBB"
+			tasks: [{
+				id: "04B671E1ADF1FE33"
+				item: "cyclic:apple_chorus"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -18.0d
+		}
+		{
+			id: "2F40545B90DC5F4A"
+			tasks: [{
+				id: "55BC3CE36CC9E9EC"
+				item: "cyclic:apple_bone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -18.0d
+		}
+		{
+			id: "6BB37AF2450B69ED"
+			tasks: [{
+				id: "71B2D10EBA36AC19"
+				item: "cyclic:apple_prismarine"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -18.0d
+		}
+		{
+			id: "111AE13EA8EC04F5"
+			tasks: [{
+				id: "5C9AF3F6D79D8DF8"
+				item: "cyclic:apple_lapis"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -18.0d
+		}
+		{
+			id: "0F31548FDD0E4915"
+			tasks: [{
+				id: "106A5683D97B88B0"
+				item: "cyclic:apple_iron"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -19.0d
+		}
+		{
+			id: "1CF239C2FE6E16AA"
+			tasks: [{
+				id: "5AF304BB6537893F"
+				item: "cyclic:apple_emerald"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -19.0d
+		}
+		{
+			id: "31BBFD5F60B172EB"
+			tasks: [{
+				id: "6764E503113062B3"
+				item: "cyclic:chorus_flight"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -19.0d
+		}
+		{
+			id: "49CF05E1C03AC7CC"
+			tasks: [{
+				id: "1006566C1D005253"
+				item: "cyclic:chorus_spectral"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -18.0d
+		}
+		{
+			id: "48780BF0C66E2AC0"
+			size: 2.0d
+			tasks: [{
+				id: "1BCD3FC54ECAE9F1"
+				title: "下界乐事"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -17.0d
+		}
+		{
+			icon: "nethersdelight:stuffed_hoglin"
+			id: "710C92CABC90D05A"
+			subtitle: "理论产物最多的大餐"
+			tasks: [
+				{
+					id: "26F64B111B56B112"
+					item: "nethersdelight:stuffed_hoglin"
+					type: "item"
+				}
+				{
+					id: "55A0AF147B870C74"
+					item: "nethersdelight:raw_stuffed_hoglin"
+					type: "item"
+				}
+				{
+					id: "254CCD18D37363CB"
+					item: "nethersdelight:plate_of_stuffed_hoglin_snout"
+					type: "item"
+				}
+				{
+					id: "013FED9DC546E217"
+					item: "nethersdelight:plate_of_stuffed_hoglin_ham"
+					type: "item"
+				}
+				{
+					id: "004A97B5C8ED2449"
+					item: "nethersdelight:plate_of_stuffed_hoglin_roast"
+					type: "item"
+				}
+				{
+					id: "35E730983E69CB2E"
+					item: "nethersdelight:hoglin_ear"
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: -18.0d
+		}
+		{
+			id: "6E398D8DE1749C7D"
+			tasks: [
+				{
+					id: "2F413762FD331268"
+					item: "nethersdelight:hoglin_loin"
+					type: "item"
+				}
+				{
+					id: "55B94DB4755D3E30"
+					item: "nethersdelight:hoglin_sirloin"
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: -19.0d
+		}
+		{
+			id: "6C0074DF3079FAA7"
+			tasks: [
+				{
+					id: "45E36164634C8F81"
+					item: "nethersdelight:strider_slice"
+					type: "item"
+				}
+				{
+					id: "36085F903CC67A2C"
+					item: "nethersdelight:ground_strider"
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: -18.0d
+		}
+		{
+			id: "009B2C9E0E60F918"
+			tasks: [{
+				id: "2C51A0798F21D910"
+				item: "nethersdelight:warped_moldy_meat"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -18.0d
+		}
+		{
+			id: "7D5EF9A529E23D00"
+			tasks: [{
+				id: "765F8C54A375B523"
+				item: "nethersdelight:grilled_strider"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -18.0d
+		}
+		{
+			id: "4950C3603F836757"
+			subtitle: "小炽足兽炖蘑菇"
+			tasks: [{
+				id: "5E18EA21EE935D76"
+				item: "nethersdelight:strider_moss_stew"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -19.0d
+		}
+		{
+			id: "7596C8F3E4E006EB"
+			tasks: [{
+				id: "5CE54DFBE6BCEA54"
+				item: "nethersdelight:propelpearl"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -18.0d
+		}
+		{
+			id: "68D1A0187FB91DA1"
+			tasks: [{
+				id: "2A3F4E2055789862"
+				item: "nethersdelight:nether_skewer"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -19.0d
+		}
+		{
+			id: "241F5B9D8C0976D0"
+			subtitle: "熔岩一样的口感"
+			tasks: [{
+				id: "5DC114D24C9A89F9"
+				item: "nethersdelight:magma_gelatin"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -18.0d
+		}
+		{
+			id: "3930E0AE4A70EB43"
+			tasks: [{
+				id: "75E199EF36F0897E"
+				item: "tconstruct:earth_cake"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 19.5d
+		}
+		{
+			id: "5D7660CF3A5E20C4"
+			tasks: [{
+				id: "76A80056BEBF66CA"
+				item: "tconstruct:sky_cake"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 20.5d
+		}
+		{
+			id: "3C36E18AE6BACEE6"
+			tasks: [{
+				id: "45493AA8AEEB8204"
+				item: "tconstruct:ichor_cake"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 20.5d
+		}
+		{
+			id: "08AFFDC3B5C1E98C"
+			tasks: [{
+				id: "3737ADDE78462CF1"
+				item: "tconstruct:ender_cake"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 21.5d
+		}
+		{
+			id: "3280FC35EB7937BF"
+			tasks: [{
+				id: "573838D3BD80497B"
+				item: "tconstruct:blood_cake"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 21.5d
+		}
+		{
+			id: "7D8178E452865FB9"
+			tasks: [{
+				id: "6493D01976F3961F"
+				item: "tconstruct:magma_cake"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 19.5d
+		}
+		{
+			description: [
+				"绝大部分缺失原料的食品来自屠宰工艺，如有需要请自行安装"
+				"但是制作组不保证模组兼容性。"
+				"etsh大概不会让这玩意加入包里的，毕竟产肉效率太高了"
+			]
+			id: "2B6C35CC5E7ED186"
+			size: 2.0d
+			subtitle: "原料缺失的配方请参考百科联动模组自行添加或者等待下次整合包更新（不太可能）"
+			tasks: [{
+				id: "24E277E85CEEE65A"
+				type: "checkmark"
+			}]
+			title: "额外乐事"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "7C7BD8C67C1C9FE2"
+			tasks: [
+				{
+					id: "6984F0A1ACD3C118"
+					item: "extradelight:beef_stew_feast"
+					type: "item"
+				}
+				{
+					id: "0C71DD3E7057009E"
+					item: "extradelight:beef_stew_rice"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "683940AF57F1734E"
+			tasks: [
+				{
+					id: "67E73303B446E620"
+					item: "extradelight:pork_stew_feast"
+					type: "item"
+				}
+				{
+					id: "6AB17DF14C09FCB8"
+					item: "extradelight:pork_stew"
+					type: "item"
+				}
+				{
+					id: "6F94FF5A1809326E"
+					item: "extradelight:pork_stew_rice"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			id: "2C9810537A571CF4"
+			tasks: [
+				{
+					id: "2D858BEA337D8840"
+					item: "extradelight:lamb_stew_feast"
+					type: "item"
+				}
+				{
+					id: "45D7F81E7F20F102"
+					item: "extradelight:lamb_stew"
+					type: "item"
+				}
+				{
+					id: "5692087DF4467F8A"
+					item: "extradelight:lamb_stew_rice"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "11677FE16D932E61"
+			tasks: [
+				{
+					id: "1CDD369B15D83204"
+					item: "extradelight:rabbit_stew_feast"
+					type: "item"
+				}
+				{
+					id: "32ED01E74542D927"
+					item: "extradelight:rabbit_stew_rice"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			id: "1A0BFDB23F0EC7AA"
+			tasks: [
+				{
+					id: "0D54AA7F499EE7DA"
+					item: "extradelight:chicken_stew_feast"
+					type: "item"
+				}
+				{
+					id: "4D15A1BE027FA8A4"
+					item: "extradelight:chicken_stew"
+					type: "item"
+				}
+				{
+					id: "353B829EE5E2A319"
+					item: "extradelight:chicken_stew_rice"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			id: "74408AEECF2A38BA"
+			tasks: [
+				{
+					id: "0F04C6F3FDEF9F44"
+					item: "extradelight:fish_stew_feast"
+					type: "item"
+				}
+				{
+					id: "28DC1E301C13C7A1"
+					item: "extradelight:fish_stew_rice"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			id: "4DD2E15E29BFB129"
+			tasks: [
+				{
+					id: "37F71C7A00EE4D3E"
+					item: "extradelight:curry_feast"
+					type: "item"
+				}
+				{
+					id: "2BEBB8B9A7A1CD43"
+					item: "extradelight:curry"
+					type: "item"
+				}
+				{
+					id: "27C9E8F57C5C9C12"
+					item: "extradelight:curry_rice"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			id: "5B3CF3DC086D9142"
+			tasks: [{
+				id: "2DAAED09ACCBDEBA"
+				item: "farmersdelight:beef_stew"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -4.0d
+		}
+		{
+			id: "6FFB30AAB332A795"
+			subtitle: "山羊肉缺屠宰工艺……"
+			tasks: [
+				{
+					id: "568D38C2D31A64B9"
+					item: "extradelight:goat_stew_feast"
+					type: "item"
+				}
+				{
+					id: "7ACB6AA3988FC586"
+					item: "extradelight:goat_stew"
+					type: "item"
+				}
+				{
+					id: "210F574482D70A97"
+					item: "extradelight:goat_stew_rice"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			id: "63D27F78F858A97A"
+			tasks: [
+				{
+					id: "2B91783D5067AC74"
+					item: "extradelight:glow_berry_juice"
+					type: "item"
+				}
+				{
+					id: "423A1C2BD4E4484F"
+					item: "extradelight:sweet_berry_juice"
+					type: "item"
+				}
+				{
+					id: "741C8625CC573069"
+					item: "extradelight:cactus_juice"
+					type: "item"
+				}
+				{
+					id: "1F4D2607A2E86464"
+					item: "extradelight:corn_silk_tea"
+					type: "item"
+				}
+				{
+					id: "3B0146B9AE335C3E"
+					item: "extradelight:tomato_juice"
+					type: "item"
+				}
+				{
+					id: "1B44FF28D6373D9D"
+					item: "extradelight:mint_tea"
+					type: "item"
+				}
+				{
+					id: "3B90FBFF71B8949D"
+					item: "extradelight:ginger_tea"
+					type: "item"
+				}
+			]
+			title: "果汁与茶"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "7569FF1CFF09B78C"
+			tasks: [
+				{
+					id: "7BD3AF0C6CB3B4B7"
+					item: "extradelight:sweet_berry_custard"
+					type: "item"
+				}
+				{
+					id: "79C363DDDAFD2C0C"
+					item: "extradelight:chocolate_custard"
+					type: "item"
+				}
+				{
+					id: "3E0F05ED024226E0"
+					item: "extradelight:pumpkin_custard"
+					type: "item"
+				}
+				{
+					id: "4E0E2995CFED5913"
+					item: "extradelight:honey_custard"
+					type: "item"
+				}
+				{
+					id: "19947ECBA59711F2"
+					item: "extradelight:apple_custard"
+					type: "item"
+				}
+				{
+					id: "6A2652C5AEF5EB8C"
+					item: "extradelight:rice_pudding"
+					type: "item"
+				}
+				{
+					id: "701E8963D05EB12E"
+					item: "extradelight:caramel_custard"
+					type: "item"
+				}
+			]
+			title: "沙司与布丁"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			id: "4C7C11ED6B45E922"
+			tasks: [
+				{
+					id: "7F6A8C918316449A"
+					item: "extradelight:bbq_jar_item"
+					type: "item"
+				}
+				{
+					id: "339EF2DBE1B72BB2"
+					item: "extradelight:ketchup_jar_item"
+					type: "item"
+				}
+				{
+					id: "5363686CAB3989AD"
+					item: "extradelight:mayo_jar_item"
+					type: "item"
+				}
+				{
+					id: "0E263601A1233E07"
+					item: "extradelight:caramel_sauce"
+					type: "item"
+				}
+				{
+					id: "0E0DC984979EDBEE"
+					item: "extradelight:alfredo_sauce"
+					type: "item"
+				}
+			]
+			title: "酱"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "6C33E362C7C71D07"
+			tasks: [
+				{
+					id: "5764FCA845A07AEC"
+					item: "extradelight:sweet_berry_jam"
+					type: "item"
+				}
+				{
+					id: "165DE44817FA31ED"
+					item: "extradelight:glow_berry_jam"
+					type: "item"
+				}
+				{
+					id: "01C5D456A04A4D61"
+					item: "extradelight:carrot_jam"
+					type: "item"
+				}
+				{
+					id: "230C7518735CA8DE"
+					item: "extradelight:apple_jam"
+					type: "item"
+				}
+				{
+					id: "4A4B6D590D80DFA8"
+					item: "extradelight:mint_jelly"
+					type: "item"
+				}
+				{
+					id: "0F302A50B829D411"
+					item: "extradelight:golden_apple_jam"
+					type: "item"
+				}
+			]
+			title: "果酱"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			id: "467C6DA864F78272"
+			tasks: [
+				{
+					id: "1300721EC91074F1"
+					item: "extradelight:punch"
+					type: "item"
+				}
+				{
+					id: "2746145A3FE4817F"
+					item: "extradelight:ginger_beer"
+					type: "item"
+				}
+			]
+			title: "酒"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			id: "01A2A893454A4C16"
+			tasks: [
+				{
+					id: "1666E1ED9A38ED5F"
+					item: "extradelight:milkshake"
+					type: "item"
+				}
+				{
+					id: "13D9247345DF6603"
+					item: "extradelight:chocolate_milkshake"
+					type: "item"
+				}
+				{
+					id: "497F8B23F02A8B23"
+					item: "extradelight:glow_berry_milkshake"
+					type: "item"
+				}
+				{
+					id: "6376147E9919A73F"
+					item: "extradelight:sweet_berry_milkshake"
+					type: "item"
+				}
+				{
+					id: "253FC85EEF966B1A"
+					item: "extradelight:pumpkin_milkshake"
+					type: "item"
+				}
+				{
+					id: "2F64504D5762C18A"
+					item: "extradelight:honey_milkshake"
+					type: "item"
+				}
+				{
+					id: "390733F91897A3EF"
+					item: "extradelight:apple_milkshake"
+					type: "item"
+				}
+				{
+					id: "3EC25A72B0002489"
+					item: "extradelight:cookie_dough_milkshake"
+					type: "item"
+				}
+				{
+					id: "6CB6C1483437574C"
+					item: "extradelight:mint_chip_milkshake"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			id: "5B6543EBEFCA1804"
+			tasks: [{
+				id: "33240FF02E2D0BEF"
+				item: "extradelight:horchata"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "7AC11ACC1045D7C4"
+			tasks: [{
+				id: "5C9917D1D369DEDC"
+				item: "extradelight:chocolate_milk"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "5FF67B867418CCFC"
+			tasks: [
+				{
+					id: "53559135FBECE004"
+					item: "extradelight:jelly_brown_block_item"
+					type: "item"
+				}
+				{
+					id: "555309DDBE5A0E72"
+					item: "extradelight:jelly_blue_block_item"
+					type: "item"
+				}
+				{
+					id: "4FC58E248FFB2397"
+					item: "extradelight:jelly_purple_block_item"
+					type: "item"
+				}
+				{
+					id: "47694A2B59F575A6"
+					item: "extradelight:jelly_cyan_block_item"
+					type: "item"
+				}
+				{
+					id: "5629F29622515C67"
+					item: "extradelight:jelly_light_grey_block_item"
+					type: "item"
+				}
+				{
+					id: "0E469BD0F770485E"
+					item: "extradelight:jelly_white_block_item"
+					type: "item"
+				}
+				{
+					id: "5B4E999694E62979"
+					item: "extradelight:jelly_orange_block_item"
+					type: "item"
+				}
+				{
+					id: "496FC334E98CF4F1"
+					item: "extradelight:jelly_magenta_block_item"
+					type: "item"
+				}
+				{
+					id: "09B8208582A4BF28"
+					item: "extradelight:jelly_light_blue_block_item"
+					type: "item"
+				}
+				{
+					id: "2328489BB87CBF9F"
+					item: "extradelight:jelly_yellow_block_item"
+					type: "item"
+				}
+				{
+					id: "363CE8461FE95CBA"
+					item: "extradelight:jelly_lime_block_item"
+					type: "item"
+				}
+				{
+					id: "26959EBAC265F372"
+					item: "extradelight:jelly_pink_block_item"
+					type: "item"
+				}
+				{
+					id: "52BFD6866AAD6FCE"
+					item: "extradelight:jelly_grey_block_item"
+					type: "item"
+				}
+				{
+					id: "216C0435972ACA42"
+					item: "extradelight:jelly_green_block_item"
+					type: "item"
+				}
+				{
+					id: "3F7973711655C933"
+					item: "extradelight:jelly_red_block_item"
+					type: "item"
+				}
+				{
+					id: "169C87952FF6A9FA"
+					item: "extradelight:jelly_black_block_item"
+					type: "item"
+				}
+			]
+			title: "果冻"
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			id: "0EB0835A5B117FA5"
+			tasks: [
+				{
+					id: "3A08FD615CABDA8B"
+					item: "extradelight:jelly_white"
+					type: "item"
+				}
+				{
+					id: "40FBA07131C7F888"
+					item: "extradelight:jelly_orange"
+					type: "item"
+				}
+				{
+					id: "5007F4CF8D4A5866"
+					item: "extradelight:jelly_magenta"
+					type: "item"
+				}
+				{
+					id: "7FB046F0378B6344"
+					item: "extradelight:jelly_light_blue"
+					type: "item"
+				}
+				{
+					id: "5CD0C42710389CB8"
+					item: "extradelight:jelly_yellow"
+					type: "item"
+				}
+				{
+					id: "149C0B08D07FFD9F"
+					item: "extradelight:jelly_lime"
+					type: "item"
+				}
+				{
+					id: "6DAAF63F82722F2A"
+					item: "extradelight:jelly_pink"
+					type: "item"
+				}
+				{
+					id: "44956872EC4123B2"
+					item: "extradelight:jelly_grey"
+					type: "item"
+				}
+				{
+					id: "07E54B34349D0B09"
+					item: "extradelight:jelly_light_grey"
+					type: "item"
+				}
+				{
+					id: "201C0179A6EA150A"
+					item: "extradelight:jelly_cyan"
+					type: "item"
+				}
+				{
+					id: "2580354514BFE5D9"
+					item: "extradelight:jelly_purple"
+					type: "item"
+				}
+				{
+					id: "48E0210006604355"
+					item: "extradelight:jelly_blue"
+					type: "item"
+				}
+				{
+					id: "33A9BCE499309D55"
+					item: "extradelight:jelly_brown"
+					type: "item"
+				}
+				{
+					id: "00536460489B9895"
+					item: "extradelight:jelly_green"
+					type: "item"
+				}
+				{
+					id: "7048215DC7521279"
+					item: "extradelight:jelly_red"
+					type: "item"
+				}
+				{
+					id: "2D8662E9B5BFF484"
+					item: "extradelight:jelly_black"
+					type: "item"
+				}
+			]
+			title: "碗装果冻"
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			id: "784319215A8E4D16"
+			subtitle: "MC笑传之吃吃冰"
+			tasks: [
+				{
+					id: "71060022B1130AB7"
+					item: "extradelight:ice_cream"
+					type: "item"
+				}
+				{
+					id: "75EA5ED8DEACC253"
+					item: "extradelight:chocolate_ice_cream"
+					type: "item"
+				}
+				{
+					id: "5AF2E6E6C01E127A"
+					item: "extradelight:mint_chip_ice_cream"
+					type: "item"
+				}
+				{
+					id: "08A5186AC6BD82FF"
+					item: "extradelight:cookie_dough_ice_cream"
+					type: "item"
+				}
+				{
+					id: "76E54D48936FD37E"
+					item: "extradelight:apple_ice_cream"
+					type: "item"
+				}
+				{
+					id: "39E21DA74F7CC0E8"
+					item: "extradelight:honey_ice_cream"
+					type: "item"
+				}
+				{
+					id: "767465D2403CAEBF"
+					item: "extradelight:pumpkin_ice_cream"
+					type: "item"
+				}
+				{
+					id: "73885D12DC7492E8"
+					item: "extradelight:sweet_berry_ice_cream"
+					type: "item"
+				}
+				{
+					id: "7D87B757F241BEC3"
+					item: "extradelight:glow_berry_ice_cream"
+					type: "item"
+				}
+			]
+			title: "冰淇淋"
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			id: "7A9129853ADD2BFD"
+			tasks: [
+				{
+					id: "3602DAECC8FEC830"
+					item: "extradelight:gingerbread_cookie"
+					type: "item"
+				}
+				{
+					id: "1A0E63B16BFCE7D8"
+					item: "extradelight:pumpkin_cookie"
+					type: "item"
+				}
+				{
+					id: "4D37BFF1E17637EE"
+					item: "extradelight:sugar_cookie"
+					type: "item"
+				}
+				{
+					id: "36C0D3269C0661D7"
+					item: "extradelight:glow_berry_cookie"
+					type: "item"
+				}
+				{
+					id: "14AB4D78E396EE78"
+					item: "extradelight:apple_cookie"
+					type: "item"
+				}
+			]
+			title: "曲奇"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			id: "3750CEDEC9974149"
+			subtitle: "牢大的小布丁"
+			tasks: [
+				{
+					id: "03B2EECBD7404545"
+					item: "extradelight:glow_berry_popsicle"
+					type: "item"
+				}
+				{
+					id: "22ABA70CC39E9139"
+					item: "extradelight:apple_popsicle"
+					type: "item"
+				}
+				{
+					id: "050FA350101652A4"
+					item: "extradelight:fudge_popsicle"
+					type: "item"
+				}
+				{
+					id: "1CE6AC7D01C6F698"
+					item: "extradelight:sweet_berry_popsicle"
+					type: "item"
+				}
+				{
+					id: "4CB71B4E388E8518"
+					item: "extradelight:caramel_popsicle"
+					type: "item"
+				}
+				{
+					id: "5A0938D6CCF72A81"
+					item: "extradelight:cinnamon_popsicle"
+					type: "item"
+				}
+				{
+					id: "31E20F47BFB92E9C"
+					item: "extradelight:honey_popsicle"
+					type: "item"
+				}
+			]
+			title: "冰棍"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			id: "50C938FF502541C4"
+			tasks: [{
+				id: "0344D86B8AA07047"
+				item: "culturaldelights:chicken_taco"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 2.0d
+		}
+		{
+			id: "70BE5CC57D9A4E9D"
+			tasks: [{
+				id: "41995A57A52F2578"
+				item: "culturaldelights:spicy_curry"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -3.0d
+		}
+		{
+			id: "325EC2B84BCDC1A1"
+			tasks: [{
+				id: "2C70351D340CE4E4"
+				item: "culturaldelights:pork_wrap"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 3.0d
+		}
+		{
+			id: "4CF15D00C02D5B5A"
+			tasks: [{
+				id: "71A318A49D3F1625"
+				item: "culturaldelights:fish_taco"
+				type: "item"
+			}]
+			x: -29.5d
+			y: 2.5d
+		}
+		{
+			id: "1CBC73433AE54CAD"
+			tasks: [{
+				id: "679FA3C83C652AA8"
+				item: "farmersdelight:melon_popsicle"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 3.0d
+		}
+		{
+			id: "714D1C404EEF680E"
+			tasks: [{
+				id: "7AC8383C608E066E"
+				item: "culturaldelights:midori_roll"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -1.0d
+		}
+		{
+			id: "316AC3B268F0BA4F"
+			tasks: [{
+				id: "1103640E60BBB581"
+				item: "culturaldelights:midori_roll_slice"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 0.0d
+		}
+		{
+			id: "5AD54AED22F8D919"
+			tasks: [{
+				id: "682D6C64BA5A6AD3"
+				item: "culturaldelights:egg_roll"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 0.0d
+		}
+		{
+			id: "7324100835658EEC"
+			tasks: [{
+				id: "57A3428E31D5D290"
+				item: "culturaldelights:chicken_roll"
+				type: "item"
+			}]
+			x: -26.5d
+			y: 0.0d
+		}
+		{
+			id: "5C7610FABB1817BB"
+			tasks: [{
+				id: "7DCCE31C46D17FE5"
+				item: "culturaldelights:chicken_roll_slice"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -1.0d
+		}
+		{
+			id: "0A9BCED5524C4153"
+			tasks: [{
+				id: "16F997DB8EF45D0B"
+				item: "culturaldelights:rice_ball"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 0.0d
+		}
+		{
+			id: "7D24655D81C24377"
+			tasks: [{
+				id: "5D49E38BB1B3B3BA"
+				item: "culturaldelights:pufferfish_roll"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -1.0d
+		}
+		{
+			id: "341C965B6CE5A3CE"
+			tasks: [{
+				id: "7CA55BE5B9559004"
+				item: "culturaldelights:tropical_roll"
+				type: "item"
+			}]
+			x: -28.5d
+			y: -1.0d
+		}
+		{
+			id: "619CC50FD2E9E51E"
+			tasks: [{
+				id: "10714236C4C7A1AE"
+				item: "culturaldelights:calamari_roll"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -0.5d
+		}
+		{
+			id: "68E8B398B213421B"
+			tasks: [
+				{
+					id: "03402AF27011F465"
+					item: "extradelight:sugar_cookie_dough"
+					type: "item"
+				}
+				{
+					id: "2BF6A1F27A090DC6"
+					item: "extradelight:gingerbread_cookie_dough"
+					type: "item"
+				}
+				{
+					id: "2C0F790AE392ED0E"
+					item: "extradelight:pumpkin_cookie_dough"
+					type: "item"
+				}
+				{
+					id: "3B082A6AB3223812"
+					item: "extradelight:glow_berry_cookie_dough"
+					type: "item"
+				}
+				{
+					id: "1F0E72976DEB8A79"
+					item: "extradelight:apple_cookie_dough"
+					type: "item"
+				}
+				{
+					id: "416AD125CEA1ACBA"
+					item: "extradelight:sweet_berry_cookie_dough"
+					type: "item"
+				}
+				{
+					id: "1D477BB8D571F114"
+					item: "extradelight:honey_cookie_dough"
+					type: "item"
+				}
+				{
+					id: "0DC00A18244DF8A5"
+					item: "extradelight:chocolate_chip_cookie_dough"
+					type: "item"
+				}
+			]
+			title: "曲奇粉"
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			id: "7EAC67653108CFEB"
+			tasks: [
+				{
+					id: "3B5196BE66C9C92C"
+					item: "extradelight:gingerbread_steve"
+					type: "item"
+				}
+				{
+					id: "0635469340F22354"
+					item: "extradelight:gingerbread_alex"
+					type: "item"
+				}
+				{
+					id: "4555D4E2E555EF33"
+					item: "extradelight:gingerbread_villager"
+					type: "item"
+				}
+				{
+					id: "3CCEB55A2D1A65EF"
+					item: "extradelight:gingerbread_creeper"
+					type: "item"
+				}
+				{
+					id: "07C8043DF8098FFC"
+					item: "extradelight:gingerbread_sword"
+					type: "item"
+				}
+				{
+					id: "1215FA9ADBFF64AD"
+					item: "extradelight:gingerbread_pickaxe"
+					type: "item"
+				}
+				{
+					id: "3EE259789199CAFC"
+					item: "extradelight:gingerbread_diamond"
+					type: "item"
+				}
+				{
+					id: "15F77AF557E72660"
+					item: "extradelight:gingerbread_emerald"
+					type: "item"
+				}
+			]
+			title: "姜饼制品"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			id: "2C5B1FFDA4967D9A"
+			tasks: [
+				{
+					id: "606C79633AD59E5C"
+					item: "extradelight:sugar_cookie_steve"
+					type: "item"
+				}
+				{
+					id: "2400F2AF3066DE2E"
+					item: "extradelight:sugar_cookie_alex"
+					type: "item"
+				}
+				{
+					id: "5646520162F7A6CC"
+					item: "extradelight:sugar_cookie_villager"
+					type: "item"
+				}
+				{
+					id: "57965FD966181D69"
+					item: "extradelight:sugar_cookie_creeper"
+					type: "item"
+				}
+				{
+					id: "6828D4DF7F28D956"
+					item: "extradelight:sugar_cookie_sword"
+					type: "item"
+				}
+				{
+					id: "44DB717EA3A15C0A"
+					item: "extradelight:sugar_cookie_pickaxe"
+					type: "item"
+				}
+				{
+					id: "42A849AD2CBE9775"
+					item: "extradelight:sugar_cookie_diamond"
+					type: "item"
+				}
+				{
+					id: "12B888D95AFFCBD6"
+					item: "extradelight:sugar_cookie_emerald"
+					type: "item"
+				}
+			]
+			title: "白糖曲奇制品"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "442381AA711B0354"
+			tasks: [
+				{
+					id: "7DA7C006B21A8424"
+					item: "extradelight:raw_gingerbread_steve"
+					type: "item"
+				}
+				{
+					id: "4DC62478FB10BC95"
+					item: "extradelight:raw_gingerbread_alex"
+					type: "item"
+				}
+				{
+					id: "1E3E611C3C1107B5"
+					item: "extradelight:raw_gingerbread_villager"
+					type: "item"
+				}
+				{
+					id: "1250012E0ED78F9C"
+					item: "extradelight:raw_gingerbread_creeper"
+					type: "item"
+				}
+				{
+					id: "39FC6208D3FE58E3"
+					item: "extradelight:raw_gingerbread_sword"
+					type: "item"
+				}
+				{
+					id: "1E1A617CBD82402C"
+					item: "extradelight:raw_gingerbread_pickaxe"
+					type: "item"
+				}
+				{
+					id: "38069EDE444BB3C4"
+					item: "extradelight:raw_gingerbread_diamond"
+					type: "item"
+				}
+				{
+					id: "68184817EA4D2251"
+					item: "extradelight:raw_gingerbread_emerald"
+					type: "item"
+				}
+			]
+			title: "生姜饼制品"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			id: "7104856991D1A602"
+			tasks: [
+				{
+					id: "4C42B008005BD7D3"
+					item: "extradelight:raw_sugar_cookie_steve"
+					type: "item"
+				}
+				{
+					id: "475AC936ACC81C56"
+					item: "extradelight:raw_sugar_cookie_alex"
+					type: "item"
+				}
+				{
+					id: "60F5A2B5F9BA5712"
+					item: "extradelight:raw_sugar_cookie_villager"
+					type: "item"
+				}
+				{
+					id: "785328851DB079E8"
+					item: "extradelight:raw_sugar_cookie_creeper"
+					type: "item"
+				}
+				{
+					id: "4B7CB15C4B1BF406"
+					item: "extradelight:raw_sugar_cookie_sword"
+					type: "item"
+				}
+				{
+					id: "53DE467A307943B8"
+					item: "extradelight:raw_sugar_cookie_pickaxe"
+					type: "item"
+				}
+				{
+					id: "7A68AD9AAC0C1DF6"
+					item: "extradelight:raw_sugar_cookie_diamond"
+					type: "item"
+				}
+				{
+					id: "6A5B5D16B2C9E407"
+					item: "extradelight:raw_sugar_cookie_emerald"
+					type: "item"
+				}
+			]
+			title: "生白糖曲奇制品"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "4B06326A0DCD6644"
+			tasks: [
+				{
+					id: "61872A969AAC969B"
+					item: "extradelight:frosting_white"
+					type: "item"
+				}
+				{
+					id: "6062B8679D050D9D"
+					item: "extradelight:frosting_light_gray"
+					type: "item"
+				}
+				{
+					id: "376F7E9D3824C601"
+					item: "extradelight:frosting_gray"
+					type: "item"
+				}
+				{
+					id: "50B7B45751C26546"
+					item: "extradelight:frosting_black"
+					type: "item"
+				}
+				{
+					id: "73362A6746A75495"
+					item: "extradelight:frosting_brown"
+					type: "item"
+				}
+				{
+					id: "7E46E84DAA9613D1"
+					item: "extradelight:frosting_red"
+					type: "item"
+				}
+				{
+					id: "0813F7070037AD99"
+					item: "extradelight:frosting_orange"
+					type: "item"
+				}
+				{
+					id: "500D5108E165636F"
+					item: "extradelight:frosting_yellow"
+					type: "item"
+				}
+				{
+					id: "20D7D642E7D5EFE8"
+					item: "extradelight:frosting_lime"
+					type: "item"
+				}
+				{
+					id: "5878455BA2386C63"
+					item: "extradelight:frosting_green"
+					type: "item"
+				}
+				{
+					id: "0E7631C1B3D651D2"
+					item: "extradelight:frosting_cyan"
+					type: "item"
+				}
+				{
+					id: "50B9CB381B709160"
+					item: "extradelight:frosting_light_blue"
+					type: "item"
+				}
+				{
+					id: "37CD2359AF273CF1"
+					item: "extradelight:frosting_blue"
+					type: "item"
+				}
+				{
+					id: "59ED6450164AF86D"
+					item: "extradelight:frosting_purple"
+					type: "item"
+				}
+				{
+					id: "2C1F14BC83D84071"
+					item: "extradelight:frosting_magenta"
+					type: "item"
+				}
+				{
+					id: "5585E01FEF03CD8F"
+					item: "extradelight:frosting_pink"
+					type: "item"
+				}
+				{
+					id: "6D87CBA4140A67E9"
+					item: "extradelight:frosting_pink"
+					type: "item"
+				}
+			]
+			title: "糖霜"
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			id: "64D5A77135F7A553"
+			tasks: [
+				{
+					id: "177C370595015662"
+					item: "extradelight:candy_white"
+					type: "item"
+				}
+				{
+					id: "732E6323BD947AAB"
+					item: "extradelight:candy_light_gray"
+					type: "item"
+				}
+				{
+					id: "11670BBD2CA7A130"
+					item: "extradelight:candy_gray"
+					type: "item"
+				}
+				{
+					id: "58D89ADAFDB9CCF7"
+					item: "extradelight:candy_black"
+					type: "item"
+				}
+				{
+					id: "2B588EA9833572CF"
+					item: "extradelight:candy_brown"
+					type: "item"
+				}
+				{
+					id: "36221397FD697A32"
+					item: "extradelight:candy_red"
+					type: "item"
+				}
+				{
+					id: "1588362D66B73BF4"
+					item: "extradelight:candy_orange"
+					type: "item"
+				}
+				{
+					id: "4BE58D3BE0D5F315"
+					item: "extradelight:candy_yellow"
+					type: "item"
+				}
+				{
+					id: "7F43477FA568E152"
+					item: "extradelight:candy_lime"
+					type: "item"
+				}
+				{
+					id: "69399CF9A979D874"
+					item: "extradelight:candy_green"
+					type: "item"
+				}
+				{
+					id: "07EB4FD074063227"
+					item: "extradelight:candy_cyan"
+					type: "item"
+				}
+				{
+					id: "52B4DF7B88C0A543"
+					item: "extradelight:candy_light_blue"
+					type: "item"
+				}
+				{
+					id: "3CE2AFF4AB3A43AA"
+					item: "extradelight:candy_blue"
+					type: "item"
+				}
+				{
+					id: "6073ABA594F144B4"
+					item: "extradelight:candy_purple"
+					type: "item"
+				}
+				{
+					id: "6E51FF40BD096C29"
+					item: "extradelight:mint_candy_red"
+					type: "item"
+				}
+				{
+					id: "6C74FC555D36754F"
+					item: "extradelight:mint_candy_green"
+					type: "item"
+				}
+				{
+					id: "46D24B3F794F3B06"
+					item: "extradelight:mint_candy_blue"
+					type: "item"
+				}
+				{
+					id: "28778FBA77BF1958"
+					item: "extradelight:candy_cane_red"
+					type: "item"
+				}
+				{
+					id: "677F166F93758499"
+					item: "extradelight:candy_cane_green"
+					type: "item"
+				}
+				{
+					id: "6121B29B5C738405"
+					item: "extradelight:candy_cane_blue"
+					type: "item"
+				}
+				{
+					id: "53FEF478B608CA5F"
+					item: "extradelight:candied_ginger"
+					type: "item"
+				}
+				{
+					id: "69677F9C6BB11A2A"
+					item: "extradelight:caramel_candy"
+					type: "item"
+				}
+				{
+					id: "7A79B3EFD90A7560"
+					item: "extradelight:candy_apple"
+					type: "item"
+				}
+				{
+					id: "3BB69101A29BB35C"
+					item: "extradelight:caramel_apple"
+					type: "item"
+				}
+				{
+					id: "4072AF4342EDECBC"
+					item: "extradelight:candy_golden_apple"
+					type: "item"
+				}
+				{
+					id: "2BCC7F1E5B0F7CCE"
+					item: "extradelight:caramel_golden_apple"
+					type: "item"
+				}
+			]
+			title: "糖"
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			id: "15FCA743EC3AD469"
+			tasks: [
+				{
+					id: "209DA160F4558403"
+					item: "extradelight:sweet_berry_pie"
+					type: "item"
+				}
+				{
+					id: "06192B3AFD38FF68"
+					item: "extradelight:glow_berry_pie"
+					type: "item"
+				}
+				{
+					id: "0299FC3202CF8819"
+					item: "extradelight:cheesecake"
+					type: "item"
+				}
+				{
+					id: "0A219A7B4CEEF9FD"
+					item: "extradelight:honey_cheesecake"
+					type: "item"
+				}
+				{
+					id: "06337B8502626164"
+					item: "extradelight:chocolate_cheesecake"
+					type: "item"
+				}
+				{
+					id: "404F6AD6BCA8CAD2"
+					item: "extradelight:pumpkin_cheesecake"
+					type: "item"
+				}
+				{
+					id: "3978CCC68AEBDC01"
+					item: "extradelight:glow_berry_cheesecake"
+					type: "item"
+				}
+				{
+					id: "3FEB09FD08B8EB31"
+					item: "extradelight:apple_cheesecake"
+					type: "item"
+				}
+				{
+					id: "3ED6225C5CC11506"
+					item: "extradelight:caramel_cheesecake_item"
+					type: "item"
+				}
+				{
+					id: "1FEA5739E84B674F"
+					item: "extradelight:sweet_berry_pie_slice"
+					type: "item"
+				}
+				{
+					id: "1B1F341CE8A1044E"
+					item: "extradelight:glow_berry_pie_slice"
+					type: "item"
+				}
+				{
+					id: "0D23B4EA44EC21D2"
+					item: "extradelight:cheesecake_slice"
+					type: "item"
+				}
+				{
+					id: "1D847A761802F00F"
+					item: "extradelight:honey_cheesecake_slice"
+					type: "item"
+				}
+				{
+					id: "36E984E48673221E"
+					item: "extradelight:chocolate_cheesecake_slice"
+					type: "item"
+				}
+				{
+					id: "1D59BEC8BBE19EE1"
+					item: "extradelight:pumpkin_cheesecake_slice"
+					type: "item"
+				}
+				{
+					id: "0341BB8A5C16374E"
+					item: "extradelight:glow_berry_cheesecake_slice"
+					type: "item"
+				}
+				{
+					id: "5FC72E88C9265C55"
+					item: "extradelight:apple_cheesecake_slice"
+					type: "item"
+				}
+				{
+					id: "1239B4438F7F6A6D"
+					item: "extradelight:caramel_cheescake_slice"
+					type: "item"
+				}
+				{
+					id: "2F35396CE9274C8B"
+					item: "extradelight:pumpkin_pie_item"
+					type: "item"
+				}
+				{
+					id: "0CED49506533C170"
+					item: "extradelight:pumpkin_pie_slice"
+					type: "item"
+				}
+			]
+			title: "派与切片"
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			id: "0B10A8A8ED5AD709"
+			tasks: [
+				{
+					id: "5315128A499F2308"
+					item: "extradelight:hotdish_feast"
+					type: "item"
+				}
+				{
+					id: "025C4B045B60CC72"
+					item: "extradelight:salad_block_item"
+					type: "item"
+				}
+				{
+					id: "7887EB419C055FD5"
+					item: "extradelight:cornbread_feast"
+					type: "item"
+				}
+				{
+					id: "03ED26EF321AF3EA"
+					item: "extradelight:corn_pudding_feast"
+					type: "item"
+				}
+				{
+					id: "79F35F946C196A92"
+					item: "extradelight:salisbury_steak_block_item"
+					type: "item"
+				}
+				{
+					id: "5F9BFE5325D4FDDC"
+					item: "extradelight:mashed_potato_gravy_block_item"
+					type: "item"
+				}
+				{
+					id: "3D8013854A706701"
+					item: "extradelight:meatloaf_feast"
+					type: "item"
+				}
+				{
+					id: "6076D4C799C8A80A"
+					item: "extradelight:hash_block_item"
+					type: "item"
+				}
+				{
+					id: "2330001DE8C0C469"
+					item: "extradelight:pot_roast_block_item"
+					type: "item"
+				}
+				{
+					id: "00C72C8489598706"
+					item: "extradelight:bbq_ribs_block_item"
+					type: "item"
+				}
+				{
+					id: "5EB9DF27EC6FEE19"
+					item: "extradelight:meat_pie_block_item"
+					type: "item"
+				}
+				{
+					id: "5ACABC55C68AEA80"
+					item: "extradelight:pulled_pork_block_item"
+					type: "item"
+				}
+				{
+					id: "1A9B0DABD8F80E30"
+					item: "extradelight:rack_lamb_block_item"
+					type: "item"
+				}
+				{
+					id: "1BD0095B709C3A50"
+					item: "extradelight:stirfry_block_item"
+					type: "item"
+				}
+				{
+					id: "400AD617F62B6366"
+					item: "extradelight:beef_wellington_block_item"
+					type: "item"
+				}
+				{
+					id: "69869F7992FD67BD"
+					item: "extradelight:haggis_block_item"
+					type: "item"
+				}
+				{
+					id: "5E293FA25D93C3A2"
+					item: "extradelight:macaroni_cheese_feast"
+					type: "item"
+				}
+				{
+					id: "59146BD1B61752A6"
+					item: "extradelight:lasanga_feast"
+					type: "item"
+				}
+				{
+					id: "13B55C89ED7DD172"
+					item: "extradelight:pumpkin_roll_feast"
+					type: "item"
+				}
+				{
+					id: "6BFC83DEF79897B4"
+					item: "extradelight:apple_crisp_feast"
+					type: "item"
+				}
+				{
+					id: "1C8F58499C606E28"
+					item: "extradelight:stuffing_feast"
+					type: "item"
+				}
+				{
+					id: "692A28891DB2B2A8"
+					item: "extradelight:potato_au_gratin_feast"
+					type: "item"
+				}
+				{
+					id: "1CC9C1A2C61550FA"
+					item: "extradelight:cinnamon_rolls_feast"
+					type: "item"
+				}
+				{
+					id: "1E43DF2CF0B803DD"
+					item: "extradelight:monkey_bread_feast"
+					type: "item"
+				}
+				{
+					id: "46AF954249D9E83A"
+					item: "extradelight:mint_lamb_feast"
+					type: "item"
+				}
+				{
+					id: "2ED04699F45EBBF1"
+					item: "extradelight:coffe_cake_feast"
+					type: "item"
+				}
+				{
+					id: "17073227A7B050B2"
+					item: "extradelight:charcuterie_board_feast"
+					type: "item"
+				}
+				{
+					id: "292F0B7DB99030B3"
+					item: "extradelight:christmas_pudding_feast"
+					type: "item"
+				}
+				{
+					id: "1A20E2BC4740A10B"
+					item: "extradelight:milk_tart_feast"
+					type: "item"
+				}
+				{
+					id: "16B6F1DEFF653861"
+					item: "extradelight:bbq_shredded_chicken_feast"
+					type: "item"
+				}
+				{
+					id: "073BAFFC66D50E48"
+					item: "extradelight:mac_cheese_hot_dog_feast"
+					type: "item"
+				}
+				{
+					id: "05D580F410B4E7B6"
+					item: "extradelight:quiche"
+					type: "item"
+				}
+			]
+			title: "装制品"
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			id: "3F0541BCEC75B7C9"
+			tasks: [
+				{
+					id: "341C5F43153F7393"
+					item: "extradelight:lasanga"
+					type: "item"
+				}
+				{
+					id: "03DDD9E2F6F3EB9C"
+					item: "extradelight:hotdish"
+					type: "item"
+				}
+				{
+					id: "291F865DDD368702"
+					item: "extradelight:salad"
+					type: "item"
+				}
+				{
+					id: "27BE1558A5C00644"
+					item: "extradelight:corn_pudding"
+					type: "item"
+				}
+				{
+					id: "7B57AB0A3EFCFE81"
+					item: "extradelight:cornbread"
+					type: "item"
+				}
+				{
+					id: "6AF913F778C17E04"
+					item: "extradelight:salisbury_steak"
+					type: "item"
+				}
+				{
+					id: "0F4B42C0DAD8F9DD"
+					item: "extradelight:mashed_potato_gravy"
+					type: "item"
+				}
+				{
+					id: "1D9E6D1D8580D27C"
+					item: "extradelight:hash"
+					type: "item"
+				}
+				{
+					id: "64C7AFFF6571975E"
+					item: "extradelight:potroast"
+					type: "item"
+				}
+				{
+					id: "266F9960DEB40629"
+					item: "extradelight:meatloaf"
+					type: "item"
+				}
+				{
+					id: "77BB4CDEF8582AD0"
+					item: "extradelight:bbq_ribs"
+					type: "item"
+				}
+				{
+					id: "373FF8A926273203"
+					item: "extradelight:meat_pie_slice"
+					type: "item"
+				}
+				{
+					id: "7E6C743F05C79857"
+					item: "extradelight:pulled_pork_sandwich"
+					type: "item"
+				}
+				{
+					id: "09962D16227C9837"
+					item: "extradelight:rack_lamb"
+					type: "item"
+				}
+				{
+					id: "0D210EE9A520FFF5"
+					item: "extradelight:stirfry"
+					type: "item"
+				}
+				{
+					id: "72BCEBEB1A7A29C3"
+					item: "extradelight:beef_wellington"
+					type: "item"
+				}
+				{
+					id: "0686EE911968E2DB"
+					item: "extradelight:haggis"
+					type: "item"
+				}
+				{
+					id: "0F9EB9AD5342E268"
+					item: "extradelight:macaroni_cheese"
+					type: "item"
+				}
+				{
+					id: "0D1E87BAFEC6D123"
+					item: "extradelight:pumpkin_roll"
+					type: "item"
+				}
+				{
+					id: "32860BF114E62367"
+					item: "extradelight:apple_crisp"
+					type: "item"
+				}
+				{
+					id: "770FFCEA4DA4418E"
+					item: "extradelight:stuffing"
+					type: "item"
+				}
+				{
+					id: "6E907E3E88CB8871"
+					item: "extradelight:potato_au_gratin"
+					type: "item"
+				}
+				{
+					id: "5594448DCD9D9F69"
+					item: "extradelight:cinnamon_rolls"
+					type: "item"
+				}
+				{
+					id: "0A675302EFE4F423"
+					item: "extradelight:monkey_bread"
+					type: "item"
+				}
+				{
+					id: "701785A8336384CC"
+					item: "extradelight:coffee_cake_slice"
+					type: "item"
+				}
+				{
+					id: "585CDD1D72E25048"
+					item: "extradelight:mint_lamb"
+					type: "item"
+				}
+				{
+					id: "730DA7917E83820B"
+					item: "extradelight:charcuterie_board"
+					type: "item"
+				}
+				{
+					id: "0267B6364B189370"
+					item: "extradelight:christmas_pudding"
+					type: "item"
+				}
+				{
+					id: "01A541A735508BE5"
+					item: "extradelight:milk_tart_slice"
+					type: "item"
+				}
+				{
+					id: "7AD67B03C0DE01E0"
+					item: "extradelight:bbq_shredded_chicken"
+					type: "item"
+				}
+				{
+					id: "37FAD113545D216D"
+					item: "extradelight:bbq_shredded_chicken_sandwich"
+					type: "item"
+				}
+				{
+					id: "22CC87CBE1B509C8"
+					item: "extradelight:mac_cheese_hot_dog"
+					type: "item"
+				}
+				{
+					id: "1AD086D87A33D145"
+					item: "extradelight:quiche_slice"
+					type: "item"
+				}
+			]
+			title: "装制品成品"
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			id: "3FD9EEBDE43C53D3"
+			tasks: [
+				{
+					id: "1F1A8AF6763347A5"
+					item: "extradelight:bread_slice"
+					type: "item"
+				}
+				{
+					id: "2886026F20A4D85A"
+					item: "extradelight:toast"
+					type: "item"
+				}
+				{
+					id: "3CC080000B591853"
+					item: "extradelight:empty_sandwich"
+					type: "item"
+				}
+				{
+					id: "11A9A72178417285"
+					item: "extradelight:egg_in_the_basket"
+					type: "item"
+				}
+				{
+					id: "2D8C9D46B8C8C476"
+					item: "extradelight:jam_toast"
+					type: "item"
+				}
+				{
+					id: "484E8271399B3538"
+					item: "extradelight:glow_jam_toast"
+					type: "item"
+				}
+				{
+					id: "38B0E3C72F323A94"
+					item: "extradelight:golden_jam_toast"
+					type: "item"
+				}
+				{
+					id: "0E8C3394F3ED4CF7"
+					item: "extradelight:egg_salad_sandwich"
+					type: "item"
+				}
+				{
+					id: "0F5E59A55E821D6C"
+					item: "extradelight:cheese_sandwich"
+					type: "item"
+				}
+				{
+					id: "0D9C8FCE36F9751C"
+					item: "extradelight:grilled_cheese"
+					type: "item"
+				}
+				{
+					id: "38312703DAC059A0"
+					item: "extradelight:meatloaf_sandwich"
+					type: "item"
+				}
+				{
+					id: "494E137DF6D3958A"
+					item: "extradelight:buttered_toast"
+					type: "item"
+				}
+				{
+					id: "768C83209155584C"
+					item: "extradelight:fish_salad_sandwich"
+					type: "item"
+				}
+				{
+					id: "1D3756B1C48B6A32"
+					item: "extradelight:french_toast"
+					type: "item"
+				}
+				{
+					id: "5089B8E1B4BE2C0A"
+					item: "extradelight:croque_monsieur"
+					type: "item"
+				}
+				{
+					id: "353C7D59C6BAF2CC"
+					item: "extradelight:croque_madame"
+					type: "item"
+				}
+				{
+					id: "12EC3581B0F5A928"
+					item: "extradelight:croque_madame"
+					type: "item"
+				}
+				{
+					id: "13F1719A2455DF47"
+					item: "extradelight:chicken_salad_sandwich"
+					type: "item"
+				}
+				{
+					id: "38BFA9FF027BAA25"
+					item: "extradelight:mushroom_burger"
+					type: "item"
+				}
+				{
+					id: "773621B7176341FF"
+					item: "extradelight:cheeseburger"
+					type: "item"
+				}
+				{
+					id: "51FCEF6121314DCC"
+					item: "extradelight:bacon_cheeseburger"
+					type: "item"
+				}
+				{
+					id: "77EEA3C01AEA047C"
+					item: "extradelight:croutons"
+					type: "item"
+				}
+			]
+			title: "吐司、汉堡与三明治"
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			id: "6967FD7AA21126E4"
+			tasks: [
+				{
+					id: "1015366B10FCF500"
+					item: "extradelight:sliced_onion"
+					type: "item"
+				}
+				{
+					id: "0F3EC5AD3267D01D"
+					item: "extradelight:sliced_tomato"
+					type: "item"
+				}
+				{
+					id: "18270BE855E537A2"
+					item: "extradelight:seaweed_crisps"
+					type: "item"
+				}
+				{
+					id: "442A1FCAB16FFC0C"
+					item: "extradelight:sunflower_seeds"
+					type: "item"
+				}
+				{
+					id: "5D36DF584F1BCFEF"
+					item: "extradelight:whipped_cream"
+					type: "item"
+				}
+				{
+					id: "2F543C9665989C74"
+					item: "extradelight:butter"
+					type: "item"
+				}
+				{
+					id: "257BEFB027D77758"
+					item: "extradelight:jerky"
+					type: "item"
+				}
+				{
+					id: "1BB3E98EE5875C83"
+					item: "extradelight:breadcrumbs"
+					type: "item"
+				}
+				{
+					id: "3308451830770861"
+					item: "extradelight:bad_food"
+					type: "item"
+				}
+				{
+					id: "5E684942289F4B4A"
+					item: "extradelight:roasted_pumpkin_seeds"
+					type: "item"
+				}
+				{
+					id: "71E714DD1F2A600B"
+					item: "extradelight:dried_fruit"
+					type: "item"
+				}
+				{
+					id: "16957AA6F493F53E"
+					item: "extradelight:crackers"
+					type: "item"
+				}
+				{
+					id: "61FE00C71FCA60E7"
+					item: "extradelight:roll"
+					type: "item"
+				}
+				{
+					id: "0DA32EC06838ABB1"
+					item: "extradelight:cheese"
+					type: "item"
+				}
+				{
+					id: "6447C381BB80495B"
+					item: "extradelight:sausage_roll"
+					type: "item"
+				}
+				{
+					id: "59F2BD4F83E2E170"
+					item: "extradelight:fruit_bread"
+					type: "item"
+				}
+			]
+			title: "简单加工"
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			id: "610C1DE4FE8E9748"
+			tasks: [
+				{
+					id: "0B7425294CD9BEEB"
+					item: "extradelight:boiled_egg"
+					type: "item"
+				}
+				{
+					id: "4241EB7C39CBA524"
+					item: "extradelight:omelette"
+					type: "item"
+				}
+				{
+					id: "24BFD0A910D55499"
+					item: "extradelight:scrambled_eggs"
+					type: "item"
+				}
+				{
+					id: "75EE2E664AA6188C"
+					item: "extradelight:egg_salad"
+					type: "item"
+				}
+				{
+					id: "0C21B0DDF044CED9"
+					item: "extradelight:chicken_patty"
+					type: "item"
+				}
+				{
+					id: "0433BB6D436AFFBA"
+					item: "extradelight:cooked_chicken_patty"
+					type: "item"
+				}
+				{
+					id: "0359BB0F25048BE5"
+					item: "extradelight:chicken_salad"
+					type: "item"
+				}
+				{
+					id: "5E33687E3AE77A5B"
+					item: "extradelight:chicken_parm"
+					type: "item"
+				}
+				{
+					id: "713C0325AAB9AEF0"
+					item: "extradelight:oyakodon"
+					type: "item"
+				}
+			]
+			title: "鸡的加工"
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			id: "2846B9C1E014B9D5"
+			tasks: [
+				{
+					id: "5B8776ED8298D23E"
+					item: "extradelight:grated_carrot"
+					type: "item"
+				}
+				{
+					id: "18646C385A6803CF"
+					item: "extradelight:roasted_carrot"
+					type: "item"
+				}
+				{
+					id: "61E875F54DEC7679"
+					item: "extradelight:glazed_carrot"
+					type: "item"
+				}
+				{
+					id: "067B893731C130A8"
+					item: "extradelight:carrot_salad"
+					type: "item"
+				}
+				{
+					id: "63D2DC43EBB25924"
+					item: "extradelight:carrot_soup"
+					type: "item"
+				}
+				{
+					id: "58FFCC5214AAD195"
+					item: "extradelight:seaweed_salad"
+					type: "item"
+				}
+			]
+			title: "胡萝卜加工"
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			id: "755E2FE06B663D72"
+			tasks: [
+				{
+					id: "2C0A24148FE75A8D"
+					item: "extradelight:grated_potato"
+					type: "item"
+				}
+				{
+					id: "7E41300F508BE0FF"
+					item: "extradelight:sliced_potato"
+					type: "item"
+				}
+				{
+					id: "2C9943495C6CBBAC"
+					item: "extradelight:potato_sticks"
+					type: "item"
+				}
+				{
+					id: "4A1BED3922C1BF44"
+					item: "extradelight:potato_chips"
+					type: "item"
+				}
+				{
+					id: "42DB6CAABAF5ADFC"
+					item: "extradelight:hashbrowns"
+					type: "item"
+				}
+				{
+					id: "4ADCC7325BD36776"
+					item: "extradelight:french_fries"
+					type: "item"
+				}
+				{
+					id: "14CAEBC693D28874"
+					item: "extradelight:potato_soup"
+					type: "item"
+				}
+			]
+			title: "土豆加工"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			id: "2409D17C46FE2268"
+			tasks: [
+				{
+					id: "11021728AC078D17"
+					item: "extradelight:roasted_apple"
+					type: "item"
+				}
+				{
+					id: "1097CDDB44BA1210"
+					item: "extradelight:sliced_apple"
+					type: "item"
+				}
+				{
+					id: "2E13C7051DBAB4DD"
+					item: "extradelight:apple_sauce"
+					type: "item"
+				}
+				{
+					id: "350665A20B82BE76"
+					item: "extradelight:stewed_apples"
+					type: "item"
+				}
+				{
+					id: "683B50643FAA5D65"
+					item: "extradelight:apple_fritters"
+					type: "item"
+				}
+			]
+			title: "苹果加工"
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			id: "03DCC2131AD54451"
+			tasks: [
+				{
+					id: "3B24196105B0CD3C"
+					item: "extradelight:fried_fish"
+					type: "item"
+				}
+				{
+					id: "57DE52991A3E253A"
+					item: "extradelight:chicken_fried_steak"
+					type: "item"
+				}
+				{
+					id: "3873189A07EF6A10"
+					item: "extradelight:pork_tenderloin"
+					type: "item"
+				}
+				{
+					id: "76A3624F08A62237"
+					item: "extradelight:pork_tenderloin_sandwich"
+					type: "item"
+				}
+				{
+					id: "527C65C17CAF98AA"
+					item: "extradelight:fried_chicken"
+					type: "item"
+				}
+				{
+					id: "51B1DBECD6A5B6ED"
+					item: "extradelight:fried_brains"
+					type: "item"
+				}
+				{
+					id: "24D8593B9B59CBB1"
+					item: "extradelight:fish_cakes"
+					type: "item"
+				}
+				{
+					id: "7A85A851AFDB4EE8"
+					item: "extradelight:fish_chips"
+					type: "item"
+				}
+				{
+					id: "61A3C61215BB87DD"
+					item: "extradelight:fried_mushrooms"
+					type: "item"
+				}
+				{
+					id: "6E61D821B3B3047B"
+					item: "extradelight:stuffed_cactus"
+					type: "item"
+				}
+				{
+					id: "3D24FBEA5D8F571A"
+					item: "extradelight:chicken_nuggets"
+					type: "item"
+				}
+				{
+					id: "2298866224415129"
+					item: "extradelight:karminadle"
+					type: "item"
+				}
+				{
+					id: "686A3CCC69BB4609"
+					item: "extradelight:fried_rabbit"
+					type: "item"
+				}
+				{
+					id: "4EE1F492C532E118"
+					item: "extradelight:breaded_chicken_patty"
+					type: "item"
+				}
+			]
+			title: "油炸制品"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			id: "0C4569AD17E10F42"
+			tasks: [
+				{
+					id: "64BDE9B9BE9AC1A4"
+					item: "extradelight:grilled_corn_on_cob"
+					type: "item"
+				}
+				{
+					id: "162BAC555D0C6CE6"
+					item: "extradelight:cooked_corn"
+					type: "item"
+				}
+				{
+					id: "4F08A132D21BEEE7"
+					item: "extradelight:popcorn"
+					type: "item"
+				}
+				{
+					id: "5EF03B0114784D94"
+					item: "extradelight:caramel_popcorn"
+					type: "item"
+				}
+				{
+					id: "3BDFD69BE2B01842"
+					item: "extradelight:cream_corn"
+					type: "item"
+				}
+				{
+					id: "78EC872E8E0C72FF"
+					item: "extradelight:corn_fritters"
+					type: "item"
+				}
+			]
+			title: "玉米加工"
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			id: "449BA613D9273513"
+			tasks: [
+				{
+					id: "097076212F66920E"
+					item: "extradelight:ginger"
+					type: "item"
+				}
+				{
+					id: "758244DCDA4F1665"
+					item: "extradelight:peeled_ginger"
+					type: "item"
+				}
+				{
+					id: "146C603F0F5A7B0A"
+					item: "extradelight:sliced_ginger"
+					type: "item"
+				}
+				{
+					id: "228834B7470E35E4"
+					item: "extradelight:pickled_ginger"
+					type: "item"
+				}
+			]
+			title: "姜的加工"
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			id: "05518DE7F08B5A45"
+			tasks: [
+				{
+					id: "512EAC5F7E88C255"
+					item: "extradelight:pasta_tomato"
+					type: "item"
+				}
+				{
+					id: "7D5A21B2B7B46703"
+					item: "extradelight:pasta_alfredo"
+					type: "item"
+				}
+				{
+					id: "7401A42D696514F4"
+					item: "extradelight:chicken_alfredo"
+					type: "item"
+				}
+				{
+					id: "13B59FAFCD75564B"
+					item: "extradelight:cooked_pasta"
+					type: "item"
+				}
+				{
+					id: "42E5A9E2C4031321"
+					item: "extradelight:buttered_pasta"
+					type: "item"
+				}
+				{
+					id: "77421E9088D19EAE"
+					item: "extradelight:rabbit_ragu"
+					type: "item"
+				}
+				{
+					id: "5A1A4781872D55D0"
+					item: "extradelight:pasta_alla_norcina"
+					type: "item"
+				}
+			]
+			title: "意面"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			id: "766976D6EAFADC69"
+			tasks: [
+				{
+					id: "3288E282DB5AF78C"
+					item: "extradelight:muffin_ginger"
+					type: "item"
+				}
+				{
+					id: "79546AAB6B0FCF60"
+					item: "extradelight:muffin_cinnamon"
+					type: "item"
+				}
+				{
+					id: "05B384D8DE91E332"
+					item: "extradelight:muffin_sweet_berry"
+					type: "item"
+				}
+				{
+					id: "0989E9345762DB84"
+					item: "extradelight:muffin_apple"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			id: "355ABB3637136D54"
+			tasks: [
+				{
+					id: "40707F17384E76FE"
+					item: "extradelight:cactus"
+					type: "item"
+				}
+				{
+					id: "2BFC02470F92C229"
+					item: "extradelight:cooked_cactus"
+					type: "item"
+				}
+				{
+					id: "231837B0C8B647D6"
+					item: "extradelight:cactus_eggs"
+					type: "item"
+				}
+				{
+					id: "4FAF64004528DE3A"
+					item: "extradelight:cactus_soup"
+					type: "item"
+				}
+				{
+					id: "2DF61F0A8C49375B"
+					item: "extradelight:cactus_salad"
+					type: "item"
+				}
+			]
+			title: "仙人掌加工"
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			id: "2E18730755A82E75"
+			subtitle: "别看了，没有屠宰工艺就没有肠"
+			tasks: [
+				{
+					id: "5812810395D07AA8"
+					item: "extradelight:bangers_mash"
+					type: "item"
+				}
+				{
+					id: "7C932AC1B47052DE"
+					item: "extradelight:bratwurst"
+					type: "item"
+				}
+				{
+					id: "415046ABD222927F"
+					item: "extradelight:currywurst"
+					type: "item"
+				}
+				{
+					id: "7E9217E08BA6F32A"
+					item: "extradelight:riceball"
+					type: "item"
+				}
+				{
+					id: "328F5B3CE7B7B34F"
+					item: "extradelight:riceball_filled"
+					type: "item"
+				}
+				{
+					id: "3D275E380760FC7E"
+					item: "extradelight:furikake_rice"
+					type: "item"
+				}
+				{
+					id: "11634B624929761E"
+					item: "extradelight:mushroom_risotto"
+					type: "item"
+				}
+				{
+					id: "1A9BB6574F6F1677"
+					item: "extradelight:congee"
+					type: "item"
+				}
+				{
+					id: "6730306D080FBB06"
+					item: "extradelight:lugaw"
+					type: "item"
+				}
+				{
+					id: "176AD84607DDC87D"
+					item: "extradelight:nasi_kebuli"
+					type: "item"
+				}
+				{
+					id: "1AC7A7EF421F2220"
+					item: "extradelight:chicken_bog"
+					type: "item"
+				}
+			]
+			title: "肠的混合与米的饭和粥"
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			id: "0D36C8F4BBCC1CC2"
+			subtitle: "缺失配方来自屠宰工艺……"
+			tasks: [
+				{
+					id: "1DC32ACF2839DCC4"
+					item: "extradelight:oxtail_soup"
+					type: "item"
+				}
+				{
+					id: "1EC29A1FB3FA80C4"
+					item: "extradelight:sextuple_meat_treat"
+					type: "item"
+				}
+				{
+					id: "49314BB714800B9A"
+					item: "extradelight:sos"
+					type: "item"
+				}
+				{
+					id: "586E74CBA5763D5C"
+					item: "extradelight:liver_onions"
+					type: "item"
+				}
+				{
+					id: "194DA0CE86650A8B"
+					item: "extradelight:stuffed_heart"
+					type: "item"
+				}
+				{
+					id: "494DD707A4CDBDF4"
+					item: "extradelight:bhutan"
+					type: "item"
+				}
+			]
+			title: "非常规"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "60DAD5EF92455D3B"
+			tasks: [
+				{
+					id: "60015FB6BA2F9B93"
+					item: "extradelight:fish_soup"
+					type: "item"
+				}
+				{
+					id: "0E0A9D0F94BF9351"
+					item: "extradelight:tomato_soup"
+					type: "item"
+				}
+				{
+					id: "7693B5F54CA8E15E"
+					item: "extradelight:beet_mint_salad"
+					type: "item"
+				}
+				{
+					id: "7CED1D970FC46995"
+					item: "extradelight:fish_salad"
+					type: "item"
+				}
+				{
+					id: "7FE4B646F2C0BC5D"
+					item: "extradelight:stuffed_mushrooms"
+					type: "item"
+				}
+				{
+					id: "07447B63556C1A06"
+					item: "extradelight:hasenpfeffer"
+					type: "item"
+				}
+			]
+			title: "汤与杂项"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "164E29FE9EA37B11"
+			tasks: [{
+				id: "1E754D21DAEC3032"
+				item: "drinkbeer:beer_mug"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -9.5d
+		}
+		{
+			id: "0A6A70315D875FCC"
+			tasks: [{
+				id: "67A5A6F45E5E429B"
+				item: "drinkbeer:beer_mug_blaze_stout"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -9.5d
+		}
+		{
+			id: "100CCFE1F566EBCD"
+			tasks: [{
+				id: "570DE019AE2B0797"
+				item: "drinkbeer:beer_mug_blaze_milk_stout"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -10.5d
+		}
+		{
+			id: "184C1985B4C579E8"
+			tasks: [{
+				id: "1E11F623E46DCC0F"
+				item: "drinkbeer:beer_mug_apple_lambic"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -10.5d
+		}
+		{
+			id: "1F69FF7877397076"
+			tasks: [{
+				id: "6095114389EF29C2"
+				item: "drinkbeer:beer_mug_sweet_berry_kriek"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -11.5d
+		}
+		{
+			id: "168C2FBF4F5A89DA"
+			tasks: [{
+				id: "6D8B6F695E5DCF33"
+				item: "drinkbeer:beer_mug_haars_icey_pale_lager"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -11.5d
+		}
+		{
+			id: "374BA5159B9BD835"
+			tasks: [{
+				id: "344F1380358339B4"
+				item: "drinkbeer:beer_mug_pumpkin_kvass"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -12.5d
+		}
+		{
+			id: "0F3774A4EDD59FDB"
+			tasks: [{
+				id: "3691A05C1DE4053A"
+				item: "drinkbeer:beer_mug_night_howl_kvass"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -12.5d
+		}
+		{
+			id: "03F7F1F05EFEF4F8"
+			tasks: [{
+				id: "3B08CE3C8941BE10"
+				item: "drinkbeer:beer_mug_frothy_pink_eggnog"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -13.5d
+		}
+		{
+			id: "4979BFC6ADCDA3B1"
+			tasks: [{
+				id: "72BB597EA141502F"
+				item: "drinkbeer:spice_blaze_paprika"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.5d
+		}
+		{
+			id: "42F4B13F9F7D3622"
+			tasks: [{
+				id: "252BA65B8326C678"
+				item: "drinkbeer:spice_dried_eglia_bud"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.5d
+		}
+		{
+			id: "7C592A4920EBF540"
+			tasks: [{
+				id: "6380A10F8D318AF3"
+				item: "drinkbeer:spice_smoked_eglia_bud"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -9.5d
+		}
+		{
+			id: "5AE4A39C2F54CCA4"
+			tasks: [{
+				id: "3C1E0DBADCBE3D23"
+				item: "drinkbeer:spice_amethyst_nigella_seeds"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -10.5d
+		}
+		{
+			id: "755993C7A6C2FD05"
+			tasks: [{
+				id: "21957A7965067F23"
+				item: "drinkbeer:spice_citrine_nigella_seeds"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -10.5d
+		}
+		{
+			id: "77FCB6DC36BEC8CA"
+			tasks: [{
+				id: "517ADB773F67D6D3"
+				item: "drinkbeer:spice_ice_mint"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -10.5d
+		}
+		{
+			id: "07FADE3A0C14105E"
+			tasks: [{
+				id: "27B1B130D91B7690"
+				item: "drinkbeer:spice_ice_patchouli"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -11.5d
+		}
+		{
+			id: "149F9AB6CE64745E"
+			tasks: [{
+				id: "6A27DB1AB65772CF"
+				item: "drinkbeer:spice_storm_shards"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -11.5d
+		}
+		{
+			id: "38E0F617434B5F63"
+			tasks: [{
+				id: "36BAB419B6463960"
+				item: "drinkbeer:spice_roasted_red_pine_nuts"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -11.5d
+		}
+		{
+			id: "7C267CF9C3C67F90"
+			tasks: [{
+				id: "050D962BF72741E4"
+				item: "drinkbeer:spice_glace_goji_berries"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -12.5d
+		}
+		{
+			id: "21AF0B15820F4EF5"
+			tasks: [{
+				id: "67A4D7DD5BD9581C"
+				item: "drinkbeer:spice_frozen_persimmon"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -12.5d
+		}
+		{
+			id: "4367CFB23B17B4B5"
+			tasks: [{
+				id: "2CA8FED2774384ED"
+				item: "drinkbeer:spice_roasted_pecans"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -12.5d
+		}
+		{
+			id: "03C0A735FF25DF41"
+			tasks: [{
+				id: "18F0F641EAF16FE2"
+				item: "drinkbeer:spice_golden_cinnamon_powder"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -13.5d
+		}
+		{
+			id: "35198C4E9D0F169A"
+			tasks: [{
+				id: "6DCDCEBF125C08E2"
+				item: "drinkbeer:spice_dried_selaginella"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -13.5d
+		}
+		{
+			id: "4689C1EB48FC27E7"
+			size: 2.0d
+			tasks: [{
+				id: "2E5FA3F90C733C4A"
+				type: "checkmark"
+			}]
+			title: "深暗之园与迎战吧"
+			x: -4.5d
+			y: -18.0d
+		}
+		{
+			id: "5BDED4A9506B0D6B"
+			tasks: [{
+				id: "5704C141546F1E93"
+				item: "undergarden:droopvine_item"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -20.0d
+		}
+		{
+			id: "36835FD093652648"
+			tasks: [
+				{
+					id: "4BD4D4270E48B388"
+					item: "undergarden:underbeans"
+					type: "item"
+				}
+				{
+					id: "3D317A05474B8821"
+					item: "undergarden:roasted_underbeans"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -20.0d
+		}
+		{
+			id: "2FC0F6FF57E0EE35"
+			tasks: [
+				{
+					id: "060C80FDDDC4B13D"
+					item: "undergarden:rotten_blisterberry"
+					type: "item"
+				}
+				{
+					id: "3FD32B2ED67AF50C"
+					item: "undergarden:blisterberry"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -21.0d
+		}
+		{
+			id: "2147017516FA53D9"
+			tasks: [{
+				id: "6AD6B19AB82F6B4D"
+				item: "undergarden:goo_ball"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -20.0d
+		}
+		{
+			id: "7656A625A77F46D1"
+			tasks: [{
+				id: "14F5E1AA1011C6F3"
+				item: "undergarden:gloomgourd_pie"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -21.0d
+		}
+		{
+			id: "6F44DC93AEA217A9"
+			tasks: [
+				{
+					id: "4C7EA0FD21CD4426"
+					item: "undergarden:raw_dweller_meat"
+					type: "item"
+				}
+				{
+					id: "38395CB91045A303"
+					item: "undergarden:dweller_steak"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -20.0d
+		}
+		{
+			id: "0908B0899EA01DD5"
+			tasks: [
+				{
+					id: "08B3C7A15859F553"
+					item: "undergarden:raw_gwibling"
+					type: "item"
+				}
+				{
+					id: "21044296DB254C6C"
+					item: "undergarden:cooked_gwibling"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -21.0d
+		}
+		{
+			id: "743F354F87E14B49"
+			tasks: [
+				{
+					id: "22B9B58C0EECEB59"
+					item: "undergarden:raw_gloomper_leg"
+					type: "item"
+				}
+				{
+					id: "7056298F457AECFB"
+					item: "undergarden:gloomper_leg"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -22.0d
+		}
+		{
+			id: "295C6EEA28AC5072"
+			tasks: [{
+				id: "7157CBFFD04CD795"
+				item: "undergarden:blood_globule"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -21.0d
+		}
+		{
+			id: "2AAE62C50A3AE1A1"
+			tasks: [{
+				id: "3AF3F30C2967A191"
+				item: "undergarden:bloody_stew"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -20.0d
+		}
+		{
+			id: "4F6DF4DB4785201B"
+			tasks: [{
+				id: "07650BEA249910EC"
+				item: "undergarden:inky_stew"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -21.0d
+		}
+		{
+			id: "4AB039498D9E9A59"
+			tasks: [{
+				id: "618B025659782044"
+				item: "undergarden:indigo_stew"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -21.0d
+		}
+		{
+			id: "5E9915CC175DAEA4"
+			tasks: [{
+				id: "6F8E7EA1D342EC0C"
+				item: "undergarden:veiled_stew"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -20.0d
+		}
+		{
+			id: "6FF8C32109A3AA36"
+			tasks: [{
+				id: "0FCFBB7907BC4B02"
+				item: "meetyourfight:velvet_fortune"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -20.0d
+		}
+		{
+			id: "457B62F630298216"
+			tasks: [{
+				id: "74FEBF41D06A8E3E"
+				item: "meetyourfight:marshy_delight"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -21.0d
+		}
+		{
+			id: "126AD4B0102B14C7"
+			tasks: [{
+				id: "2A7F6FEA63A603A6"
+				item: "meetyourfight:petal_cream"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -22.0d
+		}
+		{
+			id: "522BD60B85BB9BE8"
+			size: 2.0d
+			subtitle: "一些非线性获取食物的模组"
+			tasks: [{
+				id: "04149EE598E8ABA7"
+				type: "checkmark"
+			}]
+			title: "杂项统计"
+			x: -4.5d
+			y: -24.0d
+		}
+		{
+			id: "50005A08A319C37C"
+			subtitle: "Mowzie的生物：浮灯掉落物"
+			tasks: [{
+				id: "6E615177ED771621"
+				item: "mowziesmobs:glowing_jelly"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -26.0d
+		}
+		{
+			id: "1D74EFFACD5E609B"
+			subtitle: "植魔：魔力池装瓶"
+			tasks: [{
+				id: "370036D01C7A655E"
+				item: "botania:mana_bottle"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -27.0d
+		}
+		{
+			id: "4598005EF686D798"
+			subtitle: "植魔：魔力池转换曲奇"
+			tasks: [{
+				id: "3F1DEF4B0783A02A"
+				item: "botania:mana_cookie"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -27.0d
+		}
+		{
+			id: "697C1F5EE51FCBD9"
+			subtitle: "植魔：盖亚守护者掉落"
+			tasks: [{
+				id: "1087F5136D34B53F"
+				item: "botania:infinite_fruit"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -4.5d
+			y: -28.0d
+		}
+		{
+			id: "1CD371797E0B0A20"
+			subtitle: "Ad Astra：月球上的奶酪矿石/星际爬行者的掉落物"
+			tasks: [{
+				id: "2223499C33EEB5AD"
+				item: "ad_astra:cheese"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -30.0d
+		}
+		{
+			id: "767E3433647D4F42"
+			subtitle: "冰火传说：小精灵掉落物"
+			tasks: [{
+				id: "0F612C7C14C01192"
+				item: "iceandfire:pixie_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -28.0d
+		}
+		{
+			id: "0AD9EF5E8BFA94CA"
+			subtitle: "冰火传说：精灵尘与碗合成"
+			tasks: [{
+				id: "2789CCDD3970F3B2"
+				item: "iceandfire:ambrosia"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -29.0d
+		}
+		{
+			id: "1B1EBF88C73A19E8"
+			subtitle: "冰火传说：电龙巢的战利品箱"
+			tasks: [{
+				id: "5EAE319FD2CEA7CB"
+				item: "iceandfire:cannoli"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -29.0d
+		}
+		{
+			id: "78C58DB8AC9A4F6B"
+			subtitle: "冰火传说：火龙掉落物（空手右击被杀死的龙尸）"
+			tasks: [{
+				id: "7A31D75D0E1080A7"
+				item: "iceandfire:fire_dragon_flesh"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -28.0d
+		}
+		{
+			id: "3660DE8CC02DC189"
+			subtitle: "冰火传说：冰龙掉落物（空手右击被杀死的龙尸）"
+			tasks: [{
+				id: "3F373A63FCF1ABA5"
+				item: "iceandfire:ice_dragon_flesh"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -29.0d
+		}
+		{
+			id: "0505ED2E1444164B"
+			subtitle: "冰火传说：电龙掉落物（空手右击被杀死的龙尸）"
+			tasks: [{
+				id: "1B9E110ADAA9334B"
+				item: "iceandfire:lightning_dragon_flesh"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -29.0d
+		}
+		{
+			id: "194F08D870ADD260"
+			subtitle: "神秘遗物：配方获取或任务奖励/抽奖"
+			tasks: [{
+				id: "3E42A93A29B7E0A2"
+				item: "enigmaticlegacy:astral_potato"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -30.0d
+		}
+		{
+			id: "5174DFABD668F271"
+			subtitle: "神秘遗物：配方获取或任务奖励/抽奖"
+			tasks: [{
+				id: "2A8CB92AC26E10EA"
+				item: "enigmaticlegacy:cosmic_cake"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -30.0d
+		}
+		{
+			id: "72CA36BE7F880780"
+			subtitle: "神秘遗物：堡垒结构战利品箱（按r键查询结构名与概率）"
+			tasks: [{
+				id: "433F68D4750B3666"
+				item: "enigmaticlegacy:forbidden_fruit"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -31.0d
+		}
+		{
+			description: ["吃完给戒指槽"]
+			id: "645E87E1F0620811"
+			subtitle: "神秘遗物：佩戴七咒之戒时第一个末地战利品箱"
+			tasks: [{
+				id: "1D309CFB739D1C40"
+				item: "enigmaticlegacy:astral_fruit"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -31.0d
+		}
+		{
+			id: "008C156F1ED3DDF7"
+			subtitle: "血肉重铸：掉落自原版骷髅类生物与坚守者（需要特定武器和条件）"
+			tasks: [{
+				id: "1379A4B3062FCAEE"
+				item: "biomancy:mob_marrow"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -30.0d
+		}
+		{
+			id: "264905258E5D9131"
+			subtitle: "血肉重铸：掉落自凋零骷髅与凋零（需要特定武器和条件）"
+			tasks: [{
+				id: "1B0925F9023FE446"
+				item: "biomancy:withered_mob_marrow"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -31.0d
+		}
+		{
+			id: "28C89B81A461B473"
+			subtitle: "血肉重铸：掉落自常规动物与非亡灵生物（需要特定武器和条件）"
+			tasks: [{
+				id: "38AE099106B05450"
+				item: "biomancy:mob_gland"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -31.0d
+		}
+		{
+			id: "54C8F0EC5FD04471"
+			subtitle: "血肉重铸：掉落自洞穴蜘蛛、河豚和蜜蜂（需要特定武器和条件）"
+			tasks: [{
+				id: "70ED374C72C70E89"
+				item: "biomancy:toxin_gland"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -32.0d
+		}
+		{
+			id: "3FEC702FD2087773"
+			subtitle: "血肉重铸：掉落自苦力怕、恶魂、烈焰人、凋灵和末影龙（需要特定武器和条件）"
+			tasks: [{
+				id: "3F77BB5623CCD5F5"
+				item: "biomancy:volatile_gland"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -32.0d
+		}
+		{
+			id: "16FE0EB4099D80D7"
+			subtitle: "血肉重铸：采摘自该模组的原生肉蕾（具体可参考百科）"
+			tasks: [{
+				id: "7B79C86AF15FD2AA"
+				item: "biomancy:bloomberry"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -32.0d
+		}
+		{
+			id: "16E324286BCDF836"
+			subtitle: "血肉重铸：通过配方获取（合成与消化器）"
+			tasks: [{
+				id: "76EC5E262773D4CF"
+				item: "biomancy:nutrient_paste"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -33.0d
+		}
+		{
+			id: "3086225CAA8F4FF3"
+			subtitle: "血肉重铸：九个营养膏合成"
+			tasks: [{
+				id: "476CA2F7812C0CE7"
+				item: "biomancy:nutrient_bar"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -33.0d
+		}
+		{
+			id: "3F95487C161DF120"
+			subtitle: "海灵物语：食用棘鱼留下/掉落自巨鳗、大嘴鱼、迷阵之母/本模组结构战利品获取"
+			tasks: [{
+				id: "223D61E39DC47CDF"
+				item: "aquamirae:sharp_bones"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -30.0d
+		}
+		{
+			id: "30DAD7E4026AB746"
+			subtitle: "海灵物语：掉落自鮟鱇鱼、大嘴鱼和巨鳗/本模组结构木桶获取"
+			tasks: [{
+				id: "065928006715EDD6"
+				item: "aquamirae:fin"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -31.0d
+		}
+		{
+			id: "51045242AE547071"
+			subtitle: "海灵物语：掉落自鮟鱇鱼"
+			tasks: [{
+				id: "75E73DAAEB9FF6AE"
+				item: "aquamirae:esca"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -31.0d
+		}
+		{
+			id: "74042AE070E2C9B8"
+			subtitle: "海灵物语：掉落自棘鱼与巨鳗"
+			tasks: [{
+				id: "163288713A4EA0AA"
+				item: "aquamirae:spinefish"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -32.0d
+		}
+		{
+			id: "6CB5980AC4FC3574"
+			subtitle: "海灵物语：烤制棘鱼"
+			tasks: [{
+				id: "55C364AAA900132B"
+				item: "aquamirae:cooked_spinefish"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -32.0d
+		}
+		{
+			id: "7D603E04D24C6921"
+			subtitle: "通用机械（mek）：使用营养液化器转化部分食物（通过本模组水壶和meka头盔食用）"
+			tasks: [{
+				id: "024B2BD5477A9DE9"
+				item: "mekanism:nutritional_paste_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -32.0d
+		}
+		{
+			id: "2A3BFB820341F294"
+			subtitle: "海灵物语：配方获取/本模组结构战利品箱"
+			tasks: [{
+				id: "67248D095D77BE88"
+				item: "aquamirae:sea_stew"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -33.0d
+		}
+		{
+			id: "6FBEA2A40F78B7C2"
+			subtitle: "海灵物语：配方获取"
+			tasks: [{
+				id: "4C52F6586D139B11"
+				item: "aquamirae:poseidons_breakfast"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -33.0d
+		}
+		{
+			id: "0449427B176C8083"
+			subtitle: "工业先锋（if）：通过屠宰场获取（需通过肉汤注射器食用）"
+			tasks: [{
+				id: "3E5A16605689F3C4"
+				item: "industrialforegoing:meat_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -32.0d
+		}
+		{
+			id: "4FCD10273CDC39CB"
+			subtitle: "莱特兰恶意拓展：配方获取（生命锭由不死图腾转化）"
+			tasks: [{
+				id: "2C06501401341109"
+				item: "l2complements:enchanted_totemic_carrot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -33.0d
+		}
+		{
+			id: "0F2D86977820F7A2"
+			subtitle: "莱特兰恶意拓展：配方获取（生命锭由不死图腾转化）"
+			tasks: [{
+				id: "153A2C9FA26D3577"
+				item: "l2complements:totemic_carrot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -33.0d
+		}
+		{
+			id: "1F938B9743E8A6D5"
+			subtitle: "莱特兰恶意拓展：配方获取（生命锭由不死图腾转化）"
+			tasks: [{
+				id: "2EBF405A0B1B1A12"
+				item: "l2complements:totemic_apple"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -33.0d
+		}
+		{
+			id: "0808063000875D13"
+			subtitle: "莱特兰恶意拓展：配方获取（生命锭由不死图腾转化）"
+			tasks: [{
+				id: "6D10628315C74FA9"
+				item: "l2complements:enchanted_totemic_apple"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -33.0d
+		}
+		{
+			id: "448200E7B7C09499"
+			subtitle: "莱特兰恶意拓展：焚烧原版动物肉或不死图腾转化/特定词条敌人掉落（具体概率按r键查询）"
+			tasks: [{
+				id: "0525C95F5BE086F8"
+				item: "l2complements:life_essence"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -34.0d
+		}
+		{
+			id: "4B7F9B3BD216E1B9"
+			subtitle: "天境：天境维度蓝莓灌木种植获取"
+			tasks: [{
+				id: "1B896CFC94ABFBB7"
+				item: "aether:blue_berry"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -34.0d
+		}
+		{
+			id: "4CCEBE95B6DD258C"
+			subtitle: "天境：蓝莓经过神能炉加工"
+			tasks: [{
+				id: "5CCAC65C9C16AB14"
+				item: "aether:enchanted_berry"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -34.0d
+		}
+		{
+			id: "5B27548B9C31B878"
+			subtitle: "天境：破坏结果的水晶树叶（解除天境的麻醉效果）/神能炉烧制圣石"
+			tasks: [
+				{
+					id: "7BB5791F78DCBE09"
+					item: "aether:white_apple"
+					type: "item"
+				}
+				{
+					id: "0CA9E326C941CF20"
+					item: "aether:healing_stone"
+					type: "item"
+				}
+			]
+			title: "药剂苹果与治愈之石"
+			x: -6.5d
+			y: -34.0d
+		}
+		{
+			id: "22298D67E64C0ED9"
+			subtitle: "天境：天境维度地下城结构战利品箱"
+			tasks: [{
+				id: "20C5AA7B1FDD652D"
+				item: "aether:blue_gummy_swet"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -34.0d
+		}
+		{
+			id: "06F12677C6E4F58F"
+			subtitle: "天境：天境维度地下城结构战利品箱"
+			tasks: [{
+				id: "46BF85DA12C5E9FD"
+				item: "aether:golden_gummy_swet"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -34.0d
+		}
+		{
+			description: ["这是季节限定食物，老老实实等圣诞罢"]
+			id: "321F967651F4831F"
+			subtitle: "天境：打开礼物（天境）/拐杖糖剑击杀生物掉落"
+			tasks: [{
+				id: "44A8471A659DBE6C"
+				item: "aether:candy_cane"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -34.0d
+		}
+		{
+			description: ["圣诞节限定，其他时间别想了"]
+			id: "057004E7AFE79470"
+			subtitle: "天境：打开礼物（天境）"
+			tasks: [{
+				id: "4DA6248472E378D1"
+				item: "aether:gingerbread_man"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -34.0d
+		}
+		{
+			id: "7708009B0EA5CC3D"
+			subtitle: "天境：黄金级地牢战利品箱（增加生命上限但貌似有bug）"
+			tasks: [{
+				id: "7797C606EC489D55"
+				item: "aether:life_shard"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -34.0d
+		}
+		{
+			id: "1D3F0AA3F70C354B"
+			subtitle: "天境：天境维度空岛边缘挖矿（食用可回复一定生命）"
+			tasks: [{
+				id: "555FB20F0792F11A"
+				item: "aether:ambrosium_shard"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -35.0d
+		}
+		{
+			id: "369E87C1BD065A36"
+			subtitle: "新生魔艺：魔源浆果丛或者开启战利品箱/配方获取"
+			tasks: [
+				{
+					id: "3C50CF6E799BD598"
+					item: "ars_nouveau:source_berry"
+					type: "item"
+				}
+				{
+					id: "361B5ACE2383E9A5"
+					item: "ars_nouveau:source_berry_roll"
+					type: "item"
+				}
+				{
+					id: "63879F3E286ADB11"
+					item: "ars_nouveau:source_berry_pie"
+					type: "item"
+				}
+			]
+			title: "魔源浆果系列"
+			x: -4.5d
+			y: -36.0d
+		}
+		{
+			id: "33A2341D00A385D0"
+			subtitle: "新生魔艺：繁茂至高树木或破坏树叶"
+			tasks: [{
+				id: "23774B1DBFC11888"
+				item: "ars_nouveau:mendosteen_pod"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -35.0d
+		}
+		{
+			id: "7E38F494234669E7"
+			subtitle: "新生魔艺：恼人至高树木或破坏树叶"
+			tasks: [{
+				id: "3D3FEFE5723942BD"
+				item: "ars_nouveau:bastion_pod"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -35.0d
+		}
+		{
+			id: "138805F5AA0E29AA"
+			subtitle: "新生魔艺：烈焰至高树木或破坏树叶"
+			tasks: [{
+				id: "21D8B7306D1358F4"
+				item: "ars_nouveau:bombegranate_pod"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -35.0d
+		}
+		{
+			id: "0457FB941BE8DB4D"
+			subtitle: "新生魔艺：奔流至高树木或破坏树叶"
+			tasks: [{
+				id: "07E53DD9F62055F4"
+				item: "ars_nouveau:frostaya_pod"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -35.0d
+		}
+		{
+			id: "79354F23ECF7AA9D"
+			subtitle: "气动工艺：酸面团加热（具体请参考气动配方）"
+			tasks: [{
+				id: "436B086351005A4B"
+				item: "pneumaticcraft:sourdough_bread"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -35.0d
+		}
+		{
+			id: "19E52B6CBE34DF2A"
+			subtitle: "气动工艺：生鲑鱼天妇罗加热（具体参考气动配方）"
+			tasks: [{
+				id: "6A54FBD29C82C9FA"
+				item: "pneumaticcraft:salmon_tempura"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -35.0d
+		}
+		{
+			id: "29BAAC74E745EDA4"
+			subtitle: "气动工艺：热气动加工机处理马铃薯"
+			tasks: [{
+				id: "6B27F7ABC164E721"
+				item: "pneumaticcraft:chips"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -35.0d
+		}
+		{
+			id: "1A176D34D0DE400A"
+			subtitle: "气动工艺：配方获取"
+			tasks: [{
+				id: "29BD9E71C1F18E1A"
+				item: "pneumaticcraft:cod_n_chips"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -35.0d
+		}
+		{
+			id: "176F3CDF3A54E45B"
+			subtitle: "机械动力：加热混合搅拌糖可可豆与牛奶为巧克力流体，然后压块塑形/急速冷冻"
+			tasks: [{
+				id: "3FF7ECA5656D877E"
+				item: "create:bar_of_chocolate"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -36.0d
+		}
+		{
+			id: "009F1437AF73723B"
+			subtitle: "机械动力：注液器向面包灌注牛奶/流体罐装机"
+			tasks: [{
+				id: "0A92FCFE2CF34BDA"
+				item: "create:sweet_roll"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -36.0d
+		}
+		{
+			id: "7A14BDDDAAEDA1B7"
+			subtitle: "机械动力：加热混合搅拌糖可可豆与牛奶为巧克力流体，然后注液器灌注甜浆果"
+			tasks: [{
+				id: "226FC00DFD7454B2"
+				item: "create:chocolate_glazed_berries"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -36.0d
+		}
+		{
+			id: "65BFF812F96DB612"
+			subtitle: "机械动力：注液器向苹果灌注蜂蜜"
+			tasks: [{
+				id: "75520075DD849CE8"
+				item: "create:honeyed_apple"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -36.0d
+		}
+		{
+			id: "7D66F782E8182971"
+			subtitle: "机械动力：加热混合搅拌茶叶或树叶成流体，然后注液器向玻璃瓶灌注/流体罐装机/水壶（农夫乐事）"
+			tasks: [{
+				id: "114CCD69762BA6C9"
+				item: "create:builders_tea"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -36.0d
+		}
+		{
+			id: "0F8E0278C3D97AAC"
+			subtitle: "机械动力：砧板上使用小刀处理南瓜派（可以不使用砧板但会消耗小刀耐久）"
+			tasks: [{
+				id: "37B453797CD6578A"
+				item: "create_central_kitchen:pumpkin_pie_slice"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -36.0d
+		}
+		{
+			id: "1BAB835382A9EBAA"
+			subtitle: "机械动力：加热混合搅拌糖可可豆与牛奶为巧克力流体，注液器向蛋糕烘培底座灌注（具体参考配方）"
+			tasks: [
+				{
+					id: "7B0E77773CEE738E"
+					item: "createaddition:chocolate_cake"
+					type: "item"
+				}
+				{
+					id: "2E05FDAB58706DBA"
+					item: "create_central_kitchen:chocolate_cake_slice"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -36.0d
+		}
+		{
+			id: "3CCB72BE83752AD2"
+			subtitle: "机械动力：注液器向蛋糕烘培底座灌注蜂蜜（具体参考配方）"
+			tasks: [
+				{
+					id: "48EA24534662799E"
+					item: "createaddition:honey_cake"
+					type: "item"
+				}
+				{
+					id: "25BB49F6704AE878"
+					item: "create_central_kitchen:honey_cake_slice"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -36.0d
+		}
+	]
+	subtitle: [
+		"悠闲中的余韵，是为生活"
+		"-by 零逝"
+	]
+	title: "食物全收集"
+}

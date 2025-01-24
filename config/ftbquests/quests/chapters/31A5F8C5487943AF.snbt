@@ -1,0 +1,1561 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "31A5F8C5487943AF"
+	group: "7E3173C55DD03B0A"
+	icon: {
+		Count: 1b
+		id: "industrialforegoing:infinity_nuke"
+		tag: {
+			CanCharge: 1b
+			Energy: 9223372036854775807L
+			Fluid: {
+				Amount: 1000000
+				FluidName: "biofuel"
+			}
+			Selected: "ARTIFACT"
+			Special: 1b
+		}
+	}
+	id: "31A5F8C5487943AF"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3330893C09515343"]
+			description: ["工业先锋拥有较为实用的机器与设备，这些设备可参与整合包内的部分物品的自动化。如水培床，屠宰机，自动刷怪机，凋灵生成器。不过在此之前，你要先做出一些塑料片。当然，这一章节也有简化版的塑料片制取方法。"]
+			icon: {
+				Count: 1b
+				id: "industrialforegoing:infinity_nuke"
+				tag: {
+					CanCharge: 1b
+					Energy: 9223372036854775807L
+					Fluid: {
+						Amount: 1000000
+						FluidName: "biofuel"
+					}
+					Selected: "ARTIFACT"
+					Special: 1b
+				}
+			}
+			id: "7F2EA897A4D96CCE"
+			rewards: [{
+				id: "4729AB1609158E57"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "实用设备"
+			tasks: [
+				{
+					id: "68B5A3C924DE105F"
+					type: "checkmark"
+				}
+				{
+					id: "60BD89B43C01AB9D"
+					item: "pneumaticcraft:plastic"
+					type: "item"
+				}
+			]
+			title: "工业先锋——实用科技"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7F2EA897A4D96CCE"]
+			dependency_requirement: "one_completed"
+			description: ["工业先锋的基础"]
+			id: "2936537F6A2F7B3F"
+			subtitle: "工业先锋，启动！"
+			tasks: [{
+				id: "2027480C4697BE98"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			title: "第一件要做的事"
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2936537F6A2F7B3F"]
+			description: ["可以用循环的方块放置器进行胶乳采集自动化，如果有能量能更快的制取胶乳。"]
+			id: "7432B0B1792698FB"
+			rewards: [{
+				id: "58E1B76C8AA133CF"
+				item: "industrialforegoing:latex_bucket"
+				type: "item"
+			}]
+			subtitle: "榨干树汁"
+			tasks: [{
+				id: "08CCD41F36114F43"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			title: "胶乳的获取"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7432B0B1792698FB"]
+			description: ["第一桶“金”"]
+			id: "562C41657FC3C6F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D7E8A9B6FE2D533"
+				table_id: 7317557270572028590L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "23433D625246029D"
+				item: "industrialforegoing:latex_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7432B0B1792698FB"]
+			description: ["我的塑料片无穷无尽！"]
+			id: "4F409878C144003A"
+			rewards: [{
+				count: 2
+				id: "66A64EA8B1149B94"
+				item: "industrialforegoing:latex_bucket"
+				type: "item"
+			}]
+			subtitle: "100%纯天然塑料！"
+			tasks: [{
+				id: "24821BC9F037018C"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			title: "有了它，你就可以拥有无尽的塑料（"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4F409878C144003A"]
+			description: ["小块干橡胶合成干橡胶后进行熔炼可得塑料片。"]
+			id: "02D3D80CF431811A"
+			rewards: [
+				{
+					id: "1143022ECB544980"
+					item: "pneumaticcraft:plastic"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6194CB5A72D9A778"
+					table_id: 2817826056088316006L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "16BF9A5D21C16E47"
+				item: "industrialforegoing:dryrubber"
+				type: "item"
+			}]
+			title: "塑料片的另一种制取方式"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3330893C09515343"
+				"02D3D80CF431811A"
+			]
+			description: ["常用的和不常用的"]
+			icon: "mekaevolution:plasma_pickaxe"
+			id: "2855FD0DD183CD8A"
+			tasks: [{
+				id: "0171DF302A3FB086"
+				title: "一些小东西"
+				type: "checkmark"
+			}]
+			title: "实用小设备"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7BAAB369AF4B2FF7"]
+			description: ["杀被动生物（如牛马羊猪）能获得更多粉红粘液"]
+			id: "0EF0B5C365F79325"
+			rewards: [{
+				id: "05A708A3AE242BEC"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			subtitle: "粉红粘液和肉汤的基本来源"
+			tasks: [{
+				icon: "industrialforegoing:mob_slaughter_factory"
+				id: "5B1CE46C9937DB77"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			title: "屠宰场"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"702068CF7FF1F44F"
+				"02D3D80CF431811A"
+				"599EED4F7175518A"
+			]
+			description: ["通过它能制作一些进阶机器。"]
+			id: "7BAAB369AF4B2FF7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D8C39AF4FB7FB1C"
+				table_id: 2817826056088316006L
+				type: "choice"
+			}]
+			subtitle: "再接再厉"
+			tasks: [{
+				id: "08884E893BAB8D5E"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"02D3D80CF431811A"
+				"7432B0B1792698FB"
+			]
+			description: ["合成工业先锋机器框架所必须的妙妙机器"]
+			id: "599EED4F7175518A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E3A205417F19B1C"
+				table_id: 2817826056088316006L
+				type: "choice"
+			}]
+			subtitle: "合成工业先锋机器框架所必须的妙妙机器"
+			tasks: [{
+				id: "2D15C44F709AAD7D"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			title: "最最重要的事情"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7BAAB369AF4B2FF7"
+				"0EF0B5C365F79325"
+				"3843E47EEC23E6C8"
+			]
+			description: ["更高级的框架。"]
+			id: "509C8341B1406D2C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41B37DAE6B192411"
+					table_id: 2817826056088316006L
+					type: "choice"
+				}
+				{
+					id: "5B202CF806915E59"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+			]
+			subtitle: "还差一步"
+			tasks: [{
+				id: "23C5AF090270FCCB"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0EF0B5C365F79325"]
+			description: ["做洗矿机器用。"]
+			hide_dependency_lines: false
+			hide_details_until_startable: true
+			id: "4AEB229FCF491B2E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "570A5B87DB9FDECA"
+					table_id: 2817826056088316006L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "5C40BC58E8FE83ED"
+					item: "pneumaticcraft:plastic"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04EE27CA4C190096"
+					table_id: 4945335302112457345L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "0AB828B88360620D"
+				item: "industrialforegoing:pink_slime_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7BAAB369AF4B2FF7"]
+			description: ["一个镭射钻基座最多可支持36个镭射钻，可以用热力的羊角锤调方向"]
+			hide_dependent_lines: true
+			id: "40D8986D24170F88"
+			rewards: [{
+				id: "5375AC2C0D810BB1"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			subtitle: "配合流体镭射钻基座和镭射钻基座使用"
+			tasks: [{
+				id: "0F75E7FF5A5C35F6"
+				item: "industrialforegoing:laser_drill"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["509C8341B1406D2C"]
+			description: ["钻取凋灵以获取以太气体。当然，你也可以在jei查看它所能钻取的其他液体。"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "3C75DF337E63C763"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C238B86846CD13B"
+				table_id: 2817826056088316006L
+				type: "choice"
+			}]
+			subtitle: "以太气体！当然不只是以太气体。"
+			tasks: [{
+				id: "7DEDF08972616BA8"
+				item: "industrialforegoing:fluid_laser_base"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"509C8341B1406D2C"
+				"3C75DF337E63C763"
+				"40D8986D24170F88"
+				"6F716DBB6945A76C"
+			]
+			description: ["好吧，其实它是液体，用液体储罐存放"]
+			id: "2D8B712628598440"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "718E9660FF8A12C1"
+				table_id: 2817826056088316006L
+				type: "choice"
+			}]
+			subtitle: "并非气体"
+			tasks: [{
+				id: "0F5701F65E835466"
+				item: "industrialforegoing:ether_gas_bucket"
+				type: "item"
+			}]
+			title: "以太“气”体"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2D8B712628598440"]
+			description: ["超级设备的合成必须物品，以及菌丝网络反应堆"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "7629DDA108FFF9A3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "67C32C9BDE7248EA"
+					table_id: 7317557270572028590L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35E303246BD4CCE5"
+					table_id: 8926135435705751648L
+					type: "loot"
+				}
+				{
+					id: "57D3F9927DEF003B"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+			]
+			subtitle: "超超超超级级级级框框框框架架架架"
+			tasks: [{
+				id: "3714475F4575DF16"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			title: "超级时代"
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2855FD0DD183CD8A"]
+			description: ["一些能用初级框架制作的常用设备。"]
+			hide_dependency_lines: false
+			icon: "industrialforegoing:machine_frame_pity"
+			id: "295E4349D6D2E684"
+			subtitle: "初学者"
+			tasks: [{
+				id: "3A9924CECD0D9C3B"
+				type: "checkmark"
+			}]
+			title: "初级设备"
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["295E4349D6D2E684"]
+			description: ["较为进阶的实用设备。"]
+			icon: "industrialforegoing:machine_frame_simple"
+			id: "3B3EE9C778425A59"
+			subtitle: "入门"
+			tasks: [{
+				id: "7398B0E1461F73B6"
+				type: "checkmark"
+			}]
+			title: "中级设备"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3B3EE9C778425A59"]
+			icon: "industrialforegoing:machine_frame_advanced"
+			id: "0741C47056E34CC1"
+			subtitle: "精通！"
+			tasks: [{
+				id: "7765DEEE498687DB"
+				type: "checkmark"
+			}]
+			title: "高级设备"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0741C47056E34CC1"]
+			icon: "industrialforegoing:machine_frame_supreme"
+			id: "65BDFAFB77445EC2"
+			subtitle: "工业大师！"
+			tasks: [{
+				id: "0A4D6981DB99616A"
+				type: "checkmark"
+			}]
+			title: "超级设备"
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7629DDA108FFF9A3"]
+			description: ["当其他16种菌丝网络发电机同时工作时即可发电。发电量为25Mfe/t。"]
+			hide_dependency_lines: true
+			id: "734456DA5E38C821"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "061842827BFCB063"
+					table_id: 8926135435705751648L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "210DC35EEDE62889"
+					table_id: 2817826056088316006L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "哦哦，实际彩虹发电机（bushi"
+			tasks: [{
+				id: "6A33FB0194342AC3"
+				item: "industrialforegoing:mycelial_reactor"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 12.25d
+		}
+		{
+			dependencies: ["295E4349D6D2E684"]
+			description: ["可放置方块，不过循环的放置器性价比更高"]
+			id: "5755FDF7FDA566F6"
+			rewards: [{
+				id: "2942F1D7D435E759"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D74EC7724B3F5FE"
+				item: "industrialforegoing:block_placer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["295E4349D6D2E684"]
+			description: ["可放置流体,每5秒消耗1,000RF，将缓存的流体放置在前方1格处，若前方已有其它流体或完整方块，则不会放置。最多缓存 16,000 mB同种流体。尽管可以显示工作范围，但该机器不能安装范围升级插件。"]
+			id: "6CC4A22FD3A93B47"
+			tasks: [{
+				id: "4C59667F787B63DA"
+				item: "industrialforegoing:fluid_placer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["295E4349D6D2E684"]
+			description: [
+				"给饲育机提供能量和动物相对应的食物后，机器会消耗食物自动繁殖位于工作范围内的可以繁殖的成年动物。"
+				""
+				"工作范围内最多可以有35只动物（包括成年和幼年）。如果超出35只，饲育机将会停止繁殖动物。"
+			]
+			id: "23336DECF3623590"
+			tasks: [{
+				id: "1C5F8579C7D7B982"
+				item: "industrialforegoing:animal_feeder"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["295E4349D6D2E684"]
+			description: ["可以将排污器产生的污水转化为肥料。"]
+			id: "0A93B5330A1ACCC4"
+			tasks: [{
+				id: "471281E9F78F8719"
+				item: "industrialforegoing:sewage_composter"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["295E4349D6D2E684"]
+			description: ["可插入范围升级，收集范围内动物产生的污水以及经验。将经验转化为精华液。"]
+			id: "32BA6B12FEC560AE"
+			tasks: [{
+				id: "36ED061EEC4A1D22"
+				item: "industrialforegoing:sewer"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["295E4349D6D2E684"]
+			description: ["能产生3300度的生物燃油，可以给烈焰人燃烧室用来超级加热。"]
+			hide: true
+			id: "6709FA9D44404615"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "3300度的燃料！"
+			tasks: [{
+				id: "2E051765D96A00B1"
+				item: "industrialforegoing:bioreactor"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["295E4349D6D2E684"]
+			description: ["自动播种种子、放置树苗的机器。通过与收割机配合可以实现自动农场、树场。"]
+			id: "40D126C75EA47CFF"
+			tasks: [{
+				id: "0EC1976EF7494E5A"
+				item: "industrialforegoing:plant_sower"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["295E4349D6D2E684"]
+			description: ["给收割机提供能量后，收割机默认会收割工作范围内成熟的作物、植物或树木原木。收割机可以收割播种机能种的所有植物，除此之外还可以收割花、草之类的东西。可提供污泥，给污泥精炼机以生产泥土材料。"]
+			id: "7649E41A83C6518D"
+			tasks: [{
+				id: "75F1827B11BC8F71"
+				item: "industrialforegoing:plant_gatherer"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B3EE9C778425A59"]
+			description: ["非常强力的种植设备，提供以太气体后能强力催熟自动收获。"]
+			id: "0AC538C49B9EADA2"
+			subtitle: "超速种植！"
+			tasks: [{
+				id: "249B303B84CA488E"
+				item: "industrialforegoing:hydroponic_bed"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3B3EE9C778425A59"]
+			description: ["提供能量和肥料后，施肥机可以为工作范围内的农作物加速生长。"]
+			id: "139D5B3A4425571C"
+			tasks: [{
+				id: "54F730A8214F7083"
+				item: "industrialforegoing:plant_fertilizer"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3B3EE9C778425A59"]
+			description: ["并不能自动化海王锭，左转机械动力的神之手。"]
+			id: "3A0BD1BF5614A18F"
+			subtitle: "水产品的海王锭没法产出"
+			tasks: [{
+				id: "74120AD619735C20"
+				item: "industrialforegoing:marine_fisher"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2855FD0DD183CD8A"]
+			description: ["单格可以存储大量物品或者流体。右键打开GUI，GUI内可设置是否显示储存的物体或流体。挖掘后不会损失其中物体或者流体。可以与漏斗和管道交互，其物品形式也可以放入黑洞存储控制器中方便管理。"]
+			icon: "industrialforegoing:black_hole_controller"
+			id: "411120A58BA0E121"
+			rewards: [{
+				id: "3191FB23B80E80DC"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "超大量存储！"
+			tasks: [{
+				id: "29EDEDD89156D0BF"
+				type: "checkmark"
+			}]
+			title: "黑洞系列存储"
+			x: 4.5d
+			y: -5.25d
+		}
+		{
+			dependencies: ["0741C47056E34CC1"]
+			description: ["仅用于无限设备的充电。"]
+			id: "565D075DD5957C31"
+			tasks: [{
+				id: "302254DE5C934675"
+				item: "industrialforegoing:infinity_charger"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["509C8341B1406D2C"]
+			description: ["先用洗矿厂将100mb肉汤与一份任意有对应粉末形式的矿石混合为100mb对应的原矿物肉汤，原矿物肉汤可在发酵站中进行进一步的加工，将原矿物肉汤加工为发酵的矿物肉汤，并且增加其体积。发酵的矿物肉汤可在肉汤筛粉机中转化为对应的粉末，由此进行倍矿。"]
+			hide_dependency_lines: true
+			icon: "minecraft:iron_ore"
+			id: "7E910BC852868142"
+			rewards: [{
+				id: "3301F0FA3F148594"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "较容易的倍矿产线，最高可五倍矿。不过耗时很长。"
+			tasks: [{
+				id: "1ADF7000E54A50C5"
+				type: "checkmark"
+			}]
+			title: "工业先锋肉汤倍矿"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0741C47056E34CC1"]
+			description: ["需要一个装有生物的大师球作为样本，每4s生成一次该生物并消耗 电量和精华液。&4&l&n不能生成灾变boss&r&r&r。"]
+			id: "6FF4822E0643A751"
+			rewards: [{
+				id: "7A97B79EE63C78AA"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "一生万物"
+			tasks: [{
+				id: "3C2651468A19BB8F"
+				item: "industrialforegoing:mob_duplicator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0741C47056E34CC1"]
+			description: ["最多缓存64,000mB精华液，用时5秒，耗能速率40RF/t , 消耗的精华液对应的经验数与在铁砧消耗的经验数相同。"]
+			id: "25C0565E60403764"
+			tasks: [{
+				id: "345D0053D5C20355"
+				item: "industrialforegoing:enchantment_applicator"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0741C47056E34CC1"]
+			description: ["消耗28,200mB精华液为放入的物品附魔，耗能速率40RF/t，用时5秒。如果放入的物品不能在附魔台中获取附魔则工作结束后精华液正常消耗，但物品不会获得任何附魔。"]
+			id: "154BB29EB7C61306"
+			tasks: [{
+				id: "6504B566F8525411"
+				item: "industrialforegoing:enchantment_factory"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0741C47056E34CC1"]
+			description: ["要提供水和熔岩才能工作，且兼容安山岩，闪长岩，花岗岩，黑曜石和下界岩的制作与加工。"]
+			id: "322E7A003061D56C"
+			tasks: [{
+				id: "3A6A48C3374E0679"
+				item: "industrialforegoing:material_stonework_factory"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0741C47056E34CC1"]
+			description: ["给机器通入能量和水，再放入玻璃瓶，最后在材料槽依次放入酿造材料，机器就会开始给玻璃瓶装水，从左到右依次加入材料，这取决于你放置材料的顺序。"]
+			id: "0110A6DB28C0F356"
+			tasks: [{
+				id: "64FDAC96AE021515"
+				item: "industrialforegoing:potion_brewer"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0741C47056E34CC1"]
+			description: ["附魔物品分拣机需要消耗能量。给机器输入能量和任意物品后，机器将耗时3秒按照有附魔和无附魔的分类标准进行物品分类，然后输出到相对应的物品缓存槽里，耗能速率40RF/t。建议配合一些自动化使用。"]
+			id: "16632E85FFC989AD"
+			tasks: [{
+				id: "07BD22D00D62C51A"
+				item: "industrialforegoing:enchantment_sorter"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["509C8341B1406D2C"]
+			description: ["每3秒消耗电量给予工作范围（3*3*3的范围）内&6&n所有生物和玩家缓慢128级debuff&r&r并回复1点生命值。由于128级缓慢会减少100%移动速度，因此大部分生物进入范围后会动弹不得。"]
+			id: "0046764591BC821E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "175C261BA02C7683"
+				table_id: 2817826056088316006L
+				type: "choice"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "我站在没有你的回忆冷冰冰~~~"
+			tasks: [{
+				id: "3E15D0892FD08573"
+				item: "industrialforegoing:stasis_chamber"
+				type: "item"
+			}]
+			title: "冷冻一切"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0741C47056E34CC1"]
+			description: ["消耗5000RF，放入书和一个附魔的物品，附魔提取机将会提取物品的第一个附魔属性到书中。当物品完全消除附魔时将会移至黄色格子中。"]
+			id: "4928625A45B9CF4B"
+			tasks: [{
+				id: "7011D5AA18EC5B44"
+				item: "industrialforegoing:enchantment_extractor"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65BDFAFB77445EC2"]
+			description: ["放入灵魂沙和凋灵骷髅头颅即可自动在机器上方第二格生成凋灵，可配合冷凝器屠宰机进行自动化。"]
+			id: "263996308F693143"
+			rewards: [
+				{
+					count: 6
+					id: "534936E627B73B43"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "649D907B00F22C7D"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "不过量产下界之星有更好的方式。jei搜衰变就行了。"
+			tasks: [{
+				id: "3C4C8BA31BD0D454"
+				item: "industrialforegoing:wither_builder"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["65BDFAFB77445EC2"]
+			description: ["对范围内的生物造成大量伤害（不会伤害玩家），收集掉落物，并将掉落的经验球转化为精华液。精华液可以用于附魔、刷怪等作用。可以用桶取出，或是用其他 mod 的管道转移至其他机器。可以与背包的经验泵配合转化为经验。&4&l&n不能屠宰灾变boss&r&r&r"]
+			id: "17F46E2725F537A5"
+			rewards: [{
+				id: "2CE966A45B561CEC"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "凶光所至，必起杀戮！"
+			tasks: [{
+				id: "3D220133EF1DA97F"
+				item: "industrialforegoing:mob_crusher"
+				type: "item"
+			}]
+			title: "科技神力！"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["411120A58BA0E121"]
+			id: "5DE1A246396288E8"
+			rewards: [{
+				id: "40938A85D4718007"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30C8C41A696BF6F5"
+				item: "industrialforegoing:supreme_black_hole_tank"
+				type: "item"
+			}]
+			title: "两百一十万桶桶液体存储！"
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["411120A58BA0E121"]
+			description: [""]
+			id: "5436C67EA7D3ED7E"
+			rewards: [{
+				id: "0355D4B7E46DBE81"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77169BC8DDE745A2"
+				item: "industrialforegoing:supreme_black_hole_unit"
+				type: "item"
+			}]
+			title: "21亿物品存储！"
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0741C47056E34CC1"]
+			description: ["放置不同颜色的透镜来最大化相对应矿物的生产。"]
+			id: "3F67459722F2572A"
+			rewards: [{
+				id: "01FCA9F873E274DA"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "铝土矿自动可以用到？不过镭射钻产量较低"
+			tasks: [{
+				id: "74539CA473395045"
+				item: "industrialforegoing:ore_laser_base"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3C75DF337E63C763"]
+			description: ["镭射钻系统是一种通过消耗能量来生产矿物的设备，一个完整的镭射钻系统由1个镭射钻基座（或流体镭射钻）与至少1个镭射钻组成。需要注意的是，镭射钻的激光孔（是黑色的那个）需要朝向镭射钻基座，并且相距一个空格。给镭射钻供电（基座不需要供电），镭射钻将会给基座充能，放入透镜进行流体和矿物的生产。当基座左侧的进度条达到满时，将会产生一个矿物或者一些液体。通过给镭射钻进行速度、能量升级，将能够提高矿物生产的速度。"]
+			hide_dependent_lines: true
+			icon: "minecraft:white_wool"
+			id: "6F716DBB6945A76C"
+			tasks: [{
+				id: "4F63910DC1313932"
+				type: "checkmark"
+			}]
+			title: "关于镭射钻系统"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["411120A58BA0E121"]
+			description: ["支持多达16个黑洞容器，并且可以同时放入黑洞存储器和黑洞储液罐。这意味着最多可以存储12倍2^31的物品或流体(mb)。"]
+			id: "4205F73BC1ED0178"
+			rewards: [{
+				id: "64C5EAC155AA1E0B"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E11817A4B9ED5A0"
+				item: "industrialforegoing:black_hole_controller"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7E910BC852868142"]
+			description: ["工业先锋模组多倍矿物的第一步。用于将100mb肉汤与一份任意有对应粉末形式的矿混合为100mb对应的原矿物肉汤，原矿物肉汤可在发酵站中进行进一步的加工。"]
+			id: "2E6057B5B65FAE81"
+			rewards: [{
+				id: "2DF084AFCEF3602C"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "27281B9F41A5638C"
+				item: "industrialforegoing:washing_factory"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E910BC852868142"]
+			description: ["可缓存4,000mb原矿物肉汤和2,000mb催化剂，需要在GUI内选择“原矿物肉汤满后”，“原矿物肉汤50%满后”或“原矿物肉汤1,000mb满后”开始发酵，发酵中无法再输入原矿物肉汤。&d输入粉红粘液可发酵至四倍&r，&6输入以太气体可发酵至五倍&r，体积倍数越高发酵时间越长"]
+			id: "5A3DDFD3F9B51821"
+			rewards: [{
+				id: "3D3A1DB412EEBA67"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "输入粉红粘液提升四倍体积，输入以太气体提升至五倍体积"
+			tasks: [{
+				id: "54C89E9AB1190629"
+				item: "industrialforegoing:fermentation_station"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["7E910BC852868142"]
+			description: ["多倍矿物的最后一步。将100mb发酵的矿物肉汤和一份沙子筛成对应的一份矿物粉末，从而实现矿物增产。"]
+			id: "753A119F143BE7CF"
+			rewards: [{
+				id: "4BB8FE7A920AFB45"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2528B14C4CFAB4EA"
+				item: "industrialforegoing:fluid_sieving_machine"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0525B5B850C51DB4"]
+			id: "441FBCEFFFE6CAB3"
+			rewards: [{
+				id: "0E1C00420832168D"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64A062B0CAD637BC"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_drill"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0525B5B850C51DB4"]
+			id: "7DFF3AD18B89A5D5"
+			rewards: [{
+				id: "1889A6CBED1D67CB"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66A8CA6EEA0304E9"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_saw"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0525B5B850C51DB4"]
+			id: "3969A2E138B89F15"
+			rewards: [{
+				id: "0413B346BB1CB60C"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E8D7F25F4FCECFF"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_hammer"
+					tag: {
+						Beheading: 0
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0525B5B850C51DB4"]
+			id: "53BFBF0945BBAD8E"
+			rewards: [{
+				id: "635275061CC7C787"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B3BA25EAD465CB9"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_trident"
+					tag: {
+						CanCharge: 1b
+						Channeling: 0b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Loyalty: 0
+						Riptide: 0
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0525B5B850C51DB4"]
+			description: ["不如精妙背包"]
+			id: "087227F95055A83B"
+			rewards: [{
+				id: "6020D657F784E200"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06636614CFEEF861"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_backpack"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0525B5B850C51DB4"]
+			id: "228C6893D0D063F3"
+			rewards: [{
+				id: "4E3403A4D1A895F3"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "417AEDE01FA5F37D"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_launcher"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Plunger: 0
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0525B5B850C51DB4"]
+			description: ["好孩子不要在服务器玩这个哦"]
+			id: "31C121D720D28488"
+			rewards: [{
+				id: "43EC5C9C32671B54"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			subtitle: "遮天蔽日，梦魇降临！"
+			tasks: [{
+				id: "386E62FFCADFACCC"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_nuke"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "现在我成为了死神，世界的毁灭者。"
+			x: 6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"7629DDA108FFF9A3"
+				"65BDFAFB77445EC2"
+			]
+			icon: "avaritia:infinity_catalyst"
+			id: "0525B5B850C51DB4"
+			subtitle: " 如果真充满了电量，那么这表明你是一个勇士"
+			tasks: [{
+				id: "26C97E0AFC000F41"
+				type: "checkmark"
+			}]
+			title: "无限系列"
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			id: "5F53F0A8B8F009EB"
+			subtitle: "展示用，可在jei搜索“插件”来看其他等级合成"
+			tasks: [{
+				id: "5AF6F690F0513CC7"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:speed_addon_1"
+					tag: {
+						TitaniumAugment: {
+							Speed: 2.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			id: "63572927C03EA6D9"
+			subtitle: "展示用，可在jei搜索“插件”来看其他等级合成"
+			tasks: [{
+				id: "2B62E1C1E10A243D"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:efficiency_addon_1"
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.9f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			id: "6E8A98A0FCED6005"
+			subtitle: "展示用，可在jei搜索“插件”来看其他等级合成"
+			tasks: [{
+				id: "4BD2B2CC412BF23E"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:processing_addon_1"
+					tag: {
+						TitaniumAugment: {
+							Processing: 2.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			id: "771A67D419FF2F00"
+			subtitle: "展示用，可在jei搜索“插件”来看其他等级的合成"
+			tasks: [{
+				id: "573F2010F94EFB69"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:range_addon0"
+					tag: {
+						TitaniumAugment: {
+							Range: 0.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["386E62FFCADFACCC"]
+			description: ["灭世力量！"]
+			id: "762990E3CF55BCE0"
+			invisible: true
+			rewards: [
+				{
+					count: 15
+					id: "32A9A4E8AFD5D39F"
+					item: "etshtinker:anti_neutronium"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "6C4F7ED57F0A9E5B"
+					item: {
+						Count: 1b
+						id: "minecraft:written_book"
+						tag: {
+							RepairCost: 0
+							author: "Alpha_Alps"
+							display: {
+								Name: "{\"text\":\"海虎\"}"
+							}
+							pages: ["{\"text\":\"2024年10月16日，内部成员在服务器测试的时候，白武男（测试人员）拿出了满电的无限核弹，并且引爆，导致服务器不停崩溃，然后听取牛魔一片，无奈只能进行读档。所以白武男的千古罪人称号便是如此得来。\"}"]
+							resolved: 1b
+							title: "海虎"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 540
+					id: "486BF6FDFFACB68C"
+					item: "lightmanscurrency:coin_netherite"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "20E8BC692B7F0AE9"
+					item: "etshtinker:trinity_intereactive_alloy"
+					type: "item"
+				}
+			]
+			size: 6.0d
+			subtitle: "用它去毁灭世界吧。"
+			tasks: [{
+				id: "305CC6E8A80810D0"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_nuke"
+					tag: {
+						CanCharge: 1b
+						Energy: 9223372036854775807L
+						Fluid: {
+							Amount: 1000000
+							FluidName: "biofuel"
+						}
+						Selected: "ARTIFACT"
+						Special: 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "一百万兆最终最后力量,最强最凶最恶的力量"
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7BAAB369AF4B2FF7"]
+			hide_dependency_lines: true
+			id: "10364AB2C8E2EA0D"
+			tasks: [{
+				id: "2AA10B42EFC00EA5"
+				item: "industrialforegoing:mycelial_furnace"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7BAAB369AF4B2FF7"]
+			hide_dependency_lines: true
+			id: "2584B6C216497089"
+			tasks: [{
+				id: "4961A0632316DA4C"
+				item: "industrialforegoing:mycelial_frosty"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7BAAB369AF4B2FF7"]
+			hide_dependency_lines: true
+			id: "13D1DCDB4F3ACFD3"
+			tasks: [{
+				id: "6C0E38FE41702146"
+				item: "industrialforegoing:mycelial_culinary"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.25d
+		}
+		{
+			dependencies: ["7BAAB369AF4B2FF7"]
+			hide_dependency_lines: true
+			id: "2F228CC4C2BC7898"
+			tasks: [{
+				id: "7C02FD2D428682E8"
+				item: "industrialforegoing:mycelial_pink"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.25d
+		}
+		{
+			dependencies: ["65BDFAFB77445EC2"]
+			hide_dependency_lines: true
+			id: "4D18437E24EE53FF"
+			tasks: [{
+				id: "2A25BEEAAE84148B"
+				item: "industrialforegoing:mycelial_meatallurgic"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["65BDFAFB77445EC2"]
+			hide_dependency_lines: true
+			id: "0B2F2A391213811A"
+			tasks: [{
+				id: "16F20D15D25CFF03"
+				item: "industrialforegoing:mycelial_netherstar"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["65BDFAFB77445EC2"]
+			hide_dependency_lines: true
+			id: "2484D401B22A1EB5"
+			tasks: [{
+				id: "688E308F4CE937BC"
+				item: "industrialforegoing:mycelial_halitosis"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["509C8341B1406D2C"]
+			hide_dependency_lines: true
+			id: "0B91D851EEDADE0C"
+			tasks: [{
+				id: "649A6B6A8D63C3BA"
+				item: "industrialforegoing:mycelial_crimed"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["509C8341B1406D2C"]
+			hide_dependency_lines: true
+			id: "53118C12727BA86B"
+			tasks: [{
+				id: "13D8BA8B8231E275"
+				item: "industrialforegoing:mycelial_rocket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["509C8341B1406D2C"]
+			hide_dependency_lines: true
+			id: "75E6B8E4C2CDB783"
+			tasks: [{
+				id: "11E6BCB2B26FC387"
+				item: "industrialforegoing:mycelial_death"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["509C8341B1406D2C"]
+			hide_dependency_lines: true
+			id: "15E373B5453F71DD"
+			tasks: [{
+				id: "622B3DBB7393897E"
+				item: "industrialforegoing:mycelial_magma"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["509C8341B1406D2C"]
+			hide_dependency_lines: true
+			id: "44EDE2BE76B5C20B"
+			tasks: [{
+				id: "68D667B6A4718599"
+				item: "industrialforegoing:mycelial_explosive"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["509C8341B1406D2C"]
+			hide_dependency_lines: true
+			id: "6F89AD85A67A1BCE"
+			tasks: [{
+				id: "5D06B9EEC3A69FF5"
+				item: "industrialforegoing:mycelial_ender"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["509C8341B1406D2C"]
+			hide_dependency_lines: true
+			id: "5E8D6890F268AED3"
+			tasks: [{
+				id: "6350CCDBC9628B5C"
+				item: "industrialforegoing:mycelial_disenchantment"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["509C8341B1406D2C"]
+			hide_dependency_lines: true
+			id: "49A9CB43F497A520"
+			tasks: [{
+				id: "41FF361CA737418C"
+				item: "industrialforegoing:mycelial_potion"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["509C8341B1406D2C"]
+			hide: false
+			hide_dependency_lines: true
+			id: "178C87D0D2D909CF"
+			tasks: [{
+				id: "64FDBBED5819B5A8"
+				item: "industrialforegoing:mycelial_slimey"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 14.5d
+		}
+	]
+	subtitle: [
+		"你制作了塑料片，这代表你是一个勇士"
+		"-by rRickoll"
+	]
+	title: "工业先锋——各种实用的小设备"
+}
